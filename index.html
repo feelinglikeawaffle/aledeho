@@ -1081,3 +1081,24 @@ body:not(.dark-mode) .catalog-tile-main>p{color:#686873}
 /* The map canvas itself stays transparent; only the viewport paints the map grid. */
 #world,#nodes,#terrain,#svg{background:transparent!important}
 </style>
+
+<style>
+/* Gameplay recovery: the map viewport must occupy the entire factory shell. */
+#workspace.workspace{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;overflow:auto!important;touch-action:none!important;overscroll-behavior:contain!important}
+#world.world{width:1000000px!important;height:1000000px!important;min-width:1000000px!important;min-height:1000000px!important;background:transparent!important}
+#terrain,#svg,#nodes{width:1000000px!important;height:1000000px!important}
+#svg{pointer-events:none!important;overflow:visible!important}
+#svg .wire-hit{pointer-events:stroke!important;stroke:transparent!important;stroke-width:28px!important;fill:none!important;cursor:pointer}
+#nodes{pointer-events:none!important}
+#nodes .node{pointer-events:auto!important;animation:none!important}
+#nodes .node .nt{touch-action:none!important}
+#nodes .node .ports,#nodes .node .port{pointer-events:auto!important;position:relative;z-index:4}
+#nodes .node .port{cursor:crosshair!important;touch-action:manipulation!important}
+#nodes .node.dragging{animation:none!important;opacity:1!important;filter:none!important;transition:none!important}
+/* Hidden state always wins over catalogue :has() rules, including legacy selectors. */
+#sidePanel.side-panel.hidden{display:none!important;visibility:hidden!important;pointer-events:none!important}
+#sidePanel.side-panel:not(.hidden){visibility:visible!important;pointer-events:auto!important}
+#sidePanel.side-panel:not(.hidden):has(#library:not(.hidden) .catalog-browser-v3){display:flex!important}
+#sidePanel.side-panel:not(.hidden):has(#library.hidden) .catalog-browser-v3{display:none!important}
+@media(max-width:900px){#workspace.workspace{height:100%!important}}
+</style>
