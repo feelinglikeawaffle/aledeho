@@ -421,5 +421,5 @@ window.ALEDEHO_REGION_DEFS = [
     ]
   }
 ];
-window.ALEDEHO_REGIONAL_RESOURCES = window.ALEDEHO_REGION_DEFS.flatMap(region => region.resources.map(([id,name,state,category,value]) => ({id,name,state:state.toLowerCase(),category,implemented:true,region:region.id,value})));
+window.ALEDEHO_REGIONAL_RESOURCES = window.ALEDEHO_REGION_DEFS.flatMap(region => region.resources.map(([id,name,state,category,value]) => ({id,name,state:state.toLowerCase(),category,implemented:true,region:region.id,value,source:{type:'deposit',region:region.id},tier:1})));
 window.ALEDEHO_RESOURCE_CATALOG = [...(window.ALEDEHO_RESOURCE_CATALOG||[]), ...window.ALEDEHO_REGIONAL_RESOURCES];
