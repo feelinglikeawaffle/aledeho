@@ -918,26 +918,26 @@ else if(machineDetailTab==='I/O'){body='<p class="machine-detail-copy">Each list
 else{body='<div class="machine-stat-grid">'+stat('Base cycle rate',rate?rate.toFixed(4)+' cycles/s':'Not specified')+stat('Base cycle duration',cycle?cycle.toFixed(2)+' sec':'Not specified')+stat('Power demand',(t.power||0)+' MW')+stat('Power generation',t.generation?(t.generation+' MW'):'—')+stat('Research tier',t.tier||1)+stat('Complexity',(t.complexity||1)+'/6')+'</div><p class="machine-detail-copy">Cycle figures are catalogue base values before factory speed settings or regional bonuses. Actual throughput can vary with power, available inputs, wire routing and downstream capacity.</p>'+(recipe?'<div class="machine-recipe"><b>Recipe requirements</b><br>Consumes: '+esc((recipe.inputs||[recipe.input]).filter(Boolean).map(portLabel).join(' + '))+'<br>Produces: '+esc((recipe.outputs||[recipe.output]).filter(Boolean).map(portLabel).join(' · '))+'</div>':'')+'<p class="machine-detail-copy">Current machine status is shown on the selected module panel after placement.</p>'}
 return '<div class="machine-detail"><div class="machine-detail-head">'+shape+'<div><b>'+esc(t.name)+'</b><small>'+esc(t.category||'Starter')+' · '+esc(t.kind||'module')+'</small></div></div><div class="machine-detail-tabs">'+['Overview','I/O','Performance'].map(tab=>'<button data-detail-tab="'+tab+'" class="'+(machineDetailTab===tab?'active':'')+'">'+tab+'</button>').join('')+'</div>'+body+constructionCostHtml(cost)+'<button class="primary machine-place" id="machinePlace" data-place="'+type+'">'+(affordable?'＋ Place ':'＋ Need materials · ')+esc(t.name)+'</button><button id="machineBack" style="width:100%;margin-top:5px">← Back to machines</button></div>'}
 function drawLibrary(){
- const entries=Object.entries(T).filter(([k])=>isMachineUnlocked(k)),categories=['All',...new Set(entries.map(([k,t])=>t.category||'Starter'))];
- if(librarySelected&&!entries.some(([k])=>k===librarySelected))librarySelected=null;
- const shown=entries.filter(([k,t])=>(libraryCategory==='All'||(t.category||'Starter')===libraryCategory)&&(libraryTier==='All'||String(t.tier||1)===String(libraryTier))).sort((a,b)=>(a[1].tier||1)-(b[1].tier||1)||a[1].name.localeCompare(b[1].name));
+ const allEntries=Object.entries(T),categories=['All',...Array.from(new Set(allEntries.map(([k,t])=>t.category||'Starter'))).sort()];
+ if(!categories.includes(libraryCategory))libraryCategory='All';
+ const shown=allEntries.filter(([k,t])=>libraryCategory==='All'||(t.category||'Starter')===libraryCategory).sort((a,b)=>(a[1].tier||1)-(b[1].tier||1)||a[1].name.localeCompare(b[1].name));
  const tile=([k,t])=>{
-  const cost=costForMachine(k),missing=missingCost(cost),ready=!missing.length;
-  const shape=t.shape?'<i class="build-machine-preview" style="--machine-color:'+esc(t.shapeColor||'#8fa2d5')+';clip-path:'+t.shape+'"></i>':'<i class="build-machine-preview fallback">⚙</i>';
+  const unlocked=isMachineUnlocked(k),cost=costForMachine(k),missing=missingCost(cost),ready=unlocked&&!missing.length;
+  const shape=t.shape?'<i class="build-machine-preview" style="--machine-color:'+esc(t.shapeColor||'#8fa2d5')+';clip-path:'+esc(t.shape)+'"></i>':'<i class="build-machine-preview fallback">⚙</i>';
   const recipe=Object.entries(cost).map(([id,n])=>{
    const have=(state.inventory||{})[id]||0,credit=id==='solid_001'?(state.commissionCredits||0):0,owned=have+credit,short=Math.max(0,n-owned),info=RESOURCE_BY_ID[id]||{};
    return '<span class="catalog-material '+(short?'missing':'available')+'" title="'+esc(info.name||id)+': '+owned+' / '+n+'"><i style="--resource-color:'+esc(info.color||'#9aa8bd')+'"></i>'+esc(info.name||id)+' <b>'+owned+'/'+n+'</b></span>'
   }).join('');
   const kind=String(t.kind||'module').replace(/[-_]/g,' ');
-  return '<article class="catalog-row '+(ready?'ready':'short')+'" data-machine-name="'+esc(t.name.toLowerCase())+'" data-machine-tier="'+(t.tier||1)+'"><div class="catalog-icon"><div class="build-machine-render">'+shape+'<span class="preview-port in"></span><span class="preview-port out"></span></div></div><div class="catalog-main"><div class="catalog-title-line"><b>'+esc(t.name)+'</b><span class="catalog-tier">T'+(t.tier||1)+'</span><span class="catalog-kind">'+esc(kind)+'</span></div><p>'+esc(t.desc||'Industrial module')+'</p><div class="catalog-meta"><span>'+esc(t.category||'Starter')+'</span><span>'+(t.ins||[]).length+' in · '+(t.outs||[]).length+' out</span><span>'+Math.max(0,Number(t.power)||0)+' MW</span></div><div class="catalog-materials">'+(recipe||'<span class="catalog-free">No construction materials</span>')+'</div></div><div class="catalog-action"><span class="'+(ready?'catalog-ready':'catalog-missing')+'">'+(ready?'Ready':'Need '+missing.length)+'</span><button class="primary" data-place="'+k+'" '+(ready?'':'disabled')+'>'+(ready?'Build':'Missing')+'</button></div></article>'
+  const status=!unlocked?'Research locked':ready?'Ready':'Need '+missing.length;
+  return '<article class="catalog-tile '+(ready?'ready':unlocked?'short':'locked')+'" data-machine-name="'+esc(String(t.name||k).toLowerCase())+'" data-machine-tier="'+(t.tier||1)+'"><div class="catalog-tile-art"><div class="build-machine-render">'+shape+'<span class="preview-port in"></span><span class="preview-port out"></span></div><span class="catalog-tier">T'+(t.tier||1)+'</span></div><div class="catalog-tile-main"><div class="catalog-tile-title"><b>'+esc(t.name||k)+'</b><span class="catalog-kind">'+esc(kind)+'</span></div><p>'+esc(t.desc||'Industrial module')+'</p><div class="catalog-meta"><span>'+esc(t.category||'Starter')+'</span><span>'+(t.ins||[]).length+' in · '+(t.outs||[]).length+' out</span><span>'+Math.max(0,Number(t.power)||0)+' MW</span></div><div class="catalog-materials">'+(recipe||'<span class="catalog-free">No construction materials</span>')+'</div><div class="catalog-tile-footer"><span class="'+(ready?'catalog-ready':unlocked?'catalog-missing':'catalog-locked-label')+'">'+status+'</span><button class="primary" data-place="'+k+'" '+(ready?'':'disabled')+'>'+(ready?'＋ Build':unlocked?'Need materials':'Locked')+'</button></div></div></article>'
  };
- $('library').innerHTML='<div class="machine-library build-browser build-browser-v2 catalog-browser"><div class="catalog-header"><div><div class="catalog-eyebrow">FACTORY CONSTRUCTION</div><h3>Machine catalogue</h3><p class="sub">Browse researched machines, compare requirements, and build directly.</p></div><button id="libraryResearch">✧ Research tree</button></div><div class="catalog-filterbar"><label class="catalog-search"><span>⌕</span><input id="machineSearch" placeholder="Find a machine, material or category…" aria-label="Search modules"></label><select id="machineCategory" aria-label="Filter category">'+categories.map(c=>'<option value="'+esc(c)+'" '+(libraryCategory===c?'selected':'')+'>'+esc(c==='All'?'All categories':c)+'</option>').join('')+'</select><select id="machineSort" aria-label="Sort machines"><option value="tier">Tier order</option><option value="name">Name A–Z</option><option value="ready">Buildable first</option></select></div><div class="catalog-tierbar" role="tablist" aria-label="Machine tier">'+['All',1,2,3,4,5,6].map(tier=>'<button type="button" role="tab" aria-selected="'+(String(libraryTier)===String(tier)?'true':'false')+'" data-tier="'+tier+'" class="'+(String(libraryTier)===String(tier)?'active':'')+'">'+(tier==='All'?'All tiers':'Tier '+tier)+'<small>'+(tier==='All'?entries.length:entries.filter(([k,t])=>(t.tier||1)===tier).length)+'</small></button>').join('')+'</div><div class="catalog-results-head"><b id="catalogResultCount">'+shown.length+' machines</b><span>Materials update with your inventory</span></div><div class="catalog-list">'+(shown.length?shown.map(tile).join(''):'<div class="catalog-empty">No machines match these filters. Try another tier or search.</div>')+'</div></div>';
+ $('library').innerHTML='<div class="catalog-browser catalog-browser-v3"><div class="catalog-header"><div><div class="catalog-eyebrow">FACTORY CONSTRUCTION</div><h3>Machine catalogue</h3><p class="sub">Browse every machine. Research unlocks construction.</p></div><button id="libraryResearch">✧ Research tree</button></div><label class="catalog-search"><span>⌕</span><input id="machineSearch" placeholder="Search all machines…" aria-label="Search machines"></label><div class="catalog-workspace"><nav class="catalog-category-rail" aria-label="Machine categories">'+categories.map(c=>'<button type="button" data-category="'+esc(c)+'" class="'+(libraryCategory===c?'active':'')+'">'+(c==='All'?'All machines':esc(c))+'<small>'+(c==='All'?allEntries.length:allEntries.filter(([k,t])=>(t.category||'Starter')===c).length)+'</small></button>').join('')+'</nav><section class="catalog-machine-area"><div class="catalog-results-head"><b id="catalogResultCount">'+shown.length+' machines</b><span>Scroll to browse</span></div><div class="catalog-machine-grid">'+(shown.length?shown.map(tile).join(''):'<div class="catalog-empty">No machines in this category.</div>')+'</div></section></div></div>';
  $('libraryResearch').onclick=researchModal;
- $('library').querySelectorAll('[data-tier]').forEach(b=>b.onclick=()=>{libraryTier=b.dataset.tier;drawLibrary()});
- $('machineCategory').onchange=()=>{libraryCategory=$('machineCategory').value;drawLibrary()};
- const applyMachineFilters=()=>{const q=$('machineSearch').value.toLowerCase(),sort=$('machineSort').value,cards=[...$('library').querySelectorAll('.catalog-row')];cards.forEach(b=>b.classList.toggle('hidden',!b.textContent.toLowerCase().includes(q)));const list=$('library').querySelector('.catalog-list');cards.sort((a,b)=>sort==='name'?a.dataset.machineName.localeCompare(b.dataset.machineName):sort==='ready'?(Number(b.classList.contains('ready'))-Number(a.classList.contains('ready')))||(+a.dataset.machineTier-+b.dataset.machineTier):(+a.dataset.machineTier-+b.dataset.machineTier)||a.dataset.machineName.localeCompare(b.dataset.machineName)).forEach(b=>list.appendChild(b));const count=cards.filter(b=>!b.classList.contains('hidden')).length;$('catalogResultCount').textContent=count+' machine'+(count===1?'':'s');let empty=list.querySelector('.catalog-empty');if(!count&&!empty){empty=document.createElement('div');empty.className='catalog-empty';empty.textContent='No machines match your search.';list.appendChild(empty)}else if(count&&empty)empty.remove()};
- $('machineSearch').oninput=applyMachineFilters;$('machineSort').onchange=applyMachineFilters;
- $('library').querySelectorAll('[data-place]').forEach(b=>b.onclick=()=>{const type=b.dataset.place;if(canAffordCost(costForMachine(type))){addNode(type);drawLibrary()}});
+ $('library').querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{libraryCategory=b.dataset.category;drawLibrary()});
+ const applyMachineSearch=()=>{const q=$('machineSearch').value.toLowerCase(),cards=[...$('library').querySelectorAll('.catalog-tile')];cards.forEach(b=>b.classList.toggle('hidden',!b.textContent.toLowerCase().includes(q)));const count=cards.filter(b=>!b.classList.contains('hidden')).length;$('catalogResultCount').textContent=count+' machine'+(count===1?'':'s')};
+ $('machineSearch').oninput=applyMachineSearch;
+ $('library').querySelectorAll('[data-place]').forEach(b=>b.onclick=()=>{const type=b.dataset.place;if(isMachineUnlocked(type)&&canAffordCost(costForMachine(type))){addNode(type);drawLibrary()}});
 }
 function drawSelected(){let n=state.machines.find(n=>n.id===selected);$('deleteNode').disabled=!n;$('duplicate').disabled=!n;if($('pinNode')){$('pinNode').disabled=!n;$('pinNode').textContent=n?(n.pinned?'Unpin module':'Pin module'):'Pin module'}const t=n&&T[n.type],site=n&&harvestSiteFor(n);$('selected').innerHTML=n?'<b>'+esc(t.name)+'</b><p>'+esc(t.desc)+'</p><p>Category: '+esc(t.category||'Starter')+' · Complexity: '+(t.complexity||1)+'/6</p><p>Inputs: '+(t.ins.join(', ')||'none')+'</p><p>Outputs: '+(t.outs.join(', ')||'none')+'</p><p>Power: '+t.power+' MW · Rate: '+(t.rate||'—')+'</p>'+(isExtractorModule(n)?'<p><b>Status:</b> '+(site?'Harvesting '+esc(site.name)+' ('+esc(site.res)+')':'No nearby resource · place over a deposit')+'</p>':'')+'<p><b>Placement:</b> '+(n.pinned?'Pinned':'Movable')+'</p>':'Select a module to inspect it.'}
 function resourceGlyph(r){const shape=r[2]==='gas'?'gas':r[2]==='liquid'?'liquid':'solid';return '<span class="resource-glyph '+shape+'" style="--resource-color:'+r[1]+'"><b>'+esc(r[3]||'??')+'</b></span>'}
@@ -1022,4 +1022,62 @@ body:not(.dark-mode) #mapTooltip.wire-tooltip .wire-tip-item b{color:#354052}
 @keyframes tileFadeIn{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:700px){.side-panel:has(.build-browser-v2){left:50%!important;right:auto!important;top:50%!important;bottom:auto!important;width:calc(100vw - 18px)!important;max-height:88dvh!important}.build-browser-v2{max-height:calc(88dvh - 28px)}}
 @media(prefers-reduced-motion:reduce){.floating-tools,.floating-tools button,.build-tile-v2,.side-panel:has(.build-browser-v2){animation:none!important;transition:none!important}}
+</style>
+
+<style>
+/* Fix panel visibility: hidden must win over all catalogue layout rules. */
+#sidePanel.hidden{display:none!important}
+#sidePanel:not(.hidden):has(.catalog-browser-v3){display:flex!important;position:fixed!important;left:50%!important;right:auto!important;top:50%!important;bottom:auto!important;transform:translate(-50%,-50%)!important;width:min(1180px,calc(100vw - 32px))!important;height:min(900px,90dvh)!important;max-height:90dvh!important;overflow:hidden!important;box-sizing:border-box!important;padding:18px!important;flex-direction:column!important;z-index:90!important;background:rgba(13,13,16,.97)!important;border:1px solid #303036!important;border-radius:18px!important;box-shadow:0 24px 90px #000c!important;backdrop-filter:blur(24px)!important}
+#sidePanel:not(.hidden):has(.catalog-browser-v3)>.panel-close{position:absolute!important;right:12px!important;top:10px!important;z-index:10}
+#sidePanel:has(.catalog-browser-v3)>h3,#sidePanel:has(.catalog-browser-v3)>p.sub{display:none!important}
+.catalog-browser-v3{display:flex!important;flex-direction:column!important;gap:12px!important;min-height:0!important;height:100%!important;color:#e8e8ed!important}
+.catalog-browser-v3 .catalog-header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 36px 4px 2px;flex:0 0 auto}
+.catalog-browser-v3 .catalog-header h3{font-size:23px!important;color:#f4f4f6!important;margin:3px 0!important}
+.catalog-browser-v3 .catalog-header p{margin:0!important;color:#92929d!important}
+.catalog-browser-v3 .catalog-eyebrow{font-size:10px;letter-spacing:.14em;color:#858591;font-weight:700}
+.catalog-browser-v3 .catalog-search{display:flex;align-items:center;gap:9px;flex:0 0 auto;padding:0 12px;height:42px;border:1px solid #34343b;border-radius:10px;background:#19191e;color:#a6a6b0}
+.catalog-browser-v3 .catalog-search input{flex:1;min-width:0;border:0!important;outline:0!important;background:transparent!important;color:#f1f1f4!important}
+.catalog-workspace{display:grid;grid-template-columns:210px minmax(0,1fr);gap:14px;flex:1;min-height:0}
+.catalog-category-rail{display:flex;flex-direction:column;gap:5px;overflow-y:auto;overscroll-behavior:contain;padding:2px 6px 8px 0;border-right:1px solid #2b2b31;min-height:0}
+.catalog-category-rail button{display:flex;align-items:center;justify-content:space-between;gap:8px;text-align:left;width:100%;min-height:42px;padding:9px 11px;background:transparent!important;border:1px solid transparent!important;border-radius:9px;color:#bdbdc6!important;box-shadow:none!important;font-size:12px}
+.catalog-category-rail button small{color:#777782;font-size:10px;white-space:nowrap}
+.catalog-category-rail button.active{background:#25252c!important;border-color:#41414a!important;color:#fff!important}
+.catalog-category-rail button:hover{background:#202026!important}
+.catalog-machine-area{display:flex;flex-direction:column;min-width:0;min-height:0}
+.catalog-results-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:2px 2px 10px;color:#92929d;font-size:11px;flex:0 0 auto}
+.catalog-results-head b{color:#e8e8ed;font-size:12px}
+.catalog-machine-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:10px;overflow-y:auto;overscroll-behavior:contain;min-height:0;flex:1;padding:2px 7px 14px 2px}
+.catalog-tile{display:grid;grid-template-columns:94px minmax(0,1fr);min-width:0;min-height:190px;overflow:hidden;border:1px solid #33333b;border-radius:12px;background:#19191e;transition:border-color .16s,background .16s}
+.catalog-tile:hover{border-color:#656570;background:#1d1d23}
+.catalog-tile.locked{opacity:.62}
+.catalog-tile-art{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:#141418;border-right:1px solid #2c2c32;position:relative;padding:10px}
+.catalog-tile-art .build-machine-render{width:66px;height:66px}
+.catalog-tile-art .catalog-tier{font-size:10px;color:#9999a4}
+.catalog-tile-main{display:flex;flex-direction:column;gap:6px;min-width:0;padding:11px}
+.catalog-tile-title{display:flex;align-items:center;flex-wrap:wrap;gap:7px}
+.catalog-tile-title b{font-size:12px;color:#f0f0f3}
+.catalog-tile-main>p{margin:0;color:#92929d;font-size:10px;line-height:1.4;min-height:27px}
+.catalog-tile-main .catalog-meta{display:flex;gap:9px;flex-wrap:wrap;color:#82828d;font-size:9px}
+.catalog-tile-main .catalog-materials{display:flex;gap:5px;flex-wrap:wrap}
+.catalog-tile-main .catalog-material{font-size:9px;padding:3px 5px}
+.catalog-tile-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto;padding-top:6px;border-top:1px solid #2c2c32}
+.catalog-tile-footer button{font-size:10px;min-height:29px;padding:5px 9px;white-space:nowrap}
+.catalog-tile-footer button:disabled{opacity:.45;cursor:not-allowed}
+.catalog-locked-label{font-size:10px;color:#888895}
+.catalog-browser-v3 .catalog-empty{grid-column:1/-1;padding:35px;text-align:center;color:#9999a4}
+body:not(.dark-mode) #sidePanel:not(.hidden):has(.catalog-browser-v3){background:rgba(250,250,252,.98)!important;color:#24242a!important;border-color:#dedee5!important}
+body:not(.dark-mode) .catalog-browser-v3 .catalog-header h3{color:#202027!important}
+body:not(.dark-mode) .catalog-browser-v3 .catalog-search{background:#fff;border-color:#dddde5}
+body:not(.dark-mode) .catalog-browser-v3 .catalog-search input{color:#222!important}
+body:not(.dark-mode) .catalog-category-rail{border-color:#e3e3e8}
+body:not(.dark-mode) .catalog-category-rail button{color:#555!important}
+body:not(.dark-mode) .catalog-category-rail button.active{background:#ececf1!important;color:#17171b!important;border-color:#d6d6de!important}
+body:not(.dark-mode) .catalog-tile{background:#fff;border-color:#e1e1e8}
+body:not(.dark-mode) .catalog-tile-art{background:#f5f5f8;border-color:#e4e4e9}
+body:not(.dark-mode) .catalog-tile-title b{color:#222}
+body:not(.dark-mode) .catalog-tile-main>p{color:#686873}
+@media(max-width:760px){#sidePanel:not(.hidden):has(.catalog-browser-v3){width:calc(100vw - 14px)!important;height:92dvh!important;padding:12px!important}.catalog-workspace{grid-template-columns:128px minmax(0,1fr);gap:9px}.catalog-machine-grid{grid-template-columns:1fr}.catalog-tile{grid-template-columns:74px minmax(0,1fr)}.catalog-tile-art .build-machine-render{width:54px;height:54px}.catalog-browser-v3 .catalog-header h3{font-size:19px!important}}
+@media(max-width:420px){.catalog-workspace{grid-template-columns:104px minmax(0,1fr)}.catalog-category-rail button{font-size:10px;padding:8px 6px}.catalog-tile{grid-template-columns:58px minmax(0,1fr)}.catalog-tile-art{padding:5px}.catalog-tile-art .build-machine-render{width:44px;height:44px}.catalog-tile-main{padding:8px}.catalog-tile-main .catalog-meta{gap:5px}}
+/* The map canvas itself stays transparent; only the viewport paints the map grid. */
+#world,#nodes,#terrain,#svg{background:transparent!important}
 </style>
