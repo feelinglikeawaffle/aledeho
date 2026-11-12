@@ -10,7 +10,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_002",
@@ -22,7 +23,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_003",
@@ -34,7 +36,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_004",
@@ -46,7 +49,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_005",
@@ -58,7 +62,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_006",
@@ -70,7 +75,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_007",
@@ -82,7 +88,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_008",
@@ -94,7 +101,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_009",
@@ -106,7 +114,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_010",
@@ -118,7 +127,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_011",
@@ -130,7 +140,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_012",
@@ -142,7 +153,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_013",
@@ -154,7 +166,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_014",
@@ -166,7 +179,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_015",
@@ -178,7 +192,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_016",
@@ -190,7 +205,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_017",
@@ -202,7 +218,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_018",
@@ -214,7 +231,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_019",
@@ -226,7 +244,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_020",
@@ -238,7 +257,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_021",
@@ -250,7 +270,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_022",
@@ -262,7 +283,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_023",
@@ -274,7 +296,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_024",
@@ -286,7 +309,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_025",
@@ -298,7 +322,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_026",
@@ -310,7 +335,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_027",
@@ -322,7 +348,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_028",
@@ -334,7 +361,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_029",
@@ -346,7 +374,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_030",
@@ -358,7 +387,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_031",
@@ -370,7 +400,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_032",
@@ -382,7 +413,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_033",
@@ -394,7 +426,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_034",
@@ -406,7 +439,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_035",
@@ -418,7 +452,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_036",
@@ -430,7 +465,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_037",
@@ -442,7 +478,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_038",
@@ -454,7 +491,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_039",
@@ -466,7 +504,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_040",
@@ -478,7 +517,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_041",
@@ -490,7 +530,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_042",
@@ -502,7 +543,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_043",
@@ -514,7 +556,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_044",
@@ -526,7 +569,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_045",
@@ -538,7 +582,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_046",
@@ -550,7 +595,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_047",
@@ -562,7 +608,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_048",
@@ -574,7 +621,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_049",
@@ -586,7 +634,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_050",
@@ -598,7 +647,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_051",
@@ -610,7 +660,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_052",
@@ -622,7 +673,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_053",
@@ -634,7 +686,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_054",
@@ -646,7 +699,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_055",
@@ -658,7 +712,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_056",
@@ -670,7 +725,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_057",
@@ -682,7 +738,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_058",
@@ -694,7 +751,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_059",
@@ -706,7 +764,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_060",
@@ -718,7 +777,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_061",
@@ -730,7 +790,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_062",
@@ -742,7 +803,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_063",
@@ -754,7 +816,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_064",
@@ -766,7 +829,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_065",
@@ -778,7 +842,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_066",
@@ -790,7 +855,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_067",
@@ -802,7 +868,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_068",
@@ -814,7 +881,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_069",
@@ -826,7 +894,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_070",
@@ -838,7 +907,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_071",
@@ -850,7 +920,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_072",
@@ -862,7 +933,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_073",
@@ -874,7 +946,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_074",
@@ -886,7 +959,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_075",
@@ -898,7 +972,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_076",
@@ -910,7 +985,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_077",
@@ -922,7 +998,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_078",
@@ -934,7 +1011,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_079",
@@ -946,7 +1024,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_080",
@@ -958,7 +1037,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_081",
@@ -970,7 +1050,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_082",
@@ -982,7 +1063,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_083",
@@ -994,7 +1076,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_084",
@@ -1006,7 +1089,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_085",
@@ -1018,7 +1102,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_086",
@@ -1030,7 +1115,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_087",
@@ -1042,7 +1128,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_088",
@@ -1054,7 +1141,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_089",
@@ -1066,7 +1154,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_090",
@@ -1078,7 +1167,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_091",
@@ -1090,7 +1180,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_092",
@@ -1102,7 +1193,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_093",
@@ -1114,7 +1206,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_094",
@@ -1126,7 +1219,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_095",
@@ -1138,7 +1232,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_096",
@@ -1150,7 +1245,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_097",
@@ -1162,7 +1258,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_098",
@@ -1174,7 +1271,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_099",
@@ -1186,7 +1284,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_100",
@@ -1198,7 +1297,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_101",
@@ -1210,7 +1310,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_102",
@@ -1222,7 +1323,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_103",
@@ -1234,7 +1336,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_104",
@@ -1246,7 +1349,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_105",
@@ -1258,7 +1362,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_106",
@@ -1270,7 +1375,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_107",
@@ -1282,7 +1388,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_108",
@@ -1294,7 +1401,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_109",
@@ -1306,7 +1414,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_110",
@@ -1318,7 +1427,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_111",
@@ -1330,7 +1440,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_112",
@@ -1342,7 +1453,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_113",
@@ -1354,7 +1466,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_114",
@@ -1366,7 +1479,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_115",
@@ -1378,7 +1492,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_116",
@@ -1390,7 +1505,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_117",
@@ -1402,7 +1518,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_118",
@@ -1414,7 +1531,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_119",
@@ -1426,7 +1544,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_120",
@@ -1438,7 +1557,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_121",
@@ -1450,7 +1570,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_122",
@@ -1462,7 +1583,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_123",
@@ -1474,7 +1596,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_124",
@@ -1486,7 +1609,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_125",
@@ -1498,7 +1622,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_126",
@@ -1510,7 +1635,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_127",
@@ -1522,7 +1648,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_128",
@@ -1534,7 +1661,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_129",
@@ -1546,7 +1674,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_130",
@@ -1558,7 +1687,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_131",
@@ -1570,7 +1700,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_132",
@@ -1582,7 +1713,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_133",
@@ -1594,7 +1726,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_134",
@@ -1606,7 +1739,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_135",
@@ -1618,7 +1752,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_136",
@@ -1630,7 +1765,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_137",
@@ -1642,7 +1778,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_138",
@@ -1654,7 +1791,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_139",
@@ -1666,7 +1804,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_140",
@@ -1678,7 +1817,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_141",
@@ -1690,7 +1830,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_142",
@@ -1702,7 +1843,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_143",
@@ -1714,7 +1856,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_144",
@@ -1726,7 +1869,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_145",
@@ -1738,7 +1882,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_146",
@@ -1750,7 +1895,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_147",
@@ -1762,7 +1908,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_148",
@@ -1774,7 +1921,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_149",
@@ -1786,7 +1934,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_150",
@@ -1798,7 +1947,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_151",
@@ -1810,7 +1960,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_152",
@@ -1822,7 +1973,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_153",
@@ -1834,7 +1986,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_154",
@@ -1846,7 +1999,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_155",
@@ -1858,7 +2012,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_156",
@@ -1870,7 +2025,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_157",
@@ -1882,7 +2038,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_158",
@@ -1894,7 +2051,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_159",
@@ -1906,7 +2064,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_160",
@@ -1918,7 +2077,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_161",
@@ -1930,7 +2090,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_162",
@@ -1942,7 +2103,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_163",
@@ -1954,7 +2116,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_164",
@@ -1966,7 +2129,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_165",
@@ -1978,7 +2142,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_166",
@@ -1990,7 +2155,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_167",
@@ -2002,7 +2168,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_168",
@@ -2014,7 +2181,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_169",
@@ -2026,7 +2194,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_170",
@@ -2038,7 +2207,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_171",
@@ -2050,7 +2220,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "wetlands"
   },
   {
     "id": "solid_172",
@@ -2062,7 +2233,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "badlands"
   },
   {
     "id": "solid_173",
@@ -2074,7 +2246,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "crystal"
   },
   {
     "id": "solid_174",
@@ -2086,7 +2259,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "frostline"
   },
   {
     "id": "solid_175",
@@ -2098,7 +2272,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "verdant"
   },
   {
     "id": "solid_176",
@@ -2110,7 +2285,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "caldera"
   },
   {
     "id": "solid_177",
@@ -2122,7 +2298,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "sunken"
   },
   {
     "id": "solid_178",
@@ -2134,7 +2311,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "stormglass"
   },
   {
     "id": "solid_179",
@@ -2146,7 +2324,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "umbral"
   },
   {
     "id": "solid_180",
@@ -2158,7 +2337,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "rift"
   },
   {
     "id": "solid_181",
@@ -2170,7 +2350,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "temperate"
   },
   {
     "id": "solid_182",
@@ -2182,7 +2363,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1
+    "tier": 1,
+    "region": "highlands"
   },
   {
     "id": "solid_183",
