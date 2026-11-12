@@ -523,11 +523,11 @@ function researchModal(){
   function place(n,depth){
    const kids=childMap.get(n.id)||[];let x;
    if(kids.length){const xs=kids.map(k=>place(k,depth+1));x=xs.reduce((a,b)=>a+b,0)/xs.length}
-   else{x=leaf*112;leaf++}
-   pos.set(n.id,{x,y:depth*132+155,cx:x+47,cy:depth*132+187});return x;
+   else{x=leaf*112+60;leaf++}
+   pos.set(n.id,{x,y:depth*132+155,cx:x,cy:depth*132+185});return x;
   }
   if(root)place(root,0);
-  const laneWidth=Math.max(260,leaf*112+70),offset=cursor+24;
+  const laneWidth=Math.max(260,leaf*112+120),offset=cursor+24;
   for(const [id,p] of pos){p.x+=offset;p.cx+=offset}
   cursor+=laneWidth+55;maxHeight=Math.max(maxHeight,...[...pos.values()].map(p=>p.y+120));
   layouts.push({group,list,root,childMap,pos,offset,laneWidth,color:palette[gi%palette.length]});
@@ -589,7 +589,7 @@ function addNode(type,x,y){const ws=$('workspace');if(!Number.isFinite(x))x=ws.s
 function seed(){const sx=START_TILE_X*TILE_W+300,sy=START_TILE_Y*TILE_H+430,a={id:uid(),type:'extractor',x:sx,y:sy,buffer:{},progress:0,stored:0},b={id:uid(),type:'deliveryDepot',x:sx+460,y:sy,buffer:{},progress:0,stored:0};state.machines=[a,b];state.links=[{id:uid(),from:a.id,to:b.id,kind:'material',tokens:[]}];selected=a.id}
 function modal(html){$('modal').innerHTML='<div class="modalbg"><div class="modal">'+html+'</div></div>'}function close(){ $('modal').innerHTML=''}
 function showMenu(){$('menu').classList.remove('hidden');$('game').classList.add('hidden');selected=null}
-function showGame(){$('menu').classList.add('hidden');$('game').classList.remove('hidden');migrateProgression();WORLD_SIZE=state.worldSize;worldOffsetTilesX=state.worldOffsetTilesX;worldOffsetTilesY=state.worldOffsetTilesY;terrainCameraKey='';checkRegionUnlocks();render();const ws=$('workspace'),n=state.machines[0];if(n){ws.scrollLeft=Math.max(0,n.x+moduleWidth(n)/2-ws.clientWidth/2);ws.scrollTop=Math.max(0,n.y+moduleHeight(n)/2-ws.clientHeight/2)}else{ws.scrollLeft=Math.max(0,WORLD_SIZE/2-ws.clientWidth/2);ws.scrollTop=Math.max(0,WORLD_SIZE/2-ws.clientHeight/2)}renderTerrain()if(!loop)loop=setInterval(tick,500)}
+function showGame(){$('menu').classList.add('hidden');$('game').classList.remove('hidden');migrateProgression();WORLD_SIZE=state.worldSize;worldOffsetTilesX=state.worldOffsetTilesX;worldOffsetTilesY=state.worldOffsetTilesY;terrainCameraKey='';checkRegionUnlocks();render();const ws=$('workspace'),n=state.machines[0];if(n){ws.scrollLeft=Math.max(0,n.x+moduleWidth(n)/2-ws.clientWidth/2);ws.scrollTop=Math.max(0,n.y+moduleHeight(n)/2-ws.clientHeight/2)}else{ws.scrollLeft=Math.max(0,WORLD_SIZE/2-ws.clientWidth/2);ws.scrollTop=Math.max(0,WORLD_SIZE/2-ws.clientHeight/2)}renderTerrain();if(!loop)loop=setInterval(tick,500)}
 function save(){if(!state)return;captureRegionFactory();state.worldSize=WORLD_SIZE;state.worldOffsetTilesX=worldOffsetTilesX;state.worldOffsetTilesY=worldOffsetTilesY;let all={};try{all=JSON.parse(localStorage.getItem(SKEY)||'{}')}catch{}all[state.name]={...state,saved:Date.now()};localStorage.setItem(SKEY,JSON.stringify(all));toast('Factory saved locally.');say('Game saved.')}
 function newPrompt(){modal('<h2>New factory</h2><label>Factory name</label><input id="fname" maxlength="36" value="My first factory"><p class="sub">You begin in the Temperate Basin. Build and move resources to unlock new regions, each with exclusive deposits.</p><div class="toolbar"><button class="primary" id="start">Create factory</button><button id="cancel">Cancel</button></div>');$('start').onclick=()=>{state=fresh('temperate');state.name=$('fname').value.trim()||'My first factory';seed();captureRegionFactory();close();showGame();say('Started in '+region()[1]+'.')};$('cancel').onclick=close}
 function loadPrompt(){let all={};try{all=JSON.parse(localStorage.getItem(SKEY)||'{}')}catch{}let names=Object.keys(all);if(!names.length){toast('No local saves found.');return}modal('<h2>Load factory</h2><select id="savePick">'+names.map(n=>'<option>'+esc(n)+'</option>').join('')+'</select><div class="toolbar"><button class="primary" id="loadOk">Load</button><button id="cancel">Cancel</button></div>');$('loadOk').onclick=()=>{state=all[$('savePick').value];close();selected=null;showGame();say('Save loaded.')};$('cancel').onclick=close}
