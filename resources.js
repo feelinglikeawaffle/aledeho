@@ -1,4 +1,4 @@
-/* Aledeho resource registry. Every catalogue entry has a mineable source or a complete five-input recipe. */
+/* Aledeho resource registry. Every catalogue entry has a mineable source or a complete recipe. */
 window.ALEDEHO_RESOURCE_CATALOG = [
   {
     "id": "solid_001",
@@ -1964,10 +1964,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_171",
       "inputs": [
         "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "liquid_204"
+        "solid_049"
       ],
       "outputs": [
         "solid_151",
@@ -1993,10 +1990,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_171",
       "inputs": [
         "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "liquid_204"
+        "solid_049"
       ],
       "outputs": [
         "solid_151",
@@ -2022,10 +2016,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_171",
       "inputs": [
         "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "liquid_204"
+        "solid_049"
       ],
       "outputs": [
         "solid_151",
@@ -2051,10 +2042,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_171",
       "inputs": [
         "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "liquid_204"
+        "solid_049"
       ],
       "outputs": [
         "solid_151",
@@ -2080,10 +2068,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_171",
       "inputs": [
         "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "liquid_204"
+        "solid_049"
       ],
       "outputs": [
         "solid_151",
@@ -2109,10 +2094,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_172",
       "inputs": [
         "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "gas_365"
+        "solid_066"
       ],
       "outputs": [
         "solid_156",
@@ -2138,10 +2120,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_172",
       "inputs": [
         "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "gas_365"
+        "solid_066"
       ],
       "outputs": [
         "solid_156",
@@ -2167,10 +2146,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_172",
       "inputs": [
         "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "gas_365"
+        "solid_066"
       ],
       "outputs": [
         "solid_156",
@@ -2196,10 +2172,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_172",
       "inputs": [
         "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "gas_365"
+        "solid_066"
       ],
       "outputs": [
         "solid_156",
@@ -2225,10 +2198,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_172",
       "inputs": [
         "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "gas_365"
+        "solid_066"
       ],
       "outputs": [
         "solid_156",
@@ -2254,10 +2224,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_173",
       "inputs": [
         "solid_046",
-        "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_002"
+        "solid_083"
       ],
       "outputs": [
         "solid_161",
@@ -2283,10 +2250,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_173",
       "inputs": [
         "solid_046",
-        "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_002"
+        "solid_083"
       ],
       "outputs": [
         "solid_161",
@@ -2312,10 +2276,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_173",
       "inputs": [
         "solid_046",
-        "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_002"
+        "solid_083"
       ],
       "outputs": [
         "solid_161",
@@ -2341,10 +2302,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_173",
       "inputs": [
         "solid_046",
-        "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_002"
+        "solid_083"
       ],
       "outputs": [
         "solid_161",
@@ -2370,10 +2328,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_173",
       "inputs": [
         "solid_046",
-        "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_002"
+        "solid_083"
       ],
       "outputs": [
         "solid_161",
@@ -2399,10 +2354,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_174",
       "inputs": [
         "solid_063",
-        "solid_100",
-        "solid_137",
-        "gas_362",
-        "solid_014"
+        "solid_100"
       ],
       "outputs": [
         "solid_166",
@@ -2428,10 +2380,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_174",
       "inputs": [
         "solid_063",
-        "solid_100",
-        "solid_137",
-        "gas_362",
-        "solid_014"
+        "solid_100"
       ],
       "outputs": [
         "solid_166",
@@ -2457,10 +2406,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_174",
       "inputs": [
         "solid_063",
-        "solid_100",
-        "solid_137",
-        "gas_362",
-        "solid_014"
+        "solid_100"
       ],
       "outputs": [
         "solid_166",
@@ -2486,10 +2432,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_174",
       "inputs": [
         "solid_063",
-        "solid_100",
-        "solid_137",
-        "gas_362",
-        "solid_014"
+        "solid_100"
       ],
       "outputs": [
         "solid_166",
@@ -2515,10 +2458,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_174",
       "inputs": [
         "solid_063",
-        "solid_100",
-        "solid_137",
-        "gas_362",
-        "solid_014"
+        "solid_100"
       ],
       "outputs": [
         "solid_166",
@@ -2544,10 +2484,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_175",
       "inputs": [
         "solid_080",
-        "solid_117",
-        "liquid_198",
-        "solid_159",
-        "solid_026"
+        "solid_117"
       ],
       "outputs": [
         "solid_171",
@@ -2573,10 +2510,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_175",
       "inputs": [
         "solid_080",
-        "solid_117",
-        "liquid_198",
-        "solid_159",
-        "solid_026"
+        "solid_117"
       ],
       "outputs": [
         "solid_171",
@@ -2602,10 +2536,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_175",
       "inputs": [
         "solid_080",
-        "solid_117",
-        "liquid_198",
-        "solid_159",
-        "solid_026"
+        "solid_117"
       ],
       "outputs": [
         "solid_171",
@@ -2631,10 +2562,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_175",
       "inputs": [
         "solid_080",
-        "solid_117",
-        "liquid_198",
-        "solid_159",
-        "solid_026"
+        "solid_117"
       ],
       "outputs": [
         "solid_171",
@@ -2660,10 +2588,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_175",
       "inputs": [
         "solid_080",
-        "solid_117",
-        "liquid_198",
-        "solid_159",
-        "solid_026"
+        "solid_117"
       ],
       "outputs": [
         "solid_171",
@@ -2689,10 +2614,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_176",
       "inputs": [
         "solid_097",
-        "solid_134",
-        "gas_359",
-        "solid_001",
-        "solid_038"
+        "solid_134"
       ],
       "outputs": [
         "solid_176",
@@ -2718,10 +2640,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_176",
       "inputs": [
         "solid_097",
-        "solid_134",
-        "gas_359",
-        "solid_001",
-        "solid_038"
+        "solid_134"
       ],
       "outputs": [
         "solid_176",
@@ -2747,10 +2666,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_176",
       "inputs": [
         "solid_097",
-        "solid_134",
-        "gas_359",
-        "solid_001",
-        "solid_038"
+        "solid_134"
       ],
       "outputs": [
         "solid_176",
@@ -2776,10 +2692,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_176",
       "inputs": [
         "solid_097",
-        "solid_134",
-        "gas_359",
-        "solid_001",
-        "solid_038"
+        "solid_134"
       ],
       "outputs": [
         "solid_176",
@@ -2805,10 +2718,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_176",
       "inputs": [
         "solid_097",
-        "solid_134",
-        "gas_359",
-        "solid_001",
-        "solid_038"
+        "solid_134"
       ],
       "outputs": [
         "solid_176",
@@ -2834,10 +2744,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_177",
       "inputs": [
         "solid_114",
-        "liquid_195",
-        "solid_156",
-        "solid_013",
-        "solid_050"
+        "liquid_195"
       ],
       "outputs": [
         "solid_181",
@@ -2863,10 +2770,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_177",
       "inputs": [
         "solid_114",
-        "liquid_195",
-        "solid_156",
-        "solid_013",
-        "solid_050"
+        "liquid_195"
       ],
       "outputs": [
         "solid_181",
@@ -2892,10 +2796,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_177",
       "inputs": [
         "solid_114",
-        "liquid_195",
-        "solid_156",
-        "solid_013",
-        "solid_050"
+        "liquid_195"
       ],
       "outputs": [
         "solid_181",
@@ -2921,10 +2822,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_177",
       "inputs": [
         "solid_114",
-        "liquid_195",
-        "solid_156",
-        "solid_013",
-        "solid_050"
+        "liquid_195"
       ],
       "outputs": [
         "solid_181",
@@ -2950,10 +2848,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_177",
       "inputs": [
         "solid_114",
-        "liquid_195",
-        "solid_156",
-        "solid_013",
-        "solid_050"
+        "liquid_195"
       ],
       "outputs": [
         "solid_181",
@@ -2979,10 +2874,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_178",
       "inputs": [
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "solid_025",
-        "solid_062"
+        "gas_356"
       ],
       "outputs": [
         "solid_186",
@@ -3008,10 +2900,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_178",
       "inputs": [
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "solid_025",
-        "solid_062"
+        "gas_356"
       ],
       "outputs": [
         "solid_186",
@@ -3037,10 +2926,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_178",
       "inputs": [
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "solid_025",
-        "solid_062"
+        "gas_356"
       ],
       "outputs": [
         "solid_186",
@@ -3066,10 +2952,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_178",
       "inputs": [
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "solid_025",
-        "solid_062"
+        "gas_356"
       ],
       "outputs": [
         "solid_186",
@@ -3095,10 +2978,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_178",
       "inputs": [
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "solid_025",
-        "solid_062"
+        "gas_356"
       ],
       "outputs": [
         "solid_186",
@@ -3124,10 +3004,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_179",
       "inputs": [
         "solid_148",
-        "solid_153",
-        "solid_190",
-        "solid_037",
-        "solid_074"
+        "solid_153"
       ],
       "outputs": [
         "solid_191",
@@ -3153,10 +3030,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_179",
       "inputs": [
         "solid_148",
-        "solid_153",
-        "solid_190",
-        "solid_037",
-        "solid_074"
+        "solid_153"
       ],
       "outputs": [
         "solid_191",
@@ -3182,10 +3056,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_179",
       "inputs": [
         "solid_148",
-        "solid_153",
-        "solid_190",
-        "solid_037",
-        "solid_074"
+        "solid_153"
       ],
       "outputs": [
         "solid_191",
@@ -3211,10 +3082,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_179",
       "inputs": [
         "solid_148",
-        "solid_153",
-        "solid_190",
-        "solid_037",
-        "solid_074"
+        "solid_153"
       ],
       "outputs": [
         "solid_191",
@@ -3448,10 +3316,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_179",
       "inputs": [
         "solid_148",
-        "solid_153",
-        "solid_190",
-        "solid_037",
-        "solid_074"
+        "solid_153"
       ],
       "outputs": [
         "solid_191",
@@ -3477,10 +3342,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_180",
       "inputs": [
         "liquid_209",
-        "solid_170",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_170"
       ],
       "outputs": [
         "liquid_212",
@@ -3506,10 +3368,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_180",
       "inputs": [
         "liquid_209",
-        "solid_170",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_170"
       ],
       "outputs": [
         "liquid_212",
@@ -3535,10 +3394,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_180",
       "inputs": [
         "liquid_209",
-        "solid_170",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_170"
       ],
       "outputs": [
         "liquid_212",
@@ -3564,10 +3420,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_180",
       "inputs": [
         "liquid_209",
-        "solid_170",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_170"
       ],
       "outputs": [
         "liquid_212",
@@ -3593,10 +3446,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_180",
       "inputs": [
         "liquid_209",
-        "solid_170",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_170"
       ],
       "outputs": [
         "liquid_212",
@@ -3622,10 +3472,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_181",
       "inputs": [
         "gas_370",
-        "solid_187",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "solid_187"
       ],
       "outputs": [
         "liquid_217",
@@ -3651,10 +3498,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_181",
       "inputs": [
         "gas_370",
-        "solid_187",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "solid_187"
       ],
       "outputs": [
         "liquid_217",
@@ -3680,10 +3524,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_181",
       "inputs": [
         "gas_370",
-        "solid_187",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "solid_187"
       ],
       "outputs": [
         "liquid_217",
@@ -3709,10 +3550,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_181",
       "inputs": [
         "gas_370",
-        "solid_187",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "solid_187"
       ],
       "outputs": [
         "liquid_217",
@@ -3738,10 +3576,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_181",
       "inputs": [
         "gas_370",
-        "solid_187",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "solid_187"
       ],
       "outputs": [
         "liquid_217",
@@ -3767,10 +3602,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_182",
       "inputs": [
         "solid_167",
-        "liquid_220",
-        "solid_036",
-        "solid_073",
-        "solid_110"
+        "liquid_220"
       ],
       "outputs": [
         "liquid_222",
@@ -3796,10 +3628,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_182",
       "inputs": [
         "solid_167",
-        "liquid_220",
-        "solid_036",
-        "solid_073",
-        "solid_110"
+        "liquid_220"
       ],
       "outputs": [
         "liquid_222",
@@ -3825,10 +3654,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_182",
       "inputs": [
         "solid_167",
-        "liquid_220",
-        "solid_036",
-        "solid_073",
-        "solid_110"
+        "liquid_220"
       ],
       "outputs": [
         "liquid_222",
@@ -3854,10 +3680,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_182",
       "inputs": [
         "solid_167",
-        "liquid_220",
-        "solid_036",
-        "solid_073",
-        "solid_110"
+        "liquid_220"
       ],
       "outputs": [
         "liquid_222",
@@ -3883,10 +3706,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_182",
       "inputs": [
         "solid_167",
-        "liquid_220",
-        "solid_036",
-        "solid_073",
-        "solid_110"
+        "liquid_220"
       ],
       "outputs": [
         "liquid_222",
@@ -3912,10 +3732,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_183",
       "inputs": [
         "solid_184",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
+        "solid_011"
       ],
       "outputs": [
         "liquid_227",
@@ -3941,10 +3758,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_183",
       "inputs": [
         "solid_184",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
+        "solid_011"
       ],
       "outputs": [
         "liquid_227",
@@ -3970,10 +3784,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_183",
       "inputs": [
         "solid_184",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
+        "solid_011"
       ],
       "outputs": [
         "liquid_227",
@@ -3999,10 +3810,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_183",
       "inputs": [
         "solid_184",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
+        "solid_011"
       ],
       "outputs": [
         "liquid_227",
@@ -4028,10 +3836,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_183",
       "inputs": [
         "solid_184",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
+        "solid_011"
       ],
       "outputs": [
         "liquid_227",
@@ -4057,10 +3862,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_184",
       "inputs": [
         "liquid_217",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
+        "solid_023"
       ],
       "outputs": [
         "liquid_232",
@@ -4086,10 +3888,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_184",
       "inputs": [
         "liquid_217",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
+        "solid_023"
       ],
       "outputs": [
         "liquid_232",
@@ -4115,10 +3914,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_184",
       "inputs": [
         "liquid_217",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
+        "solid_023"
       ],
       "outputs": [
         "liquid_232",
@@ -4144,10 +3940,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_184",
       "inputs": [
         "liquid_217",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
+        "solid_023"
       ],
       "outputs": [
         "liquid_232",
@@ -4173,10 +3966,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_184",
       "inputs": [
         "liquid_217",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
+        "solid_023"
       ],
       "outputs": [
         "liquid_232",
@@ -4203,9 +3993,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_234",
         "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_072"
       ],
       "outputs": [
         "liquid_237",
@@ -4232,9 +4020,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_234",
         "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_072"
       ],
       "outputs": [
         "liquid_237",
@@ -4261,9 +4047,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_234",
         "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_072"
       ],
       "outputs": [
         "liquid_237",
@@ -4290,9 +4074,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_234",
         "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_072"
       ],
       "outputs": [
         "liquid_237",
@@ -4319,9 +4101,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_234",
         "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_072"
       ],
       "outputs": [
         "liquid_237",
@@ -4348,9 +4128,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_010",
         "solid_047",
-        "solid_084",
-        "solid_121",
-        "liquid_202"
+        "solid_084"
       ],
       "outputs": [
         "liquid_242",
@@ -4377,9 +4155,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_010",
         "solid_047",
-        "solid_084",
-        "solid_121",
-        "liquid_202"
+        "solid_084"
       ],
       "outputs": [
         "liquid_242",
@@ -4406,9 +4182,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_010",
         "solid_047",
-        "solid_084",
-        "solid_121",
-        "liquid_202"
+        "solid_084"
       ],
       "outputs": [
         "liquid_242",
@@ -4435,9 +4209,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_010",
         "solid_047",
-        "solid_084",
-        "solid_121",
-        "liquid_202"
+        "solid_084"
       ],
       "outputs": [
         "liquid_242",
@@ -4464,9 +4236,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_010",
         "solid_047",
-        "solid_084",
-        "solid_121",
-        "liquid_202"
+        "solid_084"
       ],
       "outputs": [
         "liquid_242",
@@ -4493,9 +4263,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_022",
         "solid_059",
-        "solid_096",
-        "solid_133",
-        "gas_358"
+        "solid_096"
       ],
       "outputs": [
         "liquid_247",
@@ -4522,9 +4290,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_022",
         "solid_059",
-        "solid_096",
-        "solid_133",
-        "gas_358"
+        "solid_096"
       ],
       "outputs": [
         "liquid_247",
@@ -4551,9 +4317,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_022",
         "solid_059",
-        "solid_096",
-        "solid_133",
-        "gas_358"
+        "solid_096"
       ],
       "outputs": [
         "liquid_247",
@@ -4580,9 +4344,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_022",
         "solid_059",
-        "solid_096",
-        "solid_133",
-        "gas_358"
+        "solid_096"
       ],
       "outputs": [
         "liquid_247",
@@ -4609,9 +4371,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_022",
         "solid_059",
-        "solid_096",
-        "solid_133",
-        "gas_358"
+        "solid_096"
       ],
       "outputs": [
         "liquid_247",
@@ -4638,9 +4398,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_034",
         "solid_071",
-        "solid_108",
-        "solid_145",
-        "gas_370"
+        "solid_108"
       ],
       "outputs": [
         "liquid_252",
@@ -4667,9 +4425,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_034",
         "solid_071",
-        "solid_108",
-        "solid_145",
-        "gas_370"
+        "solid_108"
       ],
       "outputs": [
         "liquid_252",
@@ -4696,9 +4452,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_034",
         "solid_071",
-        "solid_108",
-        "solid_145",
-        "gas_370"
+        "solid_108"
       ],
       "outputs": [
         "liquid_252",
@@ -4725,9 +4479,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_034",
         "solid_071",
-        "solid_108",
-        "solid_145",
-        "gas_370"
+        "solid_108"
       ],
       "outputs": [
         "liquid_252",
@@ -4754,9 +4506,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_034",
         "solid_071",
-        "solid_108",
-        "solid_145",
-        "gas_370"
+        "solid_108"
       ],
       "outputs": [
         "liquid_252",
@@ -4783,9 +4533,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_046",
         "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_162"
+        "solid_120"
       ],
       "outputs": [
         "liquid_257",
@@ -4812,9 +4560,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_046",
         "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_162"
+        "solid_120"
       ],
       "outputs": [
         "liquid_257",
@@ -4841,9 +4587,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_046",
         "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_162"
+        "solid_120"
       ],
       "outputs": [
         "liquid_257",
@@ -4870,9 +4614,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_046",
         "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_162"
+        "solid_120"
       ],
       "outputs": [
         "liquid_257",
@@ -4899,9 +4641,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_046",
         "solid_083",
-        "solid_120",
-        "liquid_201",
-        "solid_162"
+        "solid_120"
       ],
       "outputs": [
         "liquid_257",
@@ -4928,9 +4668,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_058",
         "solid_095",
-        "solid_132",
-        "gas_357",
-        "solid_174"
+        "solid_132"
       ],
       "outputs": [
         "liquid_262",
@@ -4957,9 +4695,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_058",
         "solid_095",
-        "solid_132",
-        "gas_357",
-        "solid_174"
+        "solid_132"
       ],
       "outputs": [
         "liquid_262",
@@ -4986,9 +4722,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_058",
         "solid_095",
-        "solid_132",
-        "gas_357",
-        "solid_174"
+        "solid_132"
       ],
       "outputs": [
         "liquid_262",
@@ -5015,9 +4749,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_058",
         "solid_095",
-        "solid_132",
-        "gas_357",
-        "solid_174"
+        "solid_132"
       ],
       "outputs": [
         "liquid_262",
@@ -5044,9 +4776,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_058",
         "solid_095",
-        "solid_132",
-        "gas_357",
-        "solid_174"
+        "solid_132"
       ],
       "outputs": [
         "liquid_262",
@@ -5073,9 +4803,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_070",
         "solid_107",
-        "solid_144",
-        "gas_369",
-        "solid_186"
+        "solid_144"
       ],
       "outputs": [
         "liquid_267",
@@ -5102,9 +4830,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_070",
         "solid_107",
-        "solid_144",
-        "gas_369",
-        "solid_186"
+        "solid_144"
       ],
       "outputs": [
         "liquid_267",
@@ -5131,9 +4857,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_070",
         "solid_107",
-        "solid_144",
-        "gas_369",
-        "solid_186"
+        "solid_144"
       ],
       "outputs": [
         "liquid_267",
@@ -5160,9 +4884,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_070",
         "solid_107",
-        "solid_144",
-        "gas_369",
-        "solid_186"
+        "solid_144"
       ],
       "outputs": [
         "liquid_267",
@@ -5189,9 +4911,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_070",
         "solid_107",
-        "solid_144",
-        "gas_369",
-        "solid_186"
+        "solid_144"
       ],
       "outputs": [
         "liquid_267",
@@ -5218,9 +4938,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "liquid_200",
-        "solid_161",
-        "liquid_214"
+        "liquid_200"
       ],
       "outputs": [
         "liquid_272",
@@ -5247,9 +4965,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "liquid_200",
-        "solid_161",
-        "liquid_214"
+        "liquid_200"
       ],
       "outputs": [
         "liquid_272",
@@ -5276,9 +4992,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "liquid_200",
-        "solid_161",
-        "liquid_214"
+        "liquid_200"
       ],
       "outputs": [
         "liquid_272",
@@ -5305,9 +5019,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "liquid_200",
-        "solid_161",
-        "liquid_214"
+        "liquid_200"
       ],
       "outputs": [
         "liquid_272",
@@ -5334,9 +5046,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "liquid_200",
-        "solid_161",
-        "liquid_214"
+        "liquid_200"
       ],
       "outputs": [
         "liquid_272",
@@ -5363,9 +5073,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_094",
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "liquid_226"
+        "gas_356"
       ],
       "outputs": [
         "liquid_277",
@@ -5392,9 +5100,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_094",
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "liquid_226"
+        "gas_356"
       ],
       "outputs": [
         "liquid_277",
@@ -5421,9 +5127,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_094",
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "liquid_226"
+        "gas_356"
       ],
       "outputs": [
         "liquid_277",
@@ -5450,9 +5154,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_094",
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "liquid_226"
+        "gas_356"
       ],
       "outputs": [
         "liquid_277",
@@ -5479,9 +5181,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_094",
         "solid_131",
-        "gas_356",
-        "solid_173",
-        "liquid_226"
+        "gas_356"
       ],
       "outputs": [
         "liquid_277",
@@ -5508,9 +5208,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_106",
         "solid_143",
-        "gas_368",
-        "solid_185",
-        "liquid_238"
+        "gas_368"
       ],
       "outputs": [
         "liquid_282",
@@ -5537,9 +5235,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_106",
         "solid_143",
-        "gas_368",
-        "solid_185",
-        "liquid_238"
+        "gas_368"
       ],
       "outputs": [
         "liquid_282",
@@ -5566,9 +5262,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_106",
         "solid_143",
-        "gas_368",
-        "solid_185",
-        "liquid_238"
+        "gas_368"
       ],
       "outputs": [
         "liquid_282",
@@ -5595,9 +5289,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_106",
         "solid_143",
-        "gas_368",
-        "solid_185",
-        "liquid_238"
+        "gas_368"
       ],
       "outputs": [
         "liquid_282",
@@ -5624,9 +5316,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_106",
         "solid_143",
-        "gas_368",
-        "solid_185",
-        "liquid_238"
+        "gas_368"
       ],
       "outputs": [
         "liquid_282",
@@ -5653,9 +5343,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_118",
         "liquid_199",
-        "solid_160",
-        "liquid_213",
-        "liquid_250"
+        "solid_160"
       ],
       "outputs": [
         "liquid_287",
@@ -5682,9 +5370,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_118",
         "liquid_199",
-        "solid_160",
-        "liquid_213",
-        "liquid_250"
+        "solid_160"
       ],
       "outputs": [
         "liquid_287",
@@ -5711,9 +5397,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_118",
         "liquid_199",
-        "solid_160",
-        "liquid_213",
-        "liquid_250"
+        "solid_160"
       ],
       "outputs": [
         "liquid_287",
@@ -5740,9 +5424,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_118",
         "liquid_199",
-        "solid_160",
-        "liquid_213",
-        "liquid_250"
+        "solid_160"
       ],
       "outputs": [
         "liquid_287",
@@ -5769,9 +5451,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_118",
         "liquid_199",
-        "solid_160",
-        "liquid_213",
-        "liquid_250"
+        "solid_160"
       ],
       "outputs": [
         "liquid_287",
@@ -5798,9 +5478,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_130",
         "gas_355",
-        "solid_172",
-        "liquid_225",
-        "liquid_262"
+        "solid_172"
       ],
       "outputs": [
         "liquid_292",
@@ -5827,9 +5505,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_130",
         "gas_355",
-        "solid_172",
-        "liquid_225",
-        "liquid_262"
+        "solid_172"
       ],
       "outputs": [
         "liquid_292",
@@ -5856,9 +5532,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_130",
         "gas_355",
-        "solid_172",
-        "liquid_225",
-        "liquid_262"
+        "solid_172"
       ],
       "outputs": [
         "liquid_292",
@@ -5885,9 +5559,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_130",
         "gas_355",
-        "solid_172",
-        "liquid_225",
-        "liquid_262"
+        "solid_172"
       ],
       "outputs": [
         "liquid_292",
@@ -5914,9 +5586,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_130",
         "gas_355",
-        "solid_172",
-        "liquid_225",
-        "liquid_262"
+        "solid_172"
       ],
       "outputs": [
         "liquid_292",
@@ -5943,9 +5613,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_142",
         "gas_367",
-        "solid_184",
-        "liquid_237",
-        "liquid_274"
+        "solid_184"
       ],
       "outputs": [
         "liquid_297",
@@ -5972,9 +5640,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_142",
         "gas_367",
-        "solid_184",
-        "liquid_237",
-        "liquid_274"
+        "solid_184"
       ],
       "outputs": [
         "liquid_297",
@@ -6001,9 +5667,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_142",
         "gas_367",
-        "solid_184",
-        "liquid_237",
-        "liquid_274"
+        "solid_184"
       ],
       "outputs": [
         "liquid_297",
@@ -6030,9 +5694,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_142",
         "gas_367",
-        "solid_184",
-        "liquid_237",
-        "liquid_274"
+        "solid_184"
       ],
       "outputs": [
         "liquid_297",
@@ -6059,9 +5721,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_142",
         "gas_367",
-        "solid_184",
-        "liquid_237",
-        "liquid_274"
+        "solid_184"
       ],
       "outputs": [
         "liquid_297",
@@ -6088,9 +5748,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_198",
         "solid_159",
-        "liquid_212",
-        "liquid_249",
-        "liquid_286"
+        "liquid_212"
       ],
       "outputs": [
         "liquid_302",
@@ -6117,9 +5775,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_198",
         "solid_159",
-        "liquid_212",
-        "liquid_249",
-        "liquid_286"
+        "liquid_212"
       ],
       "outputs": [
         "liquid_302",
@@ -6146,9 +5802,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_198",
         "solid_159",
-        "liquid_212",
-        "liquid_249",
-        "liquid_286"
+        "liquid_212"
       ],
       "outputs": [
         "liquid_302",
@@ -6175,9 +5829,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_198",
         "solid_159",
-        "liquid_212",
-        "liquid_249",
-        "liquid_286"
+        "liquid_212"
       ],
       "outputs": [
         "liquid_302",
@@ -6204,9 +5856,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "liquid_198",
         "solid_159",
-        "liquid_212",
-        "liquid_249",
-        "liquid_286"
+        "liquid_212"
       ],
       "outputs": [
         "liquid_302",
@@ -6234,8 +5884,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_210",
         "solid_171",
         "liquid_224",
-        "liquid_261",
-        "liquid_298"
+        "liquid_261"
       ],
       "outputs": [
         "liquid_307",
@@ -6263,8 +5912,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_210",
         "solid_171",
         "liquid_224",
-        "liquid_261",
-        "liquid_298"
+        "liquid_261"
       ],
       "outputs": [
         "liquid_307",
@@ -6292,8 +5940,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_210",
         "solid_171",
         "liquid_224",
-        "liquid_261",
-        "liquid_298"
+        "liquid_261"
       ],
       "outputs": [
         "liquid_307",
@@ -6321,8 +5968,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_210",
         "solid_171",
         "liquid_224",
-        "liquid_261",
-        "liquid_298"
+        "liquid_261"
       ],
       "outputs": [
         "liquid_307",
@@ -6350,8 +5996,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_210",
         "solid_171",
         "liquid_224",
-        "liquid_261",
-        "liquid_298"
+        "liquid_261"
       ],
       "outputs": [
         "liquid_307",
@@ -6379,8 +6024,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "gas_366",
         "solid_183",
         "liquid_236",
-        "liquid_273",
-        "liquid_310"
+        "liquid_273"
       ],
       "outputs": [
         "liquid_312",
@@ -6408,8 +6052,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "gas_366",
         "solid_183",
         "liquid_236",
-        "liquid_273",
-        "liquid_310"
+        "liquid_273"
       ],
       "outputs": [
         "liquid_312",
@@ -6437,8 +6080,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "gas_366",
         "solid_183",
         "liquid_236",
-        "liquid_273",
-        "liquid_310"
+        "liquid_273"
       ],
       "outputs": [
         "liquid_312",
@@ -6466,8 +6108,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "gas_366",
         "solid_183",
         "liquid_236",
-        "liquid_273",
-        "liquid_310"
+        "liquid_273"
       ],
       "outputs": [
         "liquid_312",
@@ -6495,8 +6136,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "gas_366",
         "solid_183",
         "liquid_236",
-        "liquid_273",
-        "liquid_310"
+        "liquid_273"
       ],
       "outputs": [
         "liquid_312",
@@ -6524,8 +6164,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_158",
         "liquid_211",
         "liquid_248",
-        "liquid_285",
-        "solid_006"
+        "liquid_285"
       ],
       "outputs": [
         "liquid_317",
@@ -6553,8 +6192,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_158",
         "liquid_211",
         "liquid_248",
-        "liquid_285",
-        "solid_006"
+        "liquid_285"
       ],
       "outputs": [
         "liquid_317",
@@ -6582,8 +6220,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_158",
         "liquid_211",
         "liquid_248",
-        "liquid_285",
-        "solid_006"
+        "liquid_285"
       ],
       "outputs": [
         "liquid_317",
@@ -6611,8 +6248,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_158",
         "liquid_211",
         "liquid_248",
-        "liquid_285",
-        "solid_006"
+        "liquid_285"
       ],
       "outputs": [
         "liquid_317",
@@ -6640,8 +6276,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_158",
         "liquid_211",
         "liquid_248",
-        "liquid_285",
-        "solid_006"
+        "liquid_285"
       ],
       "outputs": [
         "liquid_317",
@@ -6669,8 +6304,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_170",
         "liquid_223",
         "liquid_260",
-        "liquid_297",
-        "solid_013"
+        "liquid_297"
       ],
       "outputs": [
         "liquid_322",
@@ -6698,8 +6332,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_170",
         "liquid_223",
         "liquid_260",
-        "liquid_297",
-        "solid_013"
+        "liquid_297"
       ],
       "outputs": [
         "liquid_322",
@@ -6727,8 +6360,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_170",
         "liquid_223",
         "liquid_260",
-        "liquid_297",
-        "solid_013"
+        "liquid_297"
       ],
       "outputs": [
         "liquid_322",
@@ -6756,8 +6388,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_170",
         "liquid_223",
         "liquid_260",
-        "liquid_297",
-        "solid_013"
+        "liquid_297"
       ],
       "outputs": [
         "liquid_322",
@@ -6785,8 +6416,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_170",
         "liquid_223",
         "liquid_260",
-        "liquid_297",
-        "solid_013"
+        "liquid_297"
       ],
       "outputs": [
         "liquid_322",
@@ -6814,8 +6444,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_182",
         "liquid_235",
         "liquid_272",
-        "liquid_309",
-        "solid_020"
+        "liquid_309"
       ],
       "outputs": [
         "liquid_327",
@@ -6843,8 +6472,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_182",
         "liquid_235",
         "liquid_272",
-        "liquid_309",
-        "solid_020"
+        "liquid_309"
       ],
       "outputs": [
         "liquid_327",
@@ -6872,8 +6500,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_182",
         "liquid_235",
         "liquid_272",
-        "liquid_309",
-        "solid_020"
+        "liquid_309"
       ],
       "outputs": [
         "liquid_327",
@@ -6901,8 +6528,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_182",
         "liquid_235",
         "liquid_272",
-        "liquid_309",
-        "solid_020"
+        "liquid_309"
       ],
       "outputs": [
         "liquid_327",
@@ -6930,8 +6556,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_182",
         "liquid_235",
         "liquid_272",
-        "liquid_309",
-        "solid_020"
+        "liquid_309"
       ],
       "outputs": [
         "liquid_327",
@@ -6959,8 +6584,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_194",
         "liquid_247",
         "liquid_284",
-        "liquid_321",
-        "solid_027"
+        "liquid_321"
       ],
       "outputs": [
         "liquid_332",
@@ -6988,8 +6612,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_194",
         "liquid_247",
         "liquid_284",
-        "liquid_321",
-        "solid_027"
+        "liquid_321"
       ],
       "outputs": [
         "liquid_332",
@@ -7017,8 +6640,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_194",
         "liquid_247",
         "liquid_284",
-        "liquid_321",
-        "solid_027"
+        "liquid_321"
       ],
       "outputs": [
         "liquid_332",
@@ -7046,8 +6668,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_194",
         "liquid_247",
         "liquid_284",
-        "liquid_321",
-        "solid_027"
+        "liquid_321"
       ],
       "outputs": [
         "liquid_332",
@@ -7075,8 +6696,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_194",
         "liquid_247",
         "liquid_284",
-        "liquid_321",
-        "solid_027"
+        "liquid_321"
       ],
       "outputs": [
         "liquid_332",
@@ -7104,8 +6724,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_222",
         "liquid_259",
         "liquid_296",
-        "liquid_333",
-        "solid_034"
+        "liquid_333"
       ],
       "outputs": [
         "liquid_337",
@@ -7133,8 +6752,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_222",
         "liquid_259",
         "liquid_296",
-        "liquid_333",
-        "solid_034"
+        "liquid_333"
       ],
       "outputs": [
         "liquid_337",
@@ -7162,8 +6780,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_222",
         "liquid_259",
         "liquid_296",
-        "liquid_333",
-        "solid_034"
+        "liquid_333"
       ],
       "outputs": [
         "liquid_337",
@@ -7191,8 +6808,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_222",
         "liquid_259",
         "liquid_296",
-        "liquid_333",
-        "solid_034"
+        "liquid_333"
       ],
       "outputs": [
         "liquid_337",
@@ -7220,8 +6836,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_222",
         "liquid_259",
         "liquid_296",
-        "liquid_333",
-        "solid_034"
+        "liquid_333"
       ],
       "outputs": [
         "liquid_337",
@@ -7249,8 +6864,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_234",
         "liquid_271",
         "liquid_308",
-        "solid_004",
-        "solid_041"
+        "solid_004"
       ],
       "outputs": [
         "liquid_342",
@@ -7278,8 +6892,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_234",
         "liquid_271",
         "liquid_308",
-        "solid_004",
-        "solid_041"
+        "solid_004"
       ],
       "outputs": [
         "liquid_342",
@@ -7307,8 +6920,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_234",
         "liquid_271",
         "liquid_308",
-        "solid_004",
-        "solid_041"
+        "solid_004"
       ],
       "outputs": [
         "liquid_342",
@@ -7336,8 +6948,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_234",
         "liquid_271",
         "liquid_308",
-        "solid_004",
-        "solid_041"
+        "solid_004"
       ],
       "outputs": [
         "liquid_342",
@@ -7365,8 +6976,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_234",
         "liquid_271",
         "liquid_308",
-        "solid_004",
-        "solid_041"
+        "solid_004"
       ],
       "outputs": [
         "liquid_342",
@@ -7394,8 +7004,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_246",
         "liquid_283",
         "liquid_320",
-        "solid_011",
-        "solid_048"
+        "solid_011"
       ],
       "outputs": [
         "liquid_347",
@@ -7423,8 +7032,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_246",
         "liquid_283",
         "liquid_320",
-        "solid_011",
-        "solid_048"
+        "solid_011"
       ],
       "outputs": [
         "liquid_347",
@@ -7452,8 +7060,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_246",
         "liquid_283",
         "liquid_320",
-        "solid_011",
-        "solid_048"
+        "solid_011"
       ],
       "outputs": [
         "liquid_347",
@@ -7481,8 +7088,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_246",
         "liquid_283",
         "liquid_320",
-        "solid_011",
-        "solid_048"
+        "solid_011"
       ],
       "outputs": [
         "liquid_347",
@@ -7510,8 +7116,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_246",
         "liquid_283",
         "liquid_320",
-        "solid_011",
-        "solid_048"
+        "solid_011"
       ],
       "outputs": [
         "liquid_347",
@@ -7539,8 +7144,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_258",
         "liquid_295",
         "liquid_332",
-        "solid_018",
-        "solid_055"
+        "solid_018"
       ],
       "outputs": [
         "liquid_352",
@@ -7568,8 +7172,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_258",
         "liquid_295",
         "liquid_332",
-        "solid_018",
-        "solid_055"
+        "solid_018"
       ],
       "outputs": [
         "liquid_352",
@@ -7597,8 +7200,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_258",
         "liquid_295",
         "liquid_332",
-        "solid_018",
-        "solid_055"
+        "solid_018"
       ],
       "outputs": [
         "liquid_352",
@@ -7834,8 +7436,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_258",
         "liquid_295",
         "liquid_332",
-        "solid_018",
-        "solid_055"
+        "solid_018"
       ],
       "outputs": [
         "liquid_352",
@@ -7863,8 +7464,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_258",
         "liquid_295",
         "liquid_332",
-        "solid_018",
-        "solid_055"
+        "solid_018"
       ],
       "outputs": [
         "liquid_352",
@@ -7892,8 +7492,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_270",
         "liquid_307",
         "liquid_344",
-        "solid_025",
-        "solid_062"
+        "solid_025"
       ],
       "outputs": [
         "gas_373",
@@ -7921,8 +7520,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_270",
         "liquid_307",
         "liquid_344",
-        "solid_025",
-        "solid_062"
+        "solid_025"
       ],
       "outputs": [
         "gas_373",
@@ -7950,8 +7548,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_270",
         "liquid_307",
         "liquid_344",
-        "solid_025",
-        "solid_062"
+        "solid_025"
       ],
       "outputs": [
         "gas_373",
@@ -7979,8 +7576,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_270",
         "liquid_307",
         "liquid_344",
-        "solid_025",
-        "solid_062"
+        "solid_025"
       ],
       "outputs": [
         "gas_373",
@@ -8008,8 +7604,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_270",
         "liquid_307",
         "liquid_344",
-        "solid_025",
-        "solid_062"
+        "solid_025"
       ],
       "outputs": [
         "gas_373",
@@ -8037,8 +7632,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_282",
         "liquid_319",
         "gas_372",
-        "solid_032",
-        "solid_069"
+        "solid_032"
       ],
       "outputs": [
         "gas_378",
@@ -8066,8 +7660,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_282",
         "liquid_319",
         "gas_372",
-        "solid_032",
-        "solid_069"
+        "solid_032"
       ],
       "outputs": [
         "gas_378",
@@ -8095,8 +7688,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_282",
         "liquid_319",
         "gas_372",
-        "solid_032",
-        "solid_069"
+        "solid_032"
       ],
       "outputs": [
         "gas_378",
@@ -8124,8 +7716,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_282",
         "liquid_319",
         "gas_372",
-        "solid_032",
-        "solid_069"
+        "solid_032"
       ],
       "outputs": [
         "gas_378",
@@ -8153,8 +7744,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_282",
         "liquid_319",
         "gas_372",
-        "solid_032",
-        "solid_069"
+        "solid_032"
       ],
       "outputs": [
         "gas_378",
@@ -8182,8 +7772,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_294",
         "liquid_331",
         "solid_002",
-        "solid_039",
-        "solid_076"
+        "solid_039"
       ],
       "outputs": [
         "gas_383",
@@ -8211,8 +7800,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_294",
         "liquid_331",
         "solid_002",
-        "solid_039",
-        "solid_076"
+        "solid_039"
       ],
       "outputs": [
         "gas_383",
@@ -8240,8 +7828,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_294",
         "liquid_331",
         "solid_002",
-        "solid_039",
-        "solid_076"
+        "solid_039"
       ],
       "outputs": [
         "gas_383",
@@ -8269,8 +7856,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_294",
         "liquid_331",
         "solid_002",
-        "solid_039",
-        "solid_076"
+        "solid_039"
       ],
       "outputs": [
         "gas_383",
@@ -8298,8 +7884,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_294",
         "liquid_331",
         "solid_002",
-        "solid_039",
-        "solid_076"
+        "solid_039"
       ],
       "outputs": [
         "gas_383",
@@ -8327,8 +7912,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_306",
         "liquid_343",
         "solid_009",
-        "solid_046",
-        "solid_083"
+        "solid_046"
       ],
       "outputs": [
         "gas_388",
@@ -8356,8 +7940,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_306",
         "liquid_343",
         "solid_009",
-        "solid_046",
-        "solid_083"
+        "solid_046"
       ],
       "outputs": [
         "gas_388",
@@ -8385,8 +7968,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_306",
         "liquid_343",
         "solid_009",
-        "solid_046",
-        "solid_083"
+        "solid_046"
       ],
       "outputs": [
         "gas_388",
@@ -8414,8 +7996,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_306",
         "liquid_343",
         "solid_009",
-        "solid_046",
-        "solid_083"
+        "solid_046"
       ],
       "outputs": [
         "gas_388",
@@ -8443,8 +8024,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "liquid_306",
         "liquid_343",
         "solid_009",
-        "solid_046",
-        "solid_083"
+        "solid_046"
       ],
       "outputs": [
         "gas_388",
