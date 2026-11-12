@@ -473,6 +473,51 @@ body.dark-mode .side-panel .library button,body.dark-mode .side-panel .res{backg
 body.dark-mode .modal,body.dark-mode .menu{background:#111620;border-color:#303847;color:#e3e7ef}
 body.dark-mode .modal input,body.dark-mode .modal select,body.dark-mode input,body.dark-mode select{background:#0c1119;border-color:#303847;color:#e6eaf2;max-width:100%}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+
+/* True-black theme + floating, softly fading workspace islands */
+html.dark-mode,body.dark-mode{background:#000!important;color:#ececf1!important;color-scheme:dark}
+body.dark-mode .layout,body.dark-mode .layout>main{background:#000!important}
+body.dark-mode header{background:rgba(17,17,19,.82)!important;border:1px solid #29292d!important;box-shadow:0 8px 32px #0009!important;backdrop-filter:blur(24px) saturate(125%)}
+body.dark-mode .stats{background:rgba(18,18,21,.78)!important;border:1px solid #29292d!important;color:#a1a1aa!important;box-shadow:0 8px 30px #0008!important;backdrop-filter:blur(22px)}
+body.dark-mode .stats b{color:#f4f4f5!important}
+body.dark-mode .workspace{background-color:#050506!important;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px),radial-gradient(#77778035 1px,transparent 1px)!important}
+body.dark-mode .shell{background:transparent!important;border:0!important;box-shadow:none!important;overflow:visible}
+body.dark-mode .shellhead{background:rgba(18,18,21,.82)!important;border:1px solid #29292d!important;border-radius:14px!important;box-shadow:0 8px 28px #0008!important;backdrop-filter:blur(20px)}
+body.dark-mode .side,body.dark-mode .side-panel{background:rgba(16,16,19,.84)!important;border:1px solid #29292d!important;border-radius:16px!important;box-shadow:0 14px 42px #0009!important;backdrop-filter:blur(24px)}
+body.dark-mode .floating-tools{background:rgba(20,20,23,.82)!important;border:1px solid #303035!important;border-radius:16px!important;box-shadow:0 12px 38px #000a!important;backdrop-filter:blur(24px) saturate(130%)}
+body.dark-mode .floating-tools button{background:transparent!important;border-color:transparent!important;color:#c4c4cc!important;box-shadow:none!important}
+body.dark-mode .floating-tools button:hover,body.dark-mode .floating-tools .active{background:#29292f!important;color:#fff!important}
+body.dark-mode .node{background:linear-gradient(145deg,#18181b,#101012)!important;border:1px solid #35353b!important;box-shadow:0 12px 28px #000b!important}
+body.dark-mode .node:hover{border-color:#65656f!important;box-shadow:0 14px 34px #000c,0 0 0 1px #ffffff12!important}
+body.dark-mode .node.sel{outline:2px solid #8585a0!important;box-shadow:0 0 0 5px #8585a018,0 14px 34px #000c!important}
+body.dark-mode .nt{background:linear-gradient(90deg,#242429,#1a1a1f)!important;border-bottom:1px solid #33333a!important;color:#f4f4f5!important}
+body.dark-mode .nb,body.dark-mode .port,body.dark-mode .sub{color:#a1a1aa}
+body.dark-mode .ports{background:#111114!important;border-top:1px solid #303036!important}
+body.dark-mode button{background:#19191d!important;border:1px solid #34343b!important;color:#e4e4e7!important;box-shadow:none!important}
+body.dark-mode button:hover{background:#25252b!important;border-color:#55555f!important}
+body.dark-mode button.primary{background:#e4e4e7!important;border-color:#e4e4e7!important;color:#111!important}
+body.dark-mode .menu,body.dark-mode .modal{background:rgba(18,18,21,.96)!important;border:1px solid #34343b!important;color:#ededf0!important;box-shadow:0 24px 80px #000c!important;backdrop-filter:blur(24px)}
+body.dark-mode .menu h1,body.dark-mode .modal h2{color:#fafafa!important}
+body.dark-mode .menu-grid button,body.dark-mode .library button{background:#19191d!important;border-color:#303036!important;color:#e4e4e7!important}
+body.dark-mode .res,body.dark-mode .pill{background:#19191d!important;border-color:#35353b!important;color:#c4c4cc!important}
+body.dark-mode .log{background:#0c0c0e!important;border-color:#29292d!important;color:#a1a1aa!important}
+body.dark-mode .modalbg{background:#000a!important;backdrop-filter:blur(12px)}
+body.dark-mode .modal input,body.dark-mode .modal select,body.dark-mode input,body.dark-mode select{background:#0c0c0e!important;border-color:#35353b!important;color:#f4f4f5!important}
+body.dark-mode .toast{background:#202024!important;border:1px solid #45454d!important;color:#f4f4f5!important;box-shadow:0 12px 34px #000b!important}
+body.dark-mode .build-tile-v2{background:#151518!important;border-color:#303036!important;box-shadow:0 8px 26px #0008!important}
+body.dark-mode .build-tile-art{background:linear-gradient(145deg,#202024,#141417)!important;border-color:#303036!important}
+body.dark-mode .build-machine-render{background:linear-gradient(145deg,#27272c,#18181c)!important;border-color:#3a3a42!important}
+body.dark-mode .build-tile-v2 b,body.dark-mode .build-tile-v2 strong{color:#f4f4f5!important}
+body.dark-mode .build-tile-v2 small,body.dark-mode .build-tile-v2 p{color:#a1a1aa!important}
+body.dark-mode .wiki,body.dark-mode .wiki td,body.dark-mode .wiki th{background:#111114!important;color:#d4d4d8!important;border-color:#303036!important}
+body.dark-mode .wire{filter:drop-shadow(0 0 3px #ffffff22)}
+/* Surfaces float independently instead of forming one heavy dashboard */
+header,.stats,.shellhead,.side,.side-panel,.floating-tools,.modal,.menu{animation:islandAppear .32s cubic-bezier(.2,.75,.25,1) both}
+.side,.side-panel{box-shadow:0 10px 36px #26365012}
+.floating-tools{box-shadow:0 8px 30px #26365012}
+@keyframes islandAppear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+body.dark-mode .side,body.dark-mode .side-panel,body.dark-mode .floating-tools{box-shadow:0 12px 38px #0009!important}
+@media(max-width:620px){body.dark-mode .floating-tools{background:rgba(18,18,21,.9)!important;max-width:calc(100vw - 16px)}}
 </style></head><body>
 <header><div class="brand">Aledeho<small>Modular factory systems</small></div><div class="top"><button id="home">Main page</button><button id="quickSave">Save</button><button id="settingsTop">Settings</button></div></header>
 <section id="menu" class="menu"><h1>Welcome to Aledeho</h1><p>A factory simulation built from machines, connections, and moving resources.</p><div class="notice"><b>Prototype foundation</b><br><span class="sub">Build production networks by connecting typed ports. Material wires carry resources; power wires transfer electricity.</span></div><div class="menu-grid"><button class="primary" id="new"><b>▶ New game</b><small>Start a factory and choose a region.</small></button><button id="load"><b>▤ Load game</b><small>Continue from a local save.</small></button><button id="settings"><b>⚙ Settings</b><small>Adjust simulation and interface options.</small></button><button id="help"><b>ⓘ How to play</b><small>Learn the basic wiring controls.</small></button><button id="machineCodexBtn"><b>▦ Machine &amp; wire codex</b><small>Browse 160 machines and 12 connection types.</small></button><button id="resourceCodexBtn"><b>◈ Resource codex</b><small>Browse the solid, liquid, and gas catalogue.</small></button></div><p class="sub">Version 0.1 · Saves are stored locally in this browser.</p></section>
@@ -643,7 +688,7 @@ function moduleWidth(n){const t=T[n.type];return Math.max((t.ins||[]).length,(t.
 function moduleHeight(n){const t=T[n.type],ports=(t.ins||[]).length+(t.outs||[]).length+(t.power?1:0)+(t.kind==='generator'?1:0),rows=Math.ceil(ports/2);return Math.max(132,105+rows*22)}
 function boxesOverlap(a,b){const aw=moduleWidth(a),bw=moduleWidth(b),ah=moduleHeight(a),bh=moduleHeight(b);return a.x<b.x+bw+8&&a.x+aw+8>b.x&&a.y<b.y+bh+8&&a.y+ah+8>b.y}
 function positionFree(candidate,ignoreId){return !state.machines.some(m=>m.id!==ignoreId&&boxesOverlap(candidate,m))}
-function findFreePosition(type,x,y){const probe={type,x,y};if(positionFree(probe))return {x,y};for(let ring=1;ring<32;ring++){for(let a=0;a<ring*8;a++){const angle=a*Math.PI*2/(ring*8),p={x:Math.max(0,Math.min(WORLD_SIZE-moduleWidth(probe),x+Math.cos(angle)*ring*95)),y:Math.max(0,Math.min(WORLD_SIZE-moduleHeight(probe),y+Math.sin(angle)*85*ring)),type};if(positionFree(p))return p}}for(let yy=Math.max(0,y-1600);yy<Math.min(WORLD_SIZE-1200,y+1600);yy+=moduleHeight(probe)+18)for(let xx=Math.max(0,x-1600);xx<Math.min(WORLD_SIZE-1800,x+1600);xx+=moduleWidth(probe)+18){const p={type,x:xx,y:yy};if(positionFree(p))return {x:xx,y:yy}}return null}
+function findFreePosition(type,x,y){const probe={type,x,y},w=moduleWidth(probe),h=moduleHeight(probe),gap=12,clampX=v=>Math.max(0,Math.min(WORLD_SIZE-w,v)),clampY=v=>Math.max(0,Math.min(WORLD_SIZE-h,v));x=clampX(x);y=clampY(y);if(positionFree(probe))return {x,y};const xs=new Set([x]),ys=new Set([y]);for(const m of state.machines){if(m.id===probe.id)continue;const mw=moduleWidth(m),mh=moduleHeight(m);xs.add(clampX(m.x-w-gap));xs.add(clampX(m.x+mw+gap));ys.add(clampY(m.y-h-gap));ys.add(clampY(m.y+mh+gap))}const candidates=[];for(const cx of xs)for(const cy of ys){const p={type,x:cx,y:cy};if(positionFree(p))candidates.push({x:cx,y:cy,d:(cx-x)*(cx-x)+(cy-y)*(cy-y)})}if(candidates.length){candidates.sort((a,b)=>a.d-b.d);return {x:candidates[0].x,y:candidates[0].y}}const step=24,maxR=180;for(let r=1;r<=maxR;r++){const ring=[];for(let dx=-r;dx<=r;dx++){ring.push([dx,-r],[dx,r])}for(let dy=-r+1;dy<r;dy++){ring.push([-r,dy],[r,dy])}ring.sort((a,b)=>(a[0]*a[0]+a[1]*a[1])-(b[0]*b[0]+b[1]*b[1]));for(const [dx,dy] of ring){const p={type,x:clampX(x+dx*step),y:clampY(y+dy*step)};if(positionFree(p))return {x:p.x,y:p.y}}}return null}
 function isExtractorModule(n){const t=T[n.type];return !!t&&(t.category==='Extraction'||n.type==='extractor'||n.type==='pump'||/\bpump\b/i.test(t.name))}
 function harvestSiteFor(n){const t=T[n.type];if(!isExtractorModule(n))return null;const cx=n.x+moduleWidth(n)/2,cy=n.y+55;if(n.type==='pump'||/\bpump\b/i.test(t.name)){let best=null,dist=Infinity;for(const l of mapLakeSites){const d=Math.hypot(cx-l.x,cy-l.y);if(d<dist){dist=d;best={...l,res:'water',name:l.name,type:'water'}}}return dist<115?best:null}let best=null,dist=Infinity;for(const site of mapResourceSites){const d=Math.hypot(cx-site.x,cy-site.y);if(d<dist){dist=d;best=site}}return dist<112?best:null}
 
