@@ -1,4 +1,4 @@
-/* Aledeho resource registry. Every catalogue entry has a source or a complete machine recipe. */
+/* Aledeho resource registry. Every catalogue entry has a mineable source or a complete five-input recipe. */
 window.ALEDEHO_RESOURCE_CATALOG = [
   {
     "id": "solid_001",
@@ -10,8 +10,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_002",
@@ -23,8 +23,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_003",
@@ -36,8 +36,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_004",
@@ -49,8 +49,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_005",
@@ -62,8 +62,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_006",
@@ -75,8 +75,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_007",
@@ -88,8 +88,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_008",
@@ -101,8 +101,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_009",
@@ -114,8 +114,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_010",
@@ -127,8 +127,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_011",
@@ -140,8 +140,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_012",
@@ -153,8 +153,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_013",
@@ -166,8 +166,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_014",
@@ -179,8 +179,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_015",
@@ -192,8 +192,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_016",
@@ -205,8 +205,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_017",
@@ -218,8 +218,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_018",
@@ -231,8 +231,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_019",
@@ -244,8 +244,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_020",
@@ -257,8 +257,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_021",
@@ -270,8 +270,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_022",
@@ -283,8 +283,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_023",
@@ -296,8 +296,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_024",
@@ -309,8 +309,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_025",
@@ -322,8 +322,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_026",
@@ -335,8 +335,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_027",
@@ -348,8 +348,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_028",
@@ -361,8 +361,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_029",
@@ -374,8 +374,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_030",
@@ -387,8 +387,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_031",
@@ -400,8 +400,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_032",
@@ -413,8 +413,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_033",
@@ -426,8 +426,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_034",
@@ -439,8 +439,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_035",
@@ -452,8 +452,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_036",
@@ -465,8 +465,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_037",
@@ -478,8 +478,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_038",
@@ -491,8 +491,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_039",
@@ -504,8 +504,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_040",
@@ -517,8 +517,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_041",
@@ -530,8 +530,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_042",
@@ -543,8 +543,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_043",
@@ -556,8 +556,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_044",
@@ -569,8 +569,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_045",
@@ -582,8 +582,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_046",
@@ -595,8 +595,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_047",
@@ -608,8 +608,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_048",
@@ -621,8 +621,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_049",
@@ -634,8 +634,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_050",
@@ -647,8 +647,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_051",
@@ -660,8 +660,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_052",
@@ -673,8 +673,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_053",
@@ -686,8 +686,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_054",
@@ -699,8 +699,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_055",
@@ -712,8 +712,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_056",
@@ -725,8 +725,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_057",
@@ -738,8 +738,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_058",
@@ -751,8 +751,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_059",
@@ -764,8 +764,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_060",
@@ -777,8 +777,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_061",
@@ -790,8 +790,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_062",
@@ -803,8 +803,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_063",
@@ -816,8 +816,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_064",
@@ -829,8 +829,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_065",
@@ -842,8 +842,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_066",
@@ -855,8 +855,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_067",
@@ -868,8 +868,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_068",
@@ -881,8 +881,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_069",
@@ -894,8 +894,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_070",
@@ -907,8 +907,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_071",
@@ -920,8 +920,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_072",
@@ -933,8 +933,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_073",
@@ -946,8 +946,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_074",
@@ -959,8 +959,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_075",
@@ -972,8 +972,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_076",
@@ -985,8 +985,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_077",
@@ -998,8 +998,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_078",
@@ -1011,8 +1011,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_079",
@@ -1024,8 +1024,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_080",
@@ -1037,8 +1037,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_081",
@@ -1050,8 +1050,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_082",
@@ -1063,8 +1063,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_083",
@@ -1076,8 +1076,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_084",
@@ -1089,8 +1089,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_085",
@@ -1102,8 +1102,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_086",
@@ -1115,8 +1115,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_087",
@@ -1128,8 +1128,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_088",
@@ -1141,8 +1141,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_089",
@@ -1154,8 +1154,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_090",
@@ -1167,8 +1167,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_091",
@@ -1180,8 +1180,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_092",
@@ -1193,8 +1193,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_093",
@@ -1206,8 +1206,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_094",
@@ -1219,8 +1219,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_095",
@@ -1232,8 +1232,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_096",
@@ -1245,8 +1245,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_097",
@@ -1258,8 +1258,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_098",
@@ -1271,8 +1271,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_099",
@@ -1284,8 +1284,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_100",
@@ -1297,8 +1297,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_101",
@@ -1310,8 +1310,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_102",
@@ -1323,8 +1323,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_103",
@@ -1336,8 +1336,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_104",
@@ -1349,8 +1349,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_105",
@@ -1362,8 +1362,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_106",
@@ -1375,8 +1375,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_107",
@@ -1388,8 +1388,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_108",
@@ -1401,8 +1401,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_109",
@@ -1414,8 +1414,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_110",
@@ -1427,8 +1427,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_111",
@@ -1440,8 +1440,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_112",
@@ -1453,8 +1453,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_113",
@@ -1466,8 +1466,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_114",
@@ -1479,8 +1479,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_115",
@@ -1492,8 +1492,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_116",
@@ -1505,8 +1505,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_117",
@@ -1518,8 +1518,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_118",
@@ -1531,8 +1531,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_119",
@@ -1544,8 +1544,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_120",
@@ -1557,8 +1557,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_121",
@@ -1570,8 +1570,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_122",
@@ -1583,8 +1583,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_123",
@@ -1596,8 +1596,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_124",
@@ -1609,8 +1609,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_125",
@@ -1622,8 +1622,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_126",
@@ -1635,8 +1635,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_127",
@@ -1648,8 +1648,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_128",
@@ -1661,8 +1661,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_129",
@@ -1674,8 +1674,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_130",
@@ -1687,8 +1687,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_131",
@@ -1700,8 +1700,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_132",
@@ -1713,8 +1713,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_133",
@@ -1726,8 +1726,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_134",
@@ -1739,8 +1739,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_135",
@@ -1752,8 +1752,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_136",
@@ -1765,8 +1765,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_137",
@@ -1778,8 +1778,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_138",
@@ -1791,8 +1791,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_139",
@@ -1804,8 +1804,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "verdant"
     },
-    "tier": 1,
-    "region": "verdant"
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "solid_140",
@@ -1817,8 +1817,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "caldera"
     },
-    "tier": 1,
-    "region": "caldera"
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "solid_141",
@@ -1830,8 +1830,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "sunken"
     },
-    "tier": 1,
-    "region": "sunken"
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "solid_142",
@@ -1843,8 +1843,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "stormglass"
     },
-    "tier": 1,
-    "region": "stormglass"
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "solid_143",
@@ -1856,8 +1856,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "umbral"
     },
-    "tier": 1,
-    "region": "umbral"
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "solid_144",
@@ -1869,8 +1869,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "rift"
     },
-    "tier": 1,
-    "region": "rift"
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "solid_145",
@@ -1882,8 +1882,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "temperate"
     },
-    "tier": 1,
-    "region": "temperate"
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "solid_146",
@@ -1895,8 +1895,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "highlands"
     },
-    "tier": 1,
-    "region": "highlands"
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "solid_147",
@@ -1908,8 +1908,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "wetlands"
     },
-    "tier": 1,
-    "region": "wetlands"
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "solid_148",
@@ -1921,8 +1921,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "badlands"
     },
-    "tier": 1,
-    "region": "badlands"
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "solid_149",
@@ -1934,8 +1934,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "crystal"
     },
-    "tier": 1,
-    "region": "crystal"
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "solid_150",
@@ -1947,428 +1947,12 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "type": "deposit",
       "region": "frostline"
     },
-    "tier": 1,
-    "region": "frostline"
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "solid_151",
     "name": "Amber",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "verdant"
-    },
-    "tier": 1,
-    "region": "verdant"
-  },
-  {
-    "id": "solid_152",
-    "name": "Fossil resin",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "caldera"
-    },
-    "tier": 1,
-    "region": "caldera"
-  },
-  {
-    "id": "solid_153",
-    "name": "Ice crystals",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "sunken"
-    },
-    "tier": 1,
-    "region": "sunken"
-  },
-  {
-    "id": "solid_154",
-    "name": "Dry ice",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "stormglass"
-    },
-    "tier": 1,
-    "region": "stormglass"
-  },
-  {
-    "id": "solid_155",
-    "name": "Salt crystals",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "umbral"
-    },
-    "tier": 1,
-    "region": "umbral"
-  },
-  {
-    "id": "solid_156",
-    "name": "Sugar crystals",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "rift"
-    },
-    "tier": 1,
-    "region": "rift"
-  },
-  {
-    "id": "solid_157",
-    "name": "Starch granules",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "temperate"
-    },
-    "tier": 1,
-    "region": "temperate"
-  },
-  {
-    "id": "solid_158",
-    "name": "Fertilizer granules",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "highlands"
-    },
-    "tier": 1,
-    "region": "highlands"
-  },
-  {
-    "id": "solid_159",
-    "name": "Ceramic powder",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "wetlands"
-    },
-    "tier": 1,
-    "region": "wetlands"
-  },
-  {
-    "id": "solid_160",
-    "name": "Cement clinker",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "badlands"
-    },
-    "tier": 1,
-    "region": "badlands"
-  },
-  {
-    "id": "solid_161",
-    "name": "Brick clay",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "crystal"
-    },
-    "tier": 1,
-    "region": "crystal"
-  },
-  {
-    "id": "solid_162",
-    "name": "Refractory brick",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "frostline"
-    },
-    "tier": 1,
-    "region": "frostline"
-  },
-  {
-    "id": "solid_163",
-    "name": "Glass cullet",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "verdant"
-    },
-    "tier": 1,
-    "region": "verdant"
-  },
-  {
-    "id": "solid_164",
-    "name": "Fiberglass strand",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "caldera"
-    },
-    "tier": 1,
-    "region": "caldera"
-  },
-  {
-    "id": "solid_165",
-    "name": "Steel scrap",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "sunken"
-    },
-    "tier": 1,
-    "region": "sunken"
-  },
-  {
-    "id": "solid_166",
-    "name": "Stainless steel scrap",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "stormglass"
-    },
-    "tier": 1,
-    "region": "stormglass"
-  },
-  {
-    "id": "solid_167",
-    "name": "Aluminum ingot",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "umbral"
-    },
-    "tier": 1,
-    "region": "umbral"
-  },
-  {
-    "id": "solid_168",
-    "name": "Titanium sponge",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "rift"
-    },
-    "tier": 1,
-    "region": "rift"
-  },
-  {
-    "id": "solid_169",
-    "name": "Magnesium ingot",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "temperate"
-    },
-    "tier": 1,
-    "region": "temperate"
-  },
-  {
-    "id": "solid_170",
-    "name": "Zinc ingot",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "highlands"
-    },
-    "tier": 1,
-    "region": "highlands"
-  },
-  {
-    "id": "solid_171",
-    "name": "Lead ingot",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "wetlands"
-    },
-    "tier": 1,
-    "region": "wetlands"
-  },
-  {
-    "id": "solid_172",
-    "name": "Nickel ingot",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "badlands"
-    },
-    "tier": 1,
-    "region": "badlands"
-  },
-  {
-    "id": "solid_173",
-    "name": "Cobalt ingot",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "crystal"
-    },
-    "tier": 1,
-    "region": "crystal"
-  },
-  {
-    "id": "solid_174",
-    "name": "Tungsten carbide",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "frostline"
-    },
-    "tier": 1,
-    "region": "frostline"
-  },
-  {
-    "id": "solid_175",
-    "name": "Silicon carbide",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "verdant"
-    },
-    "tier": 1,
-    "region": "verdant"
-  },
-  {
-    "id": "solid_176",
-    "name": "Boron carbide",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "caldera"
-    },
-    "tier": 1,
-    "region": "caldera"
-  },
-  {
-    "id": "solid_177",
-    "name": "Alumina powder",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "sunken"
-    },
-    "tier": 1,
-    "region": "sunken"
-  },
-  {
-    "id": "solid_178",
-    "name": "Zirconia ceramic",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "stormglass"
-    },
-    "tier": 1,
-    "region": "stormglass"
-  },
-  {
-    "id": "solid_179",
-    "name": "Yttria-stabilized zirconia",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "umbral"
-    },
-    "tier": 1,
-    "region": "umbral"
-  },
-  {
-    "id": "solid_180",
-    "name": "Carbon black",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "rift"
-    },
-    "tier": 1,
-    "region": "rift"
-  },
-  {
-    "id": "solid_181",
-    "name": "Pigment powder",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "temperate"
-    },
-    "tier": 1,
-    "region": "temperate"
-  },
-  {
-    "id": "solid_182",
-    "name": "Polymer pellets",
-    "state": "solid",
-    "category": "Mineral / Material",
-    "implemented": true,
-    "source": {
-      "type": "deposit",
-      "region": "highlands"
-    },
-    "tier": 1,
-    "region": "highlands"
-  },
-  {
-    "id": "solid_183",
-    "name": "Nylon pellets",
     "state": "solid",
     "category": "Mineral / Material",
     "implemented": true,
@@ -2383,14 +1967,942 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_049",
         "solid_086",
         "solid_123",
-        "solid_160"
+        "liquid_204"
       ],
       "outputs": [
+        "solid_151",
+        "solid_152",
+        "solid_153",
+        "solid_154",
+        "solid_155"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_152",
+    "name": "Fossil resin",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_171"
+    },
+    "recipe": {
+      "machine": "machine_171",
+      "inputs": [
+        "solid_012",
+        "solid_049",
+        "solid_086",
+        "solid_123",
+        "liquid_204"
+      ],
+      "outputs": [
+        "solid_151",
+        "solid_152",
+        "solid_153",
+        "solid_154",
+        "solid_155"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_153",
+    "name": "Ice crystals",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_171"
+    },
+    "recipe": {
+      "machine": "machine_171",
+      "inputs": [
+        "solid_012",
+        "solid_049",
+        "solid_086",
+        "solid_123",
+        "liquid_204"
+      ],
+      "outputs": [
+        "solid_151",
+        "solid_152",
+        "solid_153",
+        "solid_154",
+        "solid_155"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_154",
+    "name": "Dry ice",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_171"
+    },
+    "recipe": {
+      "machine": "machine_171",
+      "inputs": [
+        "solid_012",
+        "solid_049",
+        "solid_086",
+        "solid_123",
+        "liquid_204"
+      ],
+      "outputs": [
+        "solid_151",
+        "solid_152",
+        "solid_153",
+        "solid_154",
+        "solid_155"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_155",
+    "name": "Salt crystals",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_171"
+    },
+    "recipe": {
+      "machine": "machine_171",
+      "inputs": [
+        "solid_012",
+        "solid_049",
+        "solid_086",
+        "solid_123",
+        "liquid_204"
+      ],
+      "outputs": [
+        "solid_151",
+        "solid_152",
+        "solid_153",
+        "solid_154",
+        "solid_155"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_156",
+    "name": "Sugar crystals",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_172"
+    },
+    "recipe": {
+      "machine": "machine_172",
+      "inputs": [
+        "solid_029",
+        "solid_066",
+        "solid_103",
+        "solid_140",
+        "gas_365"
+      ],
+      "outputs": [
+        "solid_156",
+        "solid_157",
+        "solid_158",
+        "solid_159",
+        "solid_160"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_157",
+    "name": "Starch granules",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_172"
+    },
+    "recipe": {
+      "machine": "machine_172",
+      "inputs": [
+        "solid_029",
+        "solid_066",
+        "solid_103",
+        "solid_140",
+        "gas_365"
+      ],
+      "outputs": [
+        "solid_156",
+        "solid_157",
+        "solid_158",
+        "solid_159",
+        "solid_160"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_158",
+    "name": "Fertilizer granules",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_172"
+    },
+    "recipe": {
+      "machine": "machine_172",
+      "inputs": [
+        "solid_029",
+        "solid_066",
+        "solid_103",
+        "solid_140",
+        "gas_365"
+      ],
+      "outputs": [
+        "solid_156",
+        "solid_157",
+        "solid_158",
+        "solid_159",
+        "solid_160"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_159",
+    "name": "Ceramic powder",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_172"
+    },
+    "recipe": {
+      "machine": "machine_172",
+      "inputs": [
+        "solid_029",
+        "solid_066",
+        "solid_103",
+        "solid_140",
+        "gas_365"
+      ],
+      "outputs": [
+        "solid_156",
+        "solid_157",
+        "solid_158",
+        "solid_159",
+        "solid_160"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_160",
+    "name": "Cement clinker",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_172"
+    },
+    "recipe": {
+      "machine": "machine_172",
+      "inputs": [
+        "solid_029",
+        "solid_066",
+        "solid_103",
+        "solid_140",
+        "gas_365"
+      ],
+      "outputs": [
+        "solid_156",
+        "solid_157",
+        "solid_158",
+        "solid_159",
+        "solid_160"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_161",
+    "name": "Brick clay",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_173"
+    },
+    "recipe": {
+      "machine": "machine_173",
+      "inputs": [
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_002"
+      ],
+      "outputs": [
+        "solid_161",
+        "solid_162",
+        "solid_163",
+        "solid_164",
+        "solid_165"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_162",
+    "name": "Refractory brick",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_173"
+    },
+    "recipe": {
+      "machine": "machine_173",
+      "inputs": [
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_002"
+      ],
+      "outputs": [
+        "solid_161",
+        "solid_162",
+        "solid_163",
+        "solid_164",
+        "solid_165"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_163",
+    "name": "Glass cullet",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_173"
+    },
+    "recipe": {
+      "machine": "machine_173",
+      "inputs": [
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_002"
+      ],
+      "outputs": [
+        "solid_161",
+        "solid_162",
+        "solid_163",
+        "solid_164",
+        "solid_165"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_164",
+    "name": "Fiberglass strand",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_173"
+    },
+    "recipe": {
+      "machine": "machine_173",
+      "inputs": [
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_002"
+      ],
+      "outputs": [
+        "solid_161",
+        "solid_162",
+        "solid_163",
+        "solid_164",
+        "solid_165"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_165",
+    "name": "Steel scrap",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_173"
+    },
+    "recipe": {
+      "machine": "machine_173",
+      "inputs": [
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_002"
+      ],
+      "outputs": [
+        "solid_161",
+        "solid_162",
+        "solid_163",
+        "solid_164",
+        "solid_165"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_166",
+    "name": "Stainless steel scrap",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_174"
+    },
+    "recipe": {
+      "machine": "machine_174",
+      "inputs": [
+        "solid_063",
+        "solid_100",
+        "solid_137",
+        "gas_362",
+        "solid_014"
+      ],
+      "outputs": [
+        "solid_166",
+        "solid_167",
+        "solid_168",
+        "solid_169",
+        "solid_170"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_167",
+    "name": "Aluminum ingot",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_174"
+    },
+    "recipe": {
+      "machine": "machine_174",
+      "inputs": [
+        "solid_063",
+        "solid_100",
+        "solid_137",
+        "gas_362",
+        "solid_014"
+      ],
+      "outputs": [
+        "solid_166",
+        "solid_167",
+        "solid_168",
+        "solid_169",
+        "solid_170"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_168",
+    "name": "Titanium sponge",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_174"
+    },
+    "recipe": {
+      "machine": "machine_174",
+      "inputs": [
+        "solid_063",
+        "solid_100",
+        "solid_137",
+        "gas_362",
+        "solid_014"
+      ],
+      "outputs": [
+        "solid_166",
+        "solid_167",
+        "solid_168",
+        "solid_169",
+        "solid_170"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_169",
+    "name": "Magnesium ingot",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_174"
+    },
+    "recipe": {
+      "machine": "machine_174",
+      "inputs": [
+        "solid_063",
+        "solid_100",
+        "solid_137",
+        "gas_362",
+        "solid_014"
+      ],
+      "outputs": [
+        "solid_166",
+        "solid_167",
+        "solid_168",
+        "solid_169",
+        "solid_170"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_170",
+    "name": "Zinc ingot",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_174"
+    },
+    "recipe": {
+      "machine": "machine_174",
+      "inputs": [
+        "solid_063",
+        "solid_100",
+        "solid_137",
+        "gas_362",
+        "solid_014"
+      ],
+      "outputs": [
+        "solid_166",
+        "solid_167",
+        "solid_168",
+        "solid_169",
+        "solid_170"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_171",
+    "name": "Lead ingot",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_175"
+    },
+    "recipe": {
+      "machine": "machine_175",
+      "inputs": [
+        "solid_080",
+        "solid_117",
+        "liquid_198",
+        "solid_159",
+        "solid_026"
+      ],
+      "outputs": [
+        "solid_171",
+        "solid_172",
+        "solid_173",
+        "solid_174",
+        "solid_175"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_172",
+    "name": "Nickel ingot",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_175"
+    },
+    "recipe": {
+      "machine": "machine_175",
+      "inputs": [
+        "solid_080",
+        "solid_117",
+        "liquid_198",
+        "solid_159",
+        "solid_026"
+      ],
+      "outputs": [
+        "solid_171",
+        "solid_172",
+        "solid_173",
+        "solid_174",
+        "solid_175"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_173",
+    "name": "Cobalt ingot",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_175"
+    },
+    "recipe": {
+      "machine": "machine_175",
+      "inputs": [
+        "solid_080",
+        "solid_117",
+        "liquid_198",
+        "solid_159",
+        "solid_026"
+      ],
+      "outputs": [
+        "solid_171",
+        "solid_172",
+        "solid_173",
+        "solid_174",
+        "solid_175"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_174",
+    "name": "Tungsten carbide",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_175"
+    },
+    "recipe": {
+      "machine": "machine_175",
+      "inputs": [
+        "solid_080",
+        "solid_117",
+        "liquid_198",
+        "solid_159",
+        "solid_026"
+      ],
+      "outputs": [
+        "solid_171",
+        "solid_172",
+        "solid_173",
+        "solid_174",
+        "solid_175"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_175",
+    "name": "Silicon carbide",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_175"
+    },
+    "recipe": {
+      "machine": "machine_175",
+      "inputs": [
+        "solid_080",
+        "solid_117",
+        "liquid_198",
+        "solid_159",
+        "solid_026"
+      ],
+      "outputs": [
+        "solid_171",
+        "solid_172",
+        "solid_173",
+        "solid_174",
+        "solid_175"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_176",
+    "name": "Boron carbide",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_176"
+    },
+    "recipe": {
+      "machine": "machine_176",
+      "inputs": [
+        "solid_097",
+        "solid_134",
+        "gas_359",
+        "solid_001",
+        "solid_038"
+      ],
+      "outputs": [
+        "solid_176",
+        "solid_177",
+        "solid_178",
+        "solid_179",
+        "solid_180"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_177",
+    "name": "Alumina powder",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_176"
+    },
+    "recipe": {
+      "machine": "machine_176",
+      "inputs": [
+        "solid_097",
+        "solid_134",
+        "gas_359",
+        "solid_001",
+        "solid_038"
+      ],
+      "outputs": [
+        "solid_176",
+        "solid_177",
+        "solid_178",
+        "solid_179",
+        "solid_180"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_178",
+    "name": "Zirconia ceramic",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_176"
+    },
+    "recipe": {
+      "machine": "machine_176",
+      "inputs": [
+        "solid_097",
+        "solid_134",
+        "gas_359",
+        "solid_001",
+        "solid_038"
+      ],
+      "outputs": [
+        "solid_176",
+        "solid_177",
+        "solid_178",
+        "solid_179",
+        "solid_180"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_179",
+    "name": "Yttria-stabilized zirconia",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_176"
+    },
+    "recipe": {
+      "machine": "machine_176",
+      "inputs": [
+        "solid_097",
+        "solid_134",
+        "gas_359",
+        "solid_001",
+        "solid_038"
+      ],
+      "outputs": [
+        "solid_176",
+        "solid_177",
+        "solid_178",
+        "solid_179",
+        "solid_180"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_180",
+    "name": "Carbon black",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_176"
+    },
+    "recipe": {
+      "machine": "machine_176",
+      "inputs": [
+        "solid_097",
+        "solid_134",
+        "gas_359",
+        "solid_001",
+        "solid_038"
+      ],
+      "outputs": [
+        "solid_176",
+        "solid_177",
+        "solid_178",
+        "solid_179",
+        "solid_180"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_181",
+    "name": "Pigment powder",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_177"
+    },
+    "recipe": {
+      "machine": "machine_177",
+      "inputs": [
+        "solid_114",
+        "liquid_195",
+        "solid_156",
+        "solid_013",
+        "solid_050"
+      ],
+      "outputs": [
+        "solid_181",
+        "solid_182",
         "solid_183",
         "solid_184",
-        "solid_185",
-        "solid_186",
-        "solid_187"
+        "solid_185"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_182",
+    "name": "Polymer pellets",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_177"
+    },
+    "recipe": {
+      "machine": "machine_177",
+      "inputs": [
+        "solid_114",
+        "liquid_195",
+        "solid_156",
+        "solid_013",
+        "solid_050"
+      ],
+      "outputs": [
+        "solid_181",
+        "solid_182",
+        "solid_183",
+        "solid_184",
+        "solid_185"
+      ]
+    },
+    "tier": 2
+  },
+  {
+    "id": "solid_183",
+    "name": "Nylon pellets",
+    "state": "solid",
+    "category": "Mineral / Material",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_177"
+    },
+    "recipe": {
+      "machine": "machine_177",
+      "inputs": [
+        "solid_114",
+        "liquid_195",
+        "solid_156",
+        "solid_013",
+        "solid_050"
+      ],
+      "outputs": [
+        "solid_181",
+        "solid_182",
+        "solid_183",
+        "solid_184",
+        "solid_185"
       ]
     },
     "tier": 2
@@ -2403,23 +2915,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_171"
+      "machine": "machine_177"
     },
     "recipe": {
-      "machine": "machine_171",
+      "machine": "machine_177",
       "inputs": [
-        "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "solid_160"
+        "solid_114",
+        "liquid_195",
+        "solid_156",
+        "solid_013",
+        "solid_050"
       ],
       "outputs": [
+        "solid_181",
+        "solid_182",
         "solid_183",
         "solid_184",
-        "solid_185",
-        "solid_186",
-        "solid_187"
+        "solid_185"
       ]
     },
     "tier": 2
@@ -2432,23 +2944,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_171"
+      "machine": "machine_177"
     },
     "recipe": {
-      "machine": "machine_171",
+      "machine": "machine_177",
       "inputs": [
-        "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "solid_160"
+        "solid_114",
+        "liquid_195",
+        "solid_156",
+        "solid_013",
+        "solid_050"
       ],
       "outputs": [
+        "solid_181",
+        "solid_182",
         "solid_183",
         "solid_184",
-        "solid_185",
-        "solid_186",
-        "solid_187"
+        "solid_185"
       ]
     },
     "tier": 2
@@ -2461,23 +2973,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_171"
+      "machine": "machine_178"
     },
     "recipe": {
-      "machine": "machine_171",
+      "machine": "machine_178",
       "inputs": [
-        "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "solid_160"
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "solid_025",
+        "solid_062"
       ],
       "outputs": [
-        "solid_183",
-        "solid_184",
-        "solid_185",
         "solid_186",
-        "solid_187"
+        "solid_187",
+        "solid_188",
+        "solid_189",
+        "solid_190"
       ]
     },
     "tier": 2
@@ -2490,23 +3002,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_171"
+      "machine": "machine_178"
     },
     "recipe": {
-      "machine": "machine_171",
+      "machine": "machine_178",
       "inputs": [
-        "solid_012",
-        "solid_049",
-        "solid_086",
-        "solid_123",
-        "solid_160"
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "solid_025",
+        "solid_062"
       ],
       "outputs": [
-        "solid_183",
-        "solid_184",
-        "solid_185",
         "solid_186",
-        "solid_187"
+        "solid_187",
+        "solid_188",
+        "solid_189",
+        "solid_190"
       ]
     },
     "tier": 2
@@ -2519,23 +3031,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_172"
+      "machine": "machine_178"
     },
     "recipe": {
-      "machine": "machine_172",
+      "machine": "machine_178",
       "inputs": [
-        "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "solid_177"
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "solid_025",
+        "solid_062"
       ],
       "outputs": [
+        "solid_186",
+        "solid_187",
         "solid_188",
         "solid_189",
-        "solid_190",
-        "solid_191",
-        "solid_192"
+        "solid_190"
       ]
     },
     "tier": 2
@@ -2548,23 +3060,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_172"
+      "machine": "machine_178"
     },
     "recipe": {
-      "machine": "machine_172",
+      "machine": "machine_178",
       "inputs": [
-        "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "solid_177"
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "solid_025",
+        "solid_062"
       ],
       "outputs": [
+        "solid_186",
+        "solid_187",
         "solid_188",
         "solid_189",
-        "solid_190",
-        "solid_191",
-        "solid_192"
+        "solid_190"
       ]
     },
     "tier": 2
@@ -2577,23 +3089,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_172"
+      "machine": "machine_178"
     },
     "recipe": {
-      "machine": "machine_172",
+      "machine": "machine_178",
       "inputs": [
-        "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "solid_177"
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "solid_025",
+        "solid_062"
       ],
       "outputs": [
+        "solid_186",
+        "solid_187",
         "solid_188",
         "solid_189",
-        "solid_190",
-        "solid_191",
-        "solid_192"
+        "solid_190"
       ]
     },
     "tier": 2
@@ -2606,23 +3118,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_172"
+      "machine": "machine_179"
     },
     "recipe": {
-      "machine": "machine_172",
+      "machine": "machine_179",
       "inputs": [
-        "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "solid_177"
+        "solid_148",
+        "solid_153",
+        "solid_190",
+        "solid_037",
+        "solid_074"
       ],
       "outputs": [
-        "solid_188",
-        "solid_189",
-        "solid_190",
         "solid_191",
-        "solid_192"
+        "solid_192",
+        "solid_193",
+        "solid_194",
+        "liquid_211"
       ]
     },
     "tier": 2
@@ -2635,23 +3147,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_172"
+      "machine": "machine_179"
     },
     "recipe": {
-      "machine": "machine_172",
+      "machine": "machine_179",
       "inputs": [
-        "solid_029",
-        "solid_066",
-        "solid_103",
-        "solid_140",
-        "solid_177"
+        "solid_148",
+        "solid_153",
+        "solid_190",
+        "solid_037",
+        "solid_074"
       ],
       "outputs": [
-        "solid_188",
-        "solid_189",
-        "solid_190",
         "solid_191",
-        "solid_192"
+        "solid_192",
+        "solid_193",
+        "solid_194",
+        "liquid_211"
       ]
     },
     "tier": 2
@@ -2664,23 +3176,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_173"
+      "machine": "machine_179"
     },
     "recipe": {
-      "machine": "machine_173",
+      "machine": "machine_179",
       "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_002"
+        "solid_148",
+        "solid_153",
+        "solid_190",
+        "solid_037",
+        "solid_074"
       ],
       "outputs": [
+        "solid_191",
+        "solid_192",
         "solid_193",
         "solid_194",
-        "liquid_195",
-        "liquid_196",
-        "liquid_197"
+        "liquid_211"
       ]
     },
     "tier": 2
@@ -2693,23 +3205,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_173"
+      "machine": "machine_179"
     },
     "recipe": {
-      "machine": "machine_173",
+      "machine": "machine_179",
       "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_002"
+        "solid_148",
+        "solid_153",
+        "solid_190",
+        "solid_037",
+        "solid_074"
       ],
       "outputs": [
+        "solid_191",
+        "solid_192",
         "solid_193",
         "solid_194",
-        "liquid_195",
-        "liquid_196",
-        "liquid_197"
+        "liquid_211"
       ]
     },
     "tier": 2
@@ -2721,27 +3233,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_173"
+      "type": "deposit",
+      "region": "verdant"
     },
-    "recipe": {
-      "machine": "machine_173",
-      "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_002"
-      ],
-      "outputs": [
-        "solid_193",
-        "solid_194",
-        "liquid_195",
-        "liquid_196",
-        "liquid_197"
-      ]
-    },
-    "tier": 2
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "liquid_196",
@@ -2750,27 +3246,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_173"
+      "type": "deposit",
+      "region": "caldera"
     },
-    "recipe": {
-      "machine": "machine_173",
-      "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_002"
-      ],
-      "outputs": [
-        "solid_193",
-        "solid_194",
-        "liquid_195",
-        "liquid_196",
-        "liquid_197"
-      ]
-    },
-    "tier": 2
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "liquid_197",
@@ -2779,27 +3259,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_173"
+      "type": "deposit",
+      "region": "sunken"
     },
-    "recipe": {
-      "machine": "machine_173",
-      "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_002"
-      ],
-      "outputs": [
-        "solid_193",
-        "solid_194",
-        "liquid_195",
-        "liquid_196",
-        "liquid_197"
-      ]
-    },
-    "tier": 2
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "liquid_198",
@@ -2808,27 +3272,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_174"
+      "type": "deposit",
+      "region": "stormglass"
     },
-    "recipe": {
-      "machine": "machine_174",
-      "inputs": [
-        "solid_063",
-        "solid_100",
-        "solid_137",
-        "solid_174",
-        "solid_014"
-      ],
-      "outputs": [
-        "liquid_198",
-        "liquid_199",
-        "liquid_200",
-        "liquid_201",
-        "liquid_202"
-      ]
-    },
-    "tier": 2
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "liquid_199",
@@ -2837,27 +3285,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_174"
+      "type": "deposit",
+      "region": "umbral"
     },
-    "recipe": {
-      "machine": "machine_174",
-      "inputs": [
-        "solid_063",
-        "solid_100",
-        "solid_137",
-        "solid_174",
-        "solid_014"
-      ],
-      "outputs": [
-        "liquid_198",
-        "liquid_199",
-        "liquid_200",
-        "liquid_201",
-        "liquid_202"
-      ]
-    },
-    "tier": 2
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "liquid_200",
@@ -2866,27 +3298,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_174"
+      "type": "deposit",
+      "region": "rift"
     },
-    "recipe": {
-      "machine": "machine_174",
-      "inputs": [
-        "solid_063",
-        "solid_100",
-        "solid_137",
-        "solid_174",
-        "solid_014"
-      ],
-      "outputs": [
-        "liquid_198",
-        "liquid_199",
-        "liquid_200",
-        "liquid_201",
-        "liquid_202"
-      ]
-    },
-    "tier": 2
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "liquid_201",
@@ -2895,27 +3311,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_174"
+      "type": "deposit",
+      "region": "temperate"
     },
-    "recipe": {
-      "machine": "machine_174",
-      "inputs": [
-        "solid_063",
-        "solid_100",
-        "solid_137",
-        "solid_174",
-        "solid_014"
-      ],
-      "outputs": [
-        "liquid_198",
-        "liquid_199",
-        "liquid_200",
-        "liquid_201",
-        "liquid_202"
-      ]
-    },
-    "tier": 2
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "liquid_202",
@@ -2924,27 +3324,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_174"
+      "type": "deposit",
+      "region": "highlands"
     },
-    "recipe": {
-      "machine": "machine_174",
-      "inputs": [
-        "solid_063",
-        "solid_100",
-        "solid_137",
-        "solid_174",
-        "solid_014"
-      ],
-      "outputs": [
-        "liquid_198",
-        "liquid_199",
-        "liquid_200",
-        "liquid_201",
-        "liquid_202"
-      ]
-    },
-    "tier": 2
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "liquid_203",
@@ -2953,27 +3337,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_175"
+      "type": "deposit",
+      "region": "wetlands"
     },
-    "recipe": {
-      "machine": "machine_175",
-      "inputs": [
-        "solid_080",
-        "solid_117",
-        "solid_154",
-        "solid_191",
-        "solid_026"
-      ],
-      "outputs": [
-        "liquid_203",
-        "liquid_204",
-        "liquid_205",
-        "liquid_206",
-        "liquid_207"
-      ]
-    },
-    "tier": 2
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "liquid_204",
@@ -2982,27 +3350,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_175"
+      "type": "deposit",
+      "region": "badlands"
     },
-    "recipe": {
-      "machine": "machine_175",
-      "inputs": [
-        "solid_080",
-        "solid_117",
-        "solid_154",
-        "solid_191",
-        "solid_026"
-      ],
-      "outputs": [
-        "liquid_203",
-        "liquid_204",
-        "liquid_205",
-        "liquid_206",
-        "liquid_207"
-      ]
-    },
-    "tier": 2
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "liquid_205",
@@ -3011,27 +3363,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_175"
+      "type": "deposit",
+      "region": "crystal"
     },
-    "recipe": {
-      "machine": "machine_175",
-      "inputs": [
-        "solid_080",
-        "solid_117",
-        "solid_154",
-        "solid_191",
-        "solid_026"
-      ],
-      "outputs": [
-        "liquid_203",
-        "liquid_204",
-        "liquid_205",
-        "liquid_206",
-        "liquid_207"
-      ]
-    },
-    "tier": 2
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "liquid_206",
@@ -3040,27 +3376,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_175"
+      "type": "deposit",
+      "region": "frostline"
     },
-    "recipe": {
-      "machine": "machine_175",
-      "inputs": [
-        "solid_080",
-        "solid_117",
-        "solid_154",
-        "solid_191",
-        "solid_026"
-      ],
-      "outputs": [
-        "liquid_203",
-        "liquid_204",
-        "liquid_205",
-        "liquid_206",
-        "liquid_207"
-      ]
-    },
-    "tier": 2
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "liquid_207",
@@ -3069,27 +3389,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_175"
+      "type": "deposit",
+      "region": "verdant"
     },
-    "recipe": {
-      "machine": "machine_175",
-      "inputs": [
-        "solid_080",
-        "solid_117",
-        "solid_154",
-        "solid_191",
-        "solid_026"
-      ],
-      "outputs": [
-        "liquid_203",
-        "liquid_204",
-        "liquid_205",
-        "liquid_206",
-        "liquid_207"
-      ]
-    },
-    "tier": 2
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "liquid_208",
@@ -3098,27 +3402,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_176"
+      "type": "deposit",
+      "region": "caldera"
     },
-    "recipe": {
-      "machine": "machine_176",
-      "inputs": [
-        "solid_097",
-        "solid_134",
-        "solid_171",
-        "solid_001",
-        "solid_038"
-      ],
-      "outputs": [
-        "liquid_208",
-        "liquid_209",
-        "liquid_210",
-        "liquid_211",
-        "liquid_212"
-      ]
-    },
-    "tier": 2
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "liquid_209",
@@ -3127,27 +3415,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_176"
+      "type": "deposit",
+      "region": "sunken"
     },
-    "recipe": {
-      "machine": "machine_176",
-      "inputs": [
-        "solid_097",
-        "solid_134",
-        "solid_171",
-        "solid_001",
-        "solid_038"
-      ],
-      "outputs": [
-        "liquid_208",
-        "liquid_209",
-        "liquid_210",
-        "liquid_211",
-        "liquid_212"
-      ]
-    },
-    "tier": 2
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "liquid_210",
@@ -3156,27 +3428,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Fluid / Chemical",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_176"
+      "type": "deposit",
+      "region": "stormglass"
     },
-    "recipe": {
-      "machine": "machine_176",
-      "inputs": [
-        "solid_097",
-        "solid_134",
-        "solid_171",
-        "solid_001",
-        "solid_038"
-      ],
-      "outputs": [
-        "liquid_208",
-        "liquid_209",
-        "liquid_210",
-        "liquid_211",
-        "liquid_212"
-      ]
-    },
-    "tier": 2
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "liquid_211",
@@ -3186,23 +3442,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_176"
+      "machine": "machine_179"
     },
     "recipe": {
-      "machine": "machine_176",
+      "machine": "machine_179",
       "inputs": [
-        "solid_097",
-        "solid_134",
-        "solid_171",
-        "solid_001",
-        "solid_038"
+        "solid_148",
+        "solid_153",
+        "solid_190",
+        "solid_037",
+        "solid_074"
       ],
       "outputs": [
-        "liquid_208",
-        "liquid_209",
-        "liquid_210",
-        "liquid_211",
-        "liquid_212"
+        "solid_191",
+        "solid_192",
+        "solid_193",
+        "solid_194",
+        "liquid_211"
       ]
     },
     "tier": 2
@@ -3215,23 +3471,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_176"
+      "machine": "machine_180"
     },
     "recipe": {
-      "machine": "machine_176",
+      "machine": "machine_180",
       "inputs": [
-        "solid_097",
-        "solid_134",
-        "solid_171",
-        "solid_001",
-        "solid_038"
+        "liquid_209",
+        "solid_170",
+        "solid_012",
+        "solid_049",
+        "solid_086"
       ],
       "outputs": [
-        "liquid_208",
-        "liquid_209",
-        "liquid_210",
-        "liquid_211",
-        "liquid_212"
+        "liquid_212",
+        "liquid_213",
+        "liquid_214",
+        "liquid_215",
+        "liquid_216"
       ]
     },
     "tier": 2
@@ -3244,23 +3500,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_177"
+      "machine": "machine_180"
     },
     "recipe": {
-      "machine": "machine_177",
+      "machine": "machine_180",
       "inputs": [
-        "solid_114",
-        "solid_151",
-        "solid_188",
-        "solid_013",
-        "solid_050"
+        "liquid_209",
+        "solid_170",
+        "solid_012",
+        "solid_049",
+        "solid_086"
       ],
       "outputs": [
+        "liquid_212",
         "liquid_213",
         "liquid_214",
         "liquid_215",
-        "liquid_216",
-        "liquid_217"
+        "liquid_216"
       ]
     },
     "tier": 2
@@ -3273,23 +3529,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_177"
+      "machine": "machine_180"
     },
     "recipe": {
-      "machine": "machine_177",
+      "machine": "machine_180",
       "inputs": [
-        "solid_114",
-        "solid_151",
-        "solid_188",
-        "solid_013",
-        "solid_050"
+        "liquid_209",
+        "solid_170",
+        "solid_012",
+        "solid_049",
+        "solid_086"
       ],
       "outputs": [
+        "liquid_212",
         "liquid_213",
         "liquid_214",
         "liquid_215",
-        "liquid_216",
-        "liquid_217"
+        "liquid_216"
       ]
     },
     "tier": 2
@@ -3302,23 +3558,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_177"
+      "machine": "machine_180"
     },
     "recipe": {
-      "machine": "machine_177",
+      "machine": "machine_180",
       "inputs": [
-        "solid_114",
-        "solid_151",
-        "solid_188",
-        "solid_013",
-        "solid_050"
+        "liquid_209",
+        "solid_170",
+        "solid_012",
+        "solid_049",
+        "solid_086"
       ],
       "outputs": [
+        "liquid_212",
         "liquid_213",
         "liquid_214",
         "liquid_215",
-        "liquid_216",
-        "liquid_217"
+        "liquid_216"
       ]
     },
     "tier": 2
@@ -3331,23 +3587,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_177"
+      "machine": "machine_180"
     },
     "recipe": {
-      "machine": "machine_177",
+      "machine": "machine_180",
       "inputs": [
-        "solid_114",
-        "solid_151",
-        "solid_188",
-        "solid_013",
-        "solid_050"
+        "liquid_209",
+        "solid_170",
+        "solid_012",
+        "solid_049",
+        "solid_086"
       ],
       "outputs": [
+        "liquid_212",
         "liquid_213",
         "liquid_214",
         "liquid_215",
-        "liquid_216",
-        "liquid_217"
+        "liquid_216"
       ]
     },
     "tier": 2
@@ -3360,23 +3616,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_177"
+      "machine": "machine_181"
     },
     "recipe": {
-      "machine": "machine_177",
+      "machine": "machine_181",
       "inputs": [
-        "solid_114",
-        "solid_151",
-        "solid_188",
-        "solid_013",
-        "solid_050"
+        "gas_370",
+        "solid_187",
+        "solid_024",
+        "solid_061",
+        "solid_098"
       ],
       "outputs": [
-        "liquid_213",
-        "liquid_214",
-        "liquid_215",
-        "liquid_216",
-        "liquid_217"
+        "liquid_217",
+        "liquid_218",
+        "liquid_219",
+        "liquid_220",
+        "liquid_221"
       ]
     },
     "tier": 2
@@ -3389,23 +3645,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_178"
+      "machine": "machine_181"
     },
     "recipe": {
-      "machine": "machine_178",
+      "machine": "machine_181",
       "inputs": [
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "solid_025",
-        "solid_062"
+        "gas_370",
+        "solid_187",
+        "solid_024",
+        "solid_061",
+        "solid_098"
       ],
       "outputs": [
+        "liquid_217",
         "liquid_218",
         "liquid_219",
         "liquid_220",
-        "liquid_221",
-        "liquid_222"
+        "liquid_221"
       ]
     },
     "tier": 2
@@ -3418,23 +3674,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_178"
+      "machine": "machine_181"
     },
     "recipe": {
-      "machine": "machine_178",
+      "machine": "machine_181",
       "inputs": [
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "solid_025",
-        "solid_062"
+        "gas_370",
+        "solid_187",
+        "solid_024",
+        "solid_061",
+        "solid_098"
       ],
       "outputs": [
+        "liquid_217",
         "liquid_218",
         "liquid_219",
         "liquid_220",
-        "liquid_221",
-        "liquid_222"
+        "liquid_221"
       ]
     },
     "tier": 2
@@ -3447,23 +3703,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_178"
+      "machine": "machine_181"
     },
     "recipe": {
-      "machine": "machine_178",
+      "machine": "machine_181",
       "inputs": [
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "solid_025",
-        "solid_062"
+        "gas_370",
+        "solid_187",
+        "solid_024",
+        "solid_061",
+        "solid_098"
       ],
       "outputs": [
+        "liquid_217",
         "liquid_218",
         "liquid_219",
         "liquid_220",
-        "liquid_221",
-        "liquid_222"
+        "liquid_221"
       ]
     },
     "tier": 2
@@ -3476,23 +3732,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_178"
+      "machine": "machine_181"
     },
     "recipe": {
-      "machine": "machine_178",
+      "machine": "machine_181",
       "inputs": [
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "solid_025",
-        "solid_062"
+        "gas_370",
+        "solid_187",
+        "solid_024",
+        "solid_061",
+        "solid_098"
       ],
       "outputs": [
+        "liquid_217",
         "liquid_218",
         "liquid_219",
         "liquid_220",
-        "liquid_221",
-        "liquid_222"
+        "liquid_221"
       ]
     },
     "tier": 2
@@ -3505,23 +3761,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_178"
+      "machine": "machine_182"
     },
     "recipe": {
-      "machine": "machine_178",
+      "machine": "machine_182",
       "inputs": [
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "solid_025",
-        "solid_062"
+        "solid_167",
+        "liquid_220",
+        "solid_036",
+        "solid_073",
+        "solid_110"
       ],
       "outputs": [
-        "liquid_218",
-        "liquid_219",
-        "liquid_220",
-        "liquid_221",
-        "liquid_222"
+        "liquid_222",
+        "liquid_223",
+        "liquid_224",
+        "liquid_225",
+        "liquid_226"
       ]
     },
     "tier": 2
@@ -3534,23 +3790,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_179"
+      "machine": "machine_182"
     },
     "recipe": {
-      "machine": "machine_179",
+      "machine": "machine_182",
       "inputs": [
-        "solid_148",
-        "solid_185",
-        "liquid_222",
-        "solid_037",
-        "solid_074"
+        "solid_167",
+        "liquid_220",
+        "solid_036",
+        "solid_073",
+        "solid_110"
       ],
       "outputs": [
+        "liquid_222",
         "liquid_223",
         "liquid_224",
         "liquid_225",
-        "liquid_226",
-        "liquid_227"
+        "liquid_226"
       ]
     },
     "tier": 2
@@ -3563,23 +3819,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_179"
+      "machine": "machine_182"
     },
     "recipe": {
-      "machine": "machine_179",
+      "machine": "machine_182",
       "inputs": [
-        "solid_148",
-        "solid_185",
-        "liquid_222",
-        "solid_037",
-        "solid_074"
+        "solid_167",
+        "liquid_220",
+        "solid_036",
+        "solid_073",
+        "solid_110"
       ],
       "outputs": [
+        "liquid_222",
         "liquid_223",
         "liquid_224",
         "liquid_225",
-        "liquid_226",
-        "liquid_227"
+        "liquid_226"
       ]
     },
     "tier": 2
@@ -3592,23 +3848,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_179"
+      "machine": "machine_182"
     },
     "recipe": {
-      "machine": "machine_179",
+      "machine": "machine_182",
       "inputs": [
-        "solid_148",
-        "solid_185",
-        "liquid_222",
-        "solid_037",
-        "solid_074"
+        "solid_167",
+        "liquid_220",
+        "solid_036",
+        "solid_073",
+        "solid_110"
       ],
       "outputs": [
+        "liquid_222",
         "liquid_223",
         "liquid_224",
         "liquid_225",
-        "liquid_226",
-        "liquid_227"
+        "liquid_226"
       ]
     },
     "tier": 2
@@ -3621,23 +3877,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_179"
+      "machine": "machine_182"
     },
     "recipe": {
-      "machine": "machine_179",
+      "machine": "machine_182",
       "inputs": [
-        "solid_148",
-        "solid_185",
-        "liquid_222",
-        "solid_037",
-        "solid_074"
+        "solid_167",
+        "liquid_220",
+        "solid_036",
+        "solid_073",
+        "solid_110"
       ],
       "outputs": [
+        "liquid_222",
         "liquid_223",
         "liquid_224",
         "liquid_225",
-        "liquid_226",
-        "liquid_227"
+        "liquid_226"
       ]
     },
     "tier": 2
@@ -3650,23 +3906,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_179"
+      "machine": "machine_183"
     },
     "recipe": {
-      "machine": "machine_179",
+      "machine": "machine_183",
       "inputs": [
-        "solid_148",
-        "solid_185",
-        "liquid_222",
-        "solid_037",
-        "solid_074"
+        "solid_184",
+        "solid_011",
+        "solid_048",
+        "solid_085",
+        "solid_122"
       ],
       "outputs": [
-        "liquid_223",
-        "liquid_224",
-        "liquid_225",
-        "liquid_226",
-        "liquid_227"
+        "liquid_227",
+        "liquid_228",
+        "liquid_229",
+        "liquid_230",
+        "liquid_231"
       ]
     },
     "tier": 2
@@ -3679,23 +3935,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_180"
+      "machine": "machine_183"
     },
     "recipe": {
-      "machine": "machine_180",
+      "machine": "machine_183",
       "inputs": [
-        "solid_165",
-        "liquid_202",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_184",
+        "solid_011",
+        "solid_048",
+        "solid_085",
+        "solid_122"
       ],
       "outputs": [
+        "liquid_227",
         "liquid_228",
         "liquid_229",
         "liquid_230",
-        "liquid_231",
-        "liquid_232"
+        "liquid_231"
       ]
     },
     "tier": 2
@@ -3708,23 +3964,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_180"
+      "machine": "machine_183"
     },
     "recipe": {
-      "machine": "machine_180",
+      "machine": "machine_183",
       "inputs": [
-        "solid_165",
-        "liquid_202",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_184",
+        "solid_011",
+        "solid_048",
+        "solid_085",
+        "solid_122"
       ],
       "outputs": [
+        "liquid_227",
         "liquid_228",
         "liquid_229",
         "liquid_230",
-        "liquid_231",
-        "liquid_232"
+        "liquid_231"
       ]
     },
     "tier": 2
@@ -3737,23 +3993,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_180"
+      "machine": "machine_183"
     },
     "recipe": {
-      "machine": "machine_180",
+      "machine": "machine_183",
       "inputs": [
-        "solid_165",
-        "liquid_202",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_184",
+        "solid_011",
+        "solid_048",
+        "solid_085",
+        "solid_122"
       ],
       "outputs": [
+        "liquid_227",
         "liquid_228",
         "liquid_229",
         "liquid_230",
-        "liquid_231",
-        "liquid_232"
+        "liquid_231"
       ]
     },
     "tier": 2
@@ -3766,23 +4022,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_180"
+      "machine": "machine_183"
     },
     "recipe": {
-      "machine": "machine_180",
+      "machine": "machine_183",
       "inputs": [
-        "solid_165",
-        "liquid_202",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "solid_184",
+        "solid_011",
+        "solid_048",
+        "solid_085",
+        "solid_122"
       ],
       "outputs": [
+        "liquid_227",
         "liquid_228",
         "liquid_229",
         "liquid_230",
-        "liquid_231",
-        "liquid_232"
+        "liquid_231"
       ]
     },
     "tier": 2
@@ -3795,23 +4051,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_180"
+      "machine": "machine_184"
     },
     "recipe": {
-      "machine": "machine_180",
+      "machine": "machine_184",
       "inputs": [
-        "solid_165",
-        "liquid_202",
-        "solid_012",
-        "solid_049",
-        "solid_086"
+        "liquid_217",
+        "solid_023",
+        "solid_060",
+        "solid_097",
+        "solid_134"
       ],
       "outputs": [
-        "liquid_228",
-        "liquid_229",
-        "liquid_230",
-        "liquid_231",
-        "liquid_232"
+        "liquid_232",
+        "liquid_233",
+        "liquid_234",
+        "liquid_235",
+        "liquid_236"
       ]
     },
     "tier": 2
@@ -3824,23 +4080,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_181"
+      "machine": "machine_184"
     },
     "recipe": {
-      "machine": "machine_181",
+      "machine": "machine_184",
       "inputs": [
-        "solid_182",
-        "liquid_219",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "liquid_217",
+        "solid_023",
+        "solid_060",
+        "solid_097",
+        "solid_134"
       ],
       "outputs": [
+        "liquid_232",
         "liquid_233",
         "liquid_234",
         "liquid_235",
-        "liquid_236",
-        "liquid_237"
+        "liquid_236"
       ]
     },
     "tier": 2
@@ -3853,23 +4109,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_181"
+      "machine": "machine_184"
     },
     "recipe": {
-      "machine": "machine_181",
+      "machine": "machine_184",
       "inputs": [
-        "solid_182",
-        "liquid_219",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "liquid_217",
+        "solid_023",
+        "solid_060",
+        "solid_097",
+        "solid_134"
       ],
       "outputs": [
+        "liquid_232",
         "liquid_233",
         "liquid_234",
         "liquid_235",
-        "liquid_236",
-        "liquid_237"
+        "liquid_236"
       ]
     },
     "tier": 2
@@ -3882,23 +4138,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_181"
+      "machine": "machine_184"
     },
     "recipe": {
-      "machine": "machine_181",
+      "machine": "machine_184",
       "inputs": [
-        "solid_182",
-        "liquid_219",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "liquid_217",
+        "solid_023",
+        "solid_060",
+        "solid_097",
+        "solid_134"
       ],
       "outputs": [
+        "liquid_232",
         "liquid_233",
         "liquid_234",
         "liquid_235",
-        "liquid_236",
-        "liquid_237"
+        "liquid_236"
       ]
     },
     "tier": 2
@@ -3911,23 +4167,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_181"
+      "machine": "machine_184"
     },
     "recipe": {
-      "machine": "machine_181",
+      "machine": "machine_184",
       "inputs": [
-        "solid_182",
-        "liquid_219",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "liquid_217",
+        "solid_023",
+        "solid_060",
+        "solid_097",
+        "solid_134"
       ],
       "outputs": [
+        "liquid_232",
         "liquid_233",
         "liquid_234",
         "liquid_235",
-        "liquid_236",
-        "liquid_237"
+        "liquid_236"
       ]
     },
     "tier": 2
@@ -3940,465 +4196,30 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_181"
+      "machine": "machine_185"
     },
     "recipe": {
-      "machine": "machine_181",
+      "machine": "machine_185",
       "inputs": [
-        "solid_182",
-        "liquid_219",
-        "solid_024",
-        "solid_061",
-        "solid_098"
+        "liquid_234",
+        "solid_035",
+        "solid_072",
+        "solid_109",
+        "solid_146"
       ],
       "outputs": [
-        "liquid_233",
-        "liquid_234",
-        "liquid_235",
-        "liquid_236",
-        "liquid_237"
+        "liquid_237",
+        "liquid_238",
+        "liquid_239",
+        "liquid_240",
+        "liquid_241"
       ]
     },
-    "tier": 2
+    "tier": 3
   },
   {
     "id": "liquid_238",
     "name": "Molten potassium",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_182"
-    },
-    "recipe": {
-      "machine": "machine_182",
-      "inputs": [
-        "liquid_199",
-        "liquid_236",
-        "solid_036",
-        "solid_073",
-        "solid_110"
-      ],
-      "outputs": [
-        "liquid_238",
-        "liquid_239",
-        "liquid_240",
-        "liquid_241",
-        "liquid_242"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_239",
-    "name": "Molten lithium",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_182"
-    },
-    "recipe": {
-      "machine": "machine_182",
-      "inputs": [
-        "liquid_199",
-        "liquid_236",
-        "solid_036",
-        "solid_073",
-        "solid_110"
-      ],
-      "outputs": [
-        "liquid_238",
-        "liquid_239",
-        "liquid_240",
-        "liquid_241",
-        "liquid_242"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_240",
-    "name": "Molten magnesium",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_182"
-    },
-    "recipe": {
-      "machine": "machine_182",
-      "inputs": [
-        "liquid_199",
-        "liquid_236",
-        "solid_036",
-        "solid_073",
-        "solid_110"
-      ],
-      "outputs": [
-        "liquid_238",
-        "liquid_239",
-        "liquid_240",
-        "liquid_241",
-        "liquid_242"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_241",
-    "name": "Molten sulfur",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_182"
-    },
-    "recipe": {
-      "machine": "machine_182",
-      "inputs": [
-        "liquid_199",
-        "liquid_236",
-        "solid_036",
-        "solid_073",
-        "solid_110"
-      ],
-      "outputs": [
-        "liquid_238",
-        "liquid_239",
-        "liquid_240",
-        "liquid_241",
-        "liquid_242"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_242",
-    "name": "Molten phosphorus",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_182"
-    },
-    "recipe": {
-      "machine": "machine_182",
-      "inputs": [
-        "liquid_199",
-        "liquid_236",
-        "solid_036",
-        "solid_073",
-        "solid_110"
-      ],
-      "outputs": [
-        "liquid_238",
-        "liquid_239",
-        "liquid_240",
-        "liquid_241",
-        "liquid_242"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_243",
-    "name": "Molten sodium chloride",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_183"
-    },
-    "recipe": {
-      "machine": "machine_183",
-      "inputs": [
-        "liquid_216",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
-      ],
-      "outputs": [
-        "liquid_243",
-        "liquid_244",
-        "liquid_245",
-        "liquid_246",
-        "liquid_247"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_244",
-    "name": "Molten calcium chloride",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_183"
-    },
-    "recipe": {
-      "machine": "machine_183",
-      "inputs": [
-        "liquid_216",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
-      ],
-      "outputs": [
-        "liquid_243",
-        "liquid_244",
-        "liquid_245",
-        "liquid_246",
-        "liquid_247"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_245",
-    "name": "Molten potassium nitrate",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_183"
-    },
-    "recipe": {
-      "machine": "machine_183",
-      "inputs": [
-        "liquid_216",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
-      ],
-      "outputs": [
-        "liquid_243",
-        "liquid_244",
-        "liquid_245",
-        "liquid_246",
-        "liquid_247"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_246",
-    "name": "Molten sodium nitrate",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_183"
-    },
-    "recipe": {
-      "machine": "machine_183",
-      "inputs": [
-        "liquid_216",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
-      ],
-      "outputs": [
-        "liquid_243",
-        "liquid_244",
-        "liquid_245",
-        "liquid_246",
-        "liquid_247"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_247",
-    "name": "Hydrochloric acid",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_183"
-    },
-    "recipe": {
-      "machine": "machine_183",
-      "inputs": [
-        "liquid_216",
-        "solid_011",
-        "solid_048",
-        "solid_085",
-        "solid_122"
-      ],
-      "outputs": [
-        "liquid_243",
-        "liquid_244",
-        "liquid_245",
-        "liquid_246",
-        "liquid_247"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_248",
-    "name": "Sulfuric acid",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_184"
-    },
-    "recipe": {
-      "machine": "machine_184",
-      "inputs": [
-        "liquid_233",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
-      ],
-      "outputs": [
-        "liquid_248",
-        "liquid_249",
-        "liquid_250",
-        "liquid_251",
-        "liquid_252"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_249",
-    "name": "Nitric acid",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_184"
-    },
-    "recipe": {
-      "machine": "machine_184",
-      "inputs": [
-        "liquid_233",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
-      ],
-      "outputs": [
-        "liquid_248",
-        "liquid_249",
-        "liquid_250",
-        "liquid_251",
-        "liquid_252"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_250",
-    "name": "Phosphoric acid",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_184"
-    },
-    "recipe": {
-      "machine": "machine_184",
-      "inputs": [
-        "liquid_233",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
-      ],
-      "outputs": [
-        "liquid_248",
-        "liquid_249",
-        "liquid_250",
-        "liquid_251",
-        "liquid_252"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_251",
-    "name": "Acetic acid",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_184"
-    },
-    "recipe": {
-      "machine": "machine_184",
-      "inputs": [
-        "liquid_233",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
-      ],
-      "outputs": [
-        "liquid_248",
-        "liquid_249",
-        "liquid_250",
-        "liquid_251",
-        "liquid_252"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_252",
-    "name": "Formic acid",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_184"
-    },
-    "recipe": {
-      "machine": "machine_184",
-      "inputs": [
-        "liquid_233",
-        "solid_023",
-        "solid_060",
-        "solid_097",
-        "solid_134"
-      ],
-      "outputs": [
-        "liquid_248",
-        "liquid_249",
-        "liquid_250",
-        "liquid_251",
-        "liquid_252"
-      ]
-    },
-    "tier": 2
-  },
-  {
-    "id": "liquid_253",
-    "name": "Citric acid solution",
     "state": "liquid",
     "category": "Fluid / Chemical",
     "implemented": true,
@@ -4409,18 +4230,453 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_185",
       "inputs": [
-        "liquid_250",
+        "liquid_234",
         "solid_035",
         "solid_072",
         "solid_109",
         "solid_146"
       ],
       "outputs": [
+        "liquid_237",
+        "liquid_238",
+        "liquid_239",
+        "liquid_240",
+        "liquid_241"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_239",
+    "name": "Molten lithium",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_185"
+    },
+    "recipe": {
+      "machine": "machine_185",
+      "inputs": [
+        "liquid_234",
+        "solid_035",
+        "solid_072",
+        "solid_109",
+        "solid_146"
+      ],
+      "outputs": [
+        "liquid_237",
+        "liquid_238",
+        "liquid_239",
+        "liquid_240",
+        "liquid_241"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_240",
+    "name": "Molten magnesium",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_185"
+    },
+    "recipe": {
+      "machine": "machine_185",
+      "inputs": [
+        "liquid_234",
+        "solid_035",
+        "solid_072",
+        "solid_109",
+        "solid_146"
+      ],
+      "outputs": [
+        "liquid_237",
+        "liquid_238",
+        "liquid_239",
+        "liquid_240",
+        "liquid_241"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_241",
+    "name": "Molten sulfur",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_185"
+    },
+    "recipe": {
+      "machine": "machine_185",
+      "inputs": [
+        "liquid_234",
+        "solid_035",
+        "solid_072",
+        "solid_109",
+        "solid_146"
+      ],
+      "outputs": [
+        "liquid_237",
+        "liquid_238",
+        "liquid_239",
+        "liquid_240",
+        "liquid_241"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_242",
+    "name": "Molten phosphorus",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_186"
+    },
+    "recipe": {
+      "machine": "machine_186",
+      "inputs": [
+        "solid_010",
+        "solid_047",
+        "solid_084",
+        "solid_121",
+        "liquid_202"
+      ],
+      "outputs": [
+        "liquid_242",
+        "liquid_243",
+        "liquid_244",
+        "liquid_245",
+        "liquid_246"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_243",
+    "name": "Molten sodium chloride",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_186"
+    },
+    "recipe": {
+      "machine": "machine_186",
+      "inputs": [
+        "solid_010",
+        "solid_047",
+        "solid_084",
+        "solid_121",
+        "liquid_202"
+      ],
+      "outputs": [
+        "liquid_242",
+        "liquid_243",
+        "liquid_244",
+        "liquid_245",
+        "liquid_246"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_244",
+    "name": "Molten calcium chloride",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_186"
+    },
+    "recipe": {
+      "machine": "machine_186",
+      "inputs": [
+        "solid_010",
+        "solid_047",
+        "solid_084",
+        "solid_121",
+        "liquid_202"
+      ],
+      "outputs": [
+        "liquid_242",
+        "liquid_243",
+        "liquid_244",
+        "liquid_245",
+        "liquid_246"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_245",
+    "name": "Molten potassium nitrate",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_186"
+    },
+    "recipe": {
+      "machine": "machine_186",
+      "inputs": [
+        "solid_010",
+        "solid_047",
+        "solid_084",
+        "solid_121",
+        "liquid_202"
+      ],
+      "outputs": [
+        "liquid_242",
+        "liquid_243",
+        "liquid_244",
+        "liquid_245",
+        "liquid_246"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_246",
+    "name": "Molten sodium nitrate",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_186"
+    },
+    "recipe": {
+      "machine": "machine_186",
+      "inputs": [
+        "solid_010",
+        "solid_047",
+        "solid_084",
+        "solid_121",
+        "liquid_202"
+      ],
+      "outputs": [
+        "liquid_242",
+        "liquid_243",
+        "liquid_244",
+        "liquid_245",
+        "liquid_246"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_247",
+    "name": "Hydrochloric acid",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_187"
+    },
+    "recipe": {
+      "machine": "machine_187",
+      "inputs": [
+        "solid_022",
+        "solid_059",
+        "solid_096",
+        "solid_133",
+        "gas_358"
+      ],
+      "outputs": [
+        "liquid_247",
+        "liquid_248",
+        "liquid_249",
+        "liquid_250",
+        "liquid_251"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_248",
+    "name": "Sulfuric acid",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_187"
+    },
+    "recipe": {
+      "machine": "machine_187",
+      "inputs": [
+        "solid_022",
+        "solid_059",
+        "solid_096",
+        "solid_133",
+        "gas_358"
+      ],
+      "outputs": [
+        "liquid_247",
+        "liquid_248",
+        "liquid_249",
+        "liquid_250",
+        "liquid_251"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_249",
+    "name": "Nitric acid",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_187"
+    },
+    "recipe": {
+      "machine": "machine_187",
+      "inputs": [
+        "solid_022",
+        "solid_059",
+        "solid_096",
+        "solid_133",
+        "gas_358"
+      ],
+      "outputs": [
+        "liquid_247",
+        "liquid_248",
+        "liquid_249",
+        "liquid_250",
+        "liquid_251"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_250",
+    "name": "Phosphoric acid",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_187"
+    },
+    "recipe": {
+      "machine": "machine_187",
+      "inputs": [
+        "solid_022",
+        "solid_059",
+        "solid_096",
+        "solid_133",
+        "gas_358"
+      ],
+      "outputs": [
+        "liquid_247",
+        "liquid_248",
+        "liquid_249",
+        "liquid_250",
+        "liquid_251"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_251",
+    "name": "Acetic acid",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_187"
+    },
+    "recipe": {
+      "machine": "machine_187",
+      "inputs": [
+        "solid_022",
+        "solid_059",
+        "solid_096",
+        "solid_133",
+        "gas_358"
+      ],
+      "outputs": [
+        "liquid_247",
+        "liquid_248",
+        "liquid_249",
+        "liquid_250",
+        "liquid_251"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_252",
+    "name": "Formic acid",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_188"
+    },
+    "recipe": {
+      "machine": "machine_188",
+      "inputs": [
+        "solid_034",
+        "solid_071",
+        "solid_108",
+        "solid_145",
+        "gas_370"
+      ],
+      "outputs": [
+        "liquid_252",
         "liquid_253",
         "liquid_254",
         "liquid_255",
-        "liquid_256",
-        "liquid_257"
+        "liquid_256"
+      ]
+    },
+    "tier": 3
+  },
+  {
+    "id": "liquid_253",
+    "name": "Citric acid solution",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_188"
+    },
+    "recipe": {
+      "machine": "machine_188",
+      "inputs": [
+        "solid_034",
+        "solid_071",
+        "solid_108",
+        "solid_145",
+        "gas_370"
+      ],
+      "outputs": [
+        "liquid_252",
+        "liquid_253",
+        "liquid_254",
+        "liquid_255",
+        "liquid_256"
       ]
     },
     "tier": 3
@@ -4433,23 +4689,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_185"
+      "machine": "machine_188"
     },
     "recipe": {
-      "machine": "machine_185",
+      "machine": "machine_188",
       "inputs": [
-        "liquid_250",
-        "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_034",
+        "solid_071",
+        "solid_108",
+        "solid_145",
+        "gas_370"
       ],
       "outputs": [
+        "liquid_252",
         "liquid_253",
         "liquid_254",
         "liquid_255",
-        "liquid_256",
-        "liquid_257"
+        "liquid_256"
       ]
     },
     "tier": 3
@@ -4462,23 +4718,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_185"
+      "machine": "machine_188"
     },
     "recipe": {
-      "machine": "machine_185",
+      "machine": "machine_188",
       "inputs": [
-        "liquid_250",
-        "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_034",
+        "solid_071",
+        "solid_108",
+        "solid_145",
+        "gas_370"
       ],
       "outputs": [
+        "liquid_252",
         "liquid_253",
         "liquid_254",
         "liquid_255",
-        "liquid_256",
-        "liquid_257"
+        "liquid_256"
       ]
     },
     "tier": 3
@@ -4491,23 +4747,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_185"
+      "machine": "machine_188"
     },
     "recipe": {
-      "machine": "machine_185",
+      "machine": "machine_188",
       "inputs": [
-        "liquid_250",
-        "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_034",
+        "solid_071",
+        "solid_108",
+        "solid_145",
+        "gas_370"
       ],
       "outputs": [
+        "liquid_252",
         "liquid_253",
         "liquid_254",
         "liquid_255",
-        "liquid_256",
-        "liquid_257"
+        "liquid_256"
       ]
     },
     "tier": 3
@@ -4520,23 +4776,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_185"
+      "machine": "machine_189"
     },
     "recipe": {
-      "machine": "machine_185",
+      "machine": "machine_189",
       "inputs": [
-        "liquid_250",
-        "solid_035",
-        "solid_072",
-        "solid_109",
-        "solid_146"
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_162"
       ],
       "outputs": [
-        "liquid_253",
-        "liquid_254",
-        "liquid_255",
-        "liquid_256",
-        "liquid_257"
+        "liquid_257",
+        "liquid_258",
+        "liquid_259",
+        "liquid_260",
+        "liquid_261"
       ]
     },
     "tier": 3
@@ -4549,23 +4805,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_186"
+      "machine": "machine_189"
     },
     "recipe": {
-      "machine": "machine_186",
+      "machine": "machine_189",
       "inputs": [
-        "solid_010",
-        "solid_047",
-        "solid_084",
-        "solid_121",
-        "solid_158"
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_162"
       ],
       "outputs": [
+        "liquid_257",
         "liquid_258",
         "liquid_259",
         "liquid_260",
-        "liquid_261",
-        "liquid_262"
+        "liquid_261"
       ]
     },
     "tier": 3
@@ -4578,23 +4834,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_186"
+      "machine": "machine_189"
     },
     "recipe": {
-      "machine": "machine_186",
+      "machine": "machine_189",
       "inputs": [
-        "solid_010",
-        "solid_047",
-        "solid_084",
-        "solid_121",
-        "solid_158"
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_162"
       ],
       "outputs": [
+        "liquid_257",
         "liquid_258",
         "liquid_259",
         "liquid_260",
-        "liquid_261",
-        "liquid_262"
+        "liquid_261"
       ]
     },
     "tier": 3
@@ -4607,23 +4863,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_186"
+      "machine": "machine_189"
     },
     "recipe": {
-      "machine": "machine_186",
+      "machine": "machine_189",
       "inputs": [
-        "solid_010",
-        "solid_047",
-        "solid_084",
-        "solid_121",
-        "solid_158"
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_162"
       ],
       "outputs": [
+        "liquid_257",
         "liquid_258",
         "liquid_259",
         "liquid_260",
-        "liquid_261",
-        "liquid_262"
+        "liquid_261"
       ]
     },
     "tier": 3
@@ -4636,23 +4892,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_186"
+      "machine": "machine_189"
     },
     "recipe": {
-      "machine": "machine_186",
+      "machine": "machine_189",
       "inputs": [
-        "solid_010",
-        "solid_047",
-        "solid_084",
-        "solid_121",
-        "solid_158"
+        "solid_046",
+        "solid_083",
+        "solid_120",
+        "liquid_201",
+        "solid_162"
       ],
       "outputs": [
+        "liquid_257",
         "liquid_258",
         "liquid_259",
         "liquid_260",
-        "liquid_261",
-        "liquid_262"
+        "liquid_261"
       ]
     },
     "tier": 3
@@ -4665,23 +4921,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_186"
+      "machine": "machine_190"
     },
     "recipe": {
-      "machine": "machine_186",
+      "machine": "machine_190",
       "inputs": [
-        "solid_010",
-        "solid_047",
-        "solid_084",
-        "solid_121",
-        "solid_158"
+        "solid_058",
+        "solid_095",
+        "solid_132",
+        "gas_357",
+        "solid_174"
       ],
       "outputs": [
-        "liquid_258",
-        "liquid_259",
-        "liquid_260",
-        "liquid_261",
-        "liquid_262"
+        "liquid_262",
+        "liquid_263",
+        "liquid_264",
+        "liquid_265",
+        "liquid_266"
       ]
     },
     "tier": 3
@@ -4694,23 +4950,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_187"
+      "machine": "machine_190"
     },
     "recipe": {
-      "machine": "machine_187",
+      "machine": "machine_190",
       "inputs": [
-        "solid_022",
-        "solid_059",
-        "solid_096",
-        "solid_133",
-        "solid_170"
+        "solid_058",
+        "solid_095",
+        "solid_132",
+        "gas_357",
+        "solid_174"
       ],
       "outputs": [
+        "liquid_262",
         "liquid_263",
         "liquid_264",
         "liquid_265",
-        "liquid_266",
-        "liquid_267"
+        "liquid_266"
       ]
     },
     "tier": 3
@@ -4723,23 +4979,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_187"
+      "machine": "machine_190"
     },
     "recipe": {
-      "machine": "machine_187",
+      "machine": "machine_190",
       "inputs": [
-        "solid_022",
-        "solid_059",
-        "solid_096",
-        "solid_133",
-        "solid_170"
+        "solid_058",
+        "solid_095",
+        "solid_132",
+        "gas_357",
+        "solid_174"
       ],
       "outputs": [
+        "liquid_262",
         "liquid_263",
         "liquid_264",
         "liquid_265",
-        "liquid_266",
-        "liquid_267"
+        "liquid_266"
       ]
     },
     "tier": 3
@@ -4752,23 +5008,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_187"
+      "machine": "machine_190"
     },
     "recipe": {
-      "machine": "machine_187",
+      "machine": "machine_190",
       "inputs": [
-        "solid_022",
-        "solid_059",
-        "solid_096",
-        "solid_133",
-        "solid_170"
+        "solid_058",
+        "solid_095",
+        "solid_132",
+        "gas_357",
+        "solid_174"
       ],
       "outputs": [
+        "liquid_262",
         "liquid_263",
         "liquid_264",
         "liquid_265",
-        "liquid_266",
-        "liquid_267"
+        "liquid_266"
       ]
     },
     "tier": 3
@@ -4781,23 +5037,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_187"
+      "machine": "machine_190"
     },
     "recipe": {
-      "machine": "machine_187",
+      "machine": "machine_190",
       "inputs": [
-        "solid_022",
-        "solid_059",
-        "solid_096",
-        "solid_133",
-        "solid_170"
+        "solid_058",
+        "solid_095",
+        "solid_132",
+        "gas_357",
+        "solid_174"
       ],
       "outputs": [
+        "liquid_262",
         "liquid_263",
         "liquid_264",
         "liquid_265",
-        "liquid_266",
-        "liquid_267"
+        "liquid_266"
       ]
     },
     "tier": 3
@@ -4810,23 +5066,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_187"
+      "machine": "machine_191"
     },
     "recipe": {
-      "machine": "machine_187",
+      "machine": "machine_191",
       "inputs": [
-        "solid_022",
-        "solid_059",
-        "solid_096",
-        "solid_133",
-        "solid_170"
+        "solid_070",
+        "solid_107",
+        "solid_144",
+        "gas_369",
+        "solid_186"
       ],
       "outputs": [
-        "liquid_263",
-        "liquid_264",
-        "liquid_265",
-        "liquid_266",
-        "liquid_267"
+        "liquid_267",
+        "liquid_268",
+        "liquid_269",
+        "liquid_270",
+        "liquid_271"
       ]
     },
     "tier": 3
@@ -4839,23 +5095,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_188"
+      "machine": "machine_191"
     },
     "recipe": {
-      "machine": "machine_188",
+      "machine": "machine_191",
       "inputs": [
-        "solid_034",
-        "solid_071",
-        "solid_108",
-        "solid_145",
-        "solid_182"
+        "solid_070",
+        "solid_107",
+        "solid_144",
+        "gas_369",
+        "solid_186"
       ],
       "outputs": [
+        "liquid_267",
         "liquid_268",
         "liquid_269",
         "liquid_270",
-        "liquid_271",
-        "liquid_272"
+        "liquid_271"
       ]
     },
     "tier": 3
@@ -4868,23 +5124,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_188"
+      "machine": "machine_191"
     },
     "recipe": {
-      "machine": "machine_188",
+      "machine": "machine_191",
       "inputs": [
-        "solid_034",
-        "solid_071",
-        "solid_108",
-        "solid_145",
-        "solid_182"
+        "solid_070",
+        "solid_107",
+        "solid_144",
+        "gas_369",
+        "solid_186"
       ],
       "outputs": [
+        "liquid_267",
         "liquid_268",
         "liquid_269",
         "liquid_270",
-        "liquid_271",
-        "liquid_272"
+        "liquid_271"
       ]
     },
     "tier": 3
@@ -4897,23 +5153,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_188"
+      "machine": "machine_191"
     },
     "recipe": {
-      "machine": "machine_188",
+      "machine": "machine_191",
       "inputs": [
-        "solid_034",
-        "solid_071",
-        "solid_108",
-        "solid_145",
-        "solid_182"
+        "solid_070",
+        "solid_107",
+        "solid_144",
+        "gas_369",
+        "solid_186"
       ],
       "outputs": [
+        "liquid_267",
         "liquid_268",
         "liquid_269",
         "liquid_270",
-        "liquid_271",
-        "liquid_272"
+        "liquid_271"
       ]
     },
     "tier": 3
@@ -4926,23 +5182,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_188"
+      "machine": "machine_191"
     },
     "recipe": {
-      "machine": "machine_188",
+      "machine": "machine_191",
       "inputs": [
-        "solid_034",
-        "solid_071",
-        "solid_108",
-        "solid_145",
-        "solid_182"
+        "solid_070",
+        "solid_107",
+        "solid_144",
+        "gas_369",
+        "solid_186"
       ],
       "outputs": [
+        "liquid_267",
         "liquid_268",
         "liquid_269",
         "liquid_270",
-        "liquid_271",
-        "liquid_272"
+        "liquid_271"
       ]
     },
     "tier": 3
@@ -4955,23 +5211,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_188"
+      "machine": "machine_192"
     },
     "recipe": {
-      "machine": "machine_188",
+      "machine": "machine_192",
       "inputs": [
-        "solid_034",
-        "solid_071",
-        "solid_108",
-        "solid_145",
-        "solid_182"
+        "solid_082",
+        "solid_119",
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
-        "liquid_268",
-        "liquid_269",
-        "liquid_270",
-        "liquid_271",
-        "liquid_272"
+        "liquid_272",
+        "liquid_273",
+        "liquid_274",
+        "liquid_275",
+        "liquid_276"
       ]
     },
     "tier": 3
@@ -4984,23 +5240,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_189"
+      "machine": "machine_192"
     },
     "recipe": {
-      "machine": "machine_189",
+      "machine": "machine_192",
       "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_194"
+        "solid_082",
+        "solid_119",
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
+        "liquid_272",
         "liquid_273",
         "liquid_274",
         "liquid_275",
-        "liquid_276",
-        "liquid_277"
+        "liquid_276"
       ]
     },
     "tier": 3
@@ -5013,23 +5269,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_189"
+      "machine": "machine_192"
     },
     "recipe": {
-      "machine": "machine_189",
+      "machine": "machine_192",
       "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_194"
+        "solid_082",
+        "solid_119",
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
+        "liquid_272",
         "liquid_273",
         "liquid_274",
         "liquid_275",
-        "liquid_276",
-        "liquid_277"
+        "liquid_276"
       ]
     },
     "tier": 3
@@ -5042,23 +5298,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_189"
+      "machine": "machine_192"
     },
     "recipe": {
-      "machine": "machine_189",
+      "machine": "machine_192",
       "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_194"
+        "solid_082",
+        "solid_119",
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
+        "liquid_272",
         "liquid_273",
         "liquid_274",
         "liquid_275",
-        "liquid_276",
-        "liquid_277"
+        "liquid_276"
       ]
     },
     "tier": 3
@@ -5071,23 +5327,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_189"
+      "machine": "machine_192"
     },
     "recipe": {
-      "machine": "machine_189",
+      "machine": "machine_192",
       "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_194"
+        "solid_082",
+        "solid_119",
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
+        "liquid_272",
         "liquid_273",
         "liquid_274",
         "liquid_275",
-        "liquid_276",
-        "liquid_277"
+        "liquid_276"
       ]
     },
     "tier": 3
@@ -5100,23 +5356,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_189"
+      "machine": "machine_193"
     },
     "recipe": {
-      "machine": "machine_189",
+      "machine": "machine_193",
       "inputs": [
-        "solid_046",
-        "solid_083",
-        "solid_120",
-        "solid_157",
-        "solid_194"
+        "solid_094",
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "liquid_226"
       ],
       "outputs": [
-        "liquid_273",
-        "liquid_274",
-        "liquid_275",
-        "liquid_276",
-        "liquid_277"
+        "liquid_277",
+        "liquid_278",
+        "liquid_279",
+        "liquid_280",
+        "liquid_281"
       ]
     },
     "tier": 3
@@ -5129,23 +5385,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_190"
+      "machine": "machine_193"
     },
     "recipe": {
-      "machine": "machine_190",
+      "machine": "machine_193",
       "inputs": [
-        "solid_058",
-        "solid_095",
-        "solid_132",
-        "solid_169",
-        "liquid_206"
+        "solid_094",
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "liquid_226"
       ],
       "outputs": [
+        "liquid_277",
         "liquid_278",
         "liquid_279",
         "liquid_280",
-        "liquid_281",
-        "liquid_282"
+        "liquid_281"
       ]
     },
     "tier": 3
@@ -5158,23 +5414,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_190"
+      "machine": "machine_193"
     },
     "recipe": {
-      "machine": "machine_190",
+      "machine": "machine_193",
       "inputs": [
-        "solid_058",
-        "solid_095",
-        "solid_132",
-        "solid_169",
-        "liquid_206"
+        "solid_094",
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "liquid_226"
       ],
       "outputs": [
+        "liquid_277",
         "liquid_278",
         "liquid_279",
         "liquid_280",
-        "liquid_281",
-        "liquid_282"
+        "liquid_281"
       ]
     },
     "tier": 3
@@ -5187,23 +5443,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_190"
+      "machine": "machine_193"
     },
     "recipe": {
-      "machine": "machine_190",
+      "machine": "machine_193",
       "inputs": [
-        "solid_058",
-        "solid_095",
-        "solid_132",
-        "solid_169",
-        "liquid_206"
+        "solid_094",
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "liquid_226"
       ],
       "outputs": [
+        "liquid_277",
         "liquid_278",
         "liquid_279",
         "liquid_280",
-        "liquid_281",
-        "liquid_282"
+        "liquid_281"
       ]
     },
     "tier": 3
@@ -5216,23 +5472,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_190"
+      "machine": "machine_193"
     },
     "recipe": {
-      "machine": "machine_190",
+      "machine": "machine_193",
       "inputs": [
-        "solid_058",
-        "solid_095",
-        "solid_132",
-        "solid_169",
-        "liquid_206"
+        "solid_094",
+        "solid_131",
+        "gas_356",
+        "solid_173",
+        "liquid_226"
       ],
       "outputs": [
+        "liquid_277",
         "liquid_278",
         "liquid_279",
         "liquid_280",
-        "liquid_281",
-        "liquid_282"
+        "liquid_281"
       ]
     },
     "tier": 3
@@ -5245,23 +5501,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_190"
+      "machine": "machine_194"
     },
     "recipe": {
-      "machine": "machine_190",
+      "machine": "machine_194",
       "inputs": [
-        "solid_058",
-        "solid_095",
-        "solid_132",
-        "solid_169",
-        "liquid_206"
+        "solid_106",
+        "solid_143",
+        "gas_368",
+        "solid_185",
+        "liquid_238"
       ],
       "outputs": [
-        "liquid_278",
-        "liquid_279",
-        "liquid_280",
-        "liquid_281",
-        "liquid_282"
+        "liquid_282",
+        "liquid_283",
+        "liquid_284",
+        "liquid_285",
+        "liquid_286"
       ]
     },
     "tier": 3
@@ -5274,23 +5530,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_191"
+      "machine": "machine_194"
     },
     "recipe": {
-      "machine": "machine_191",
+      "machine": "machine_194",
       "inputs": [
-        "solid_070",
-        "solid_107",
-        "solid_144",
-        "solid_181",
-        "liquid_218"
+        "solid_106",
+        "solid_143",
+        "gas_368",
+        "solid_185",
+        "liquid_238"
       ],
       "outputs": [
+        "liquid_282",
         "liquid_283",
         "liquid_284",
         "liquid_285",
-        "liquid_286",
-        "liquid_287"
+        "liquid_286"
       ]
     },
     "tier": 3
@@ -5303,23 +5559,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_191"
+      "machine": "machine_194"
     },
     "recipe": {
-      "machine": "machine_191",
+      "machine": "machine_194",
       "inputs": [
-        "solid_070",
-        "solid_107",
-        "solid_144",
-        "solid_181",
-        "liquid_218"
+        "solid_106",
+        "solid_143",
+        "gas_368",
+        "solid_185",
+        "liquid_238"
       ],
       "outputs": [
+        "liquid_282",
         "liquid_283",
         "liquid_284",
         "liquid_285",
-        "liquid_286",
-        "liquid_287"
+        "liquid_286"
       ]
     },
     "tier": 3
@@ -5332,23 +5588,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_191"
+      "machine": "machine_194"
     },
     "recipe": {
-      "machine": "machine_191",
+      "machine": "machine_194",
       "inputs": [
-        "solid_070",
-        "solid_107",
-        "solid_144",
-        "solid_181",
-        "liquid_218"
+        "solid_106",
+        "solid_143",
+        "gas_368",
+        "solid_185",
+        "liquid_238"
       ],
       "outputs": [
+        "liquid_282",
         "liquid_283",
         "liquid_284",
         "liquid_285",
-        "liquid_286",
-        "liquid_287"
+        "liquid_286"
       ]
     },
     "tier": 3
@@ -5361,23 +5617,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_191"
+      "machine": "machine_194"
     },
     "recipe": {
-      "machine": "machine_191",
+      "machine": "machine_194",
       "inputs": [
-        "solid_070",
-        "solid_107",
-        "solid_144",
-        "solid_181",
-        "liquid_218"
+        "solid_106",
+        "solid_143",
+        "gas_368",
+        "solid_185",
+        "liquid_238"
       ],
       "outputs": [
+        "liquid_282",
         "liquid_283",
         "liquid_284",
         "liquid_285",
-        "liquid_286",
-        "liquid_287"
+        "liquid_286"
       ]
     },
     "tier": 3
@@ -5390,23 +5646,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_191"
+      "machine": "machine_195"
     },
     "recipe": {
-      "machine": "machine_191",
+      "machine": "machine_195",
       "inputs": [
-        "solid_070",
-        "solid_107",
-        "solid_144",
-        "solid_181",
-        "liquid_218"
+        "solid_118",
+        "liquid_199",
+        "solid_160",
+        "liquid_213",
+        "liquid_250"
       ],
       "outputs": [
-        "liquid_283",
-        "liquid_284",
-        "liquid_285",
-        "liquid_286",
-        "liquid_287"
+        "liquid_287",
+        "liquid_288",
+        "liquid_289",
+        "liquid_290",
+        "liquid_291"
       ]
     },
     "tier": 3
@@ -5419,23 +5675,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_192"
+      "machine": "machine_195"
     },
     "recipe": {
-      "machine": "machine_192",
+      "machine": "machine_195",
       "inputs": [
-        "solid_082",
-        "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "solid_118",
+        "liquid_199",
+        "solid_160",
+        "liquid_213",
+        "liquid_250"
       ],
       "outputs": [
+        "liquid_287",
         "liquid_288",
         "liquid_289",
         "liquid_290",
-        "liquid_291",
-        "liquid_292"
+        "liquid_291"
       ]
     },
     "tier": 3
@@ -5448,23 +5704,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_192"
+      "machine": "machine_195"
     },
     "recipe": {
-      "machine": "machine_192",
+      "machine": "machine_195",
       "inputs": [
-        "solid_082",
-        "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "solid_118",
+        "liquid_199",
+        "solid_160",
+        "liquid_213",
+        "liquid_250"
       ],
       "outputs": [
+        "liquid_287",
         "liquid_288",
         "liquid_289",
         "liquid_290",
-        "liquid_291",
-        "liquid_292"
+        "liquid_291"
       ]
     },
     "tier": 3
@@ -5477,23 +5733,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_192"
+      "machine": "machine_195"
     },
     "recipe": {
-      "machine": "machine_192",
+      "machine": "machine_195",
       "inputs": [
-        "solid_082",
-        "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "solid_118",
+        "liquid_199",
+        "solid_160",
+        "liquid_213",
+        "liquid_250"
       ],
       "outputs": [
+        "liquid_287",
         "liquid_288",
         "liquid_289",
         "liquid_290",
-        "liquid_291",
-        "liquid_292"
+        "liquid_291"
       ]
     },
     "tier": 3
@@ -5506,23 +5762,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_192"
+      "machine": "machine_195"
     },
     "recipe": {
-      "machine": "machine_192",
+      "machine": "machine_195",
       "inputs": [
-        "solid_082",
-        "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "solid_118",
+        "liquid_199",
+        "solid_160",
+        "liquid_213",
+        "liquid_250"
       ],
       "outputs": [
+        "liquid_287",
         "liquid_288",
         "liquid_289",
         "liquid_290",
-        "liquid_291",
-        "liquid_292"
+        "liquid_291"
       ]
     },
     "tier": 3
@@ -5535,23 +5791,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_192"
+      "machine": "machine_196"
     },
     "recipe": {
-      "machine": "machine_192",
+      "machine": "machine_196",
       "inputs": [
-        "solid_082",
-        "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "solid_130",
+        "gas_355",
+        "solid_172",
+        "liquid_225",
+        "liquid_262"
       ],
       "outputs": [
-        "liquid_288",
-        "liquid_289",
-        "liquid_290",
-        "liquid_291",
-        "liquid_292"
+        "liquid_292",
+        "liquid_293",
+        "liquid_294",
+        "liquid_295",
+        "liquid_296"
       ]
     },
     "tier": 3
@@ -5564,23 +5820,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_193"
+      "machine": "machine_196"
     },
     "recipe": {
-      "machine": "machine_193",
+      "machine": "machine_196",
       "inputs": [
-        "solid_094",
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "liquid_242"
+        "solid_130",
+        "gas_355",
+        "solid_172",
+        "liquid_225",
+        "liquid_262"
       ],
       "outputs": [
+        "liquid_292",
         "liquid_293",
         "liquid_294",
         "liquid_295",
-        "liquid_296",
-        "liquid_297"
+        "liquid_296"
       ]
     },
     "tier": 3
@@ -5593,23 +5849,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_193"
+      "machine": "machine_196"
     },
     "recipe": {
-      "machine": "machine_193",
+      "machine": "machine_196",
       "inputs": [
-        "solid_094",
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "liquid_242"
+        "solid_130",
+        "gas_355",
+        "solid_172",
+        "liquid_225",
+        "liquid_262"
       ],
       "outputs": [
+        "liquid_292",
         "liquid_293",
         "liquid_294",
         "liquid_295",
-        "liquid_296",
-        "liquid_297"
+        "liquid_296"
       ]
     },
     "tier": 3
@@ -5622,23 +5878,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_193"
+      "machine": "machine_196"
     },
     "recipe": {
-      "machine": "machine_193",
+      "machine": "machine_196",
       "inputs": [
-        "solid_094",
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "liquid_242"
+        "solid_130",
+        "gas_355",
+        "solid_172",
+        "liquid_225",
+        "liquid_262"
       ],
       "outputs": [
+        "liquid_292",
         "liquid_293",
         "liquid_294",
         "liquid_295",
-        "liquid_296",
-        "liquid_297"
+        "liquid_296"
       ]
     },
     "tier": 3
@@ -5651,23 +5907,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_193"
+      "machine": "machine_196"
     },
     "recipe": {
-      "machine": "machine_193",
+      "machine": "machine_196",
       "inputs": [
-        "solid_094",
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "liquid_242"
+        "solid_130",
+        "gas_355",
+        "solid_172",
+        "liquid_225",
+        "liquid_262"
       ],
       "outputs": [
+        "liquid_292",
         "liquid_293",
         "liquid_294",
         "liquid_295",
-        "liquid_296",
-        "liquid_297"
+        "liquid_296"
       ]
     },
     "tier": 3
@@ -5680,23 +5936,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_193"
+      "machine": "machine_197"
     },
     "recipe": {
-      "machine": "machine_193",
+      "machine": "machine_197",
       "inputs": [
-        "solid_094",
-        "solid_131",
-        "solid_168",
-        "liquid_205",
-        "liquid_242"
+        "solid_142",
+        "gas_367",
+        "solid_184",
+        "liquid_237",
+        "liquid_274"
       ],
       "outputs": [
-        "liquid_293",
-        "liquid_294",
-        "liquid_295",
-        "liquid_296",
-        "liquid_297"
+        "liquid_297",
+        "liquid_298",
+        "liquid_299",
+        "liquid_300",
+        "liquid_301"
       ]
     },
     "tier": 3
@@ -5709,23 +5965,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_194"
+      "machine": "machine_197"
     },
     "recipe": {
-      "machine": "machine_194",
+      "machine": "machine_197",
       "inputs": [
-        "solid_106",
-        "solid_143",
-        "solid_180",
-        "liquid_217",
-        "liquid_254"
+        "solid_142",
+        "gas_367",
+        "solid_184",
+        "liquid_237",
+        "liquid_274"
       ],
       "outputs": [
+        "liquid_297",
         "liquid_298",
         "liquid_299",
         "liquid_300",
-        "liquid_301",
-        "liquid_302"
+        "liquid_301"
       ]
     },
     "tier": 3
@@ -5738,23 +5994,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_194"
+      "machine": "machine_197"
     },
     "recipe": {
-      "machine": "machine_194",
+      "machine": "machine_197",
       "inputs": [
-        "solid_106",
-        "solid_143",
-        "solid_180",
-        "liquid_217",
-        "liquid_254"
+        "solid_142",
+        "gas_367",
+        "solid_184",
+        "liquid_237",
+        "liquid_274"
       ],
       "outputs": [
+        "liquid_297",
         "liquid_298",
         "liquid_299",
         "liquid_300",
-        "liquid_301",
-        "liquid_302"
+        "liquid_301"
       ]
     },
     "tier": 3
@@ -5767,23 +6023,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_194"
+      "machine": "machine_197"
     },
     "recipe": {
-      "machine": "machine_194",
+      "machine": "machine_197",
       "inputs": [
-        "solid_106",
-        "solid_143",
-        "solid_180",
-        "liquid_217",
-        "liquid_254"
+        "solid_142",
+        "gas_367",
+        "solid_184",
+        "liquid_237",
+        "liquid_274"
       ],
       "outputs": [
+        "liquid_297",
         "liquid_298",
         "liquid_299",
         "liquid_300",
-        "liquid_301",
-        "liquid_302"
+        "liquid_301"
       ]
     },
     "tier": 3
@@ -5796,23 +6052,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_194"
+      "machine": "machine_197"
     },
     "recipe": {
-      "machine": "machine_194",
+      "machine": "machine_197",
       "inputs": [
-        "solid_106",
-        "solid_143",
-        "solid_180",
-        "liquid_217",
-        "liquid_254"
+        "solid_142",
+        "gas_367",
+        "solid_184",
+        "liquid_237",
+        "liquid_274"
       ],
       "outputs": [
+        "liquid_297",
         "liquid_298",
         "liquid_299",
         "liquid_300",
-        "liquid_301",
-        "liquid_302"
+        "liquid_301"
       ]
     },
     "tier": 3
@@ -5825,23 +6081,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_194"
+      "machine": "machine_198"
     },
     "recipe": {
-      "machine": "machine_194",
+      "machine": "machine_198",
       "inputs": [
-        "solid_106",
-        "solid_143",
-        "solid_180",
-        "liquid_217",
-        "liquid_254"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249",
+        "liquid_286"
       ],
       "outputs": [
-        "liquid_298",
-        "liquid_299",
-        "liquid_300",
-        "liquid_301",
-        "liquid_302"
+        "liquid_302",
+        "liquid_303",
+        "liquid_304",
+        "liquid_305",
+        "liquid_306"
       ]
     },
     "tier": 3
@@ -5854,23 +6110,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_195"
+      "machine": "machine_198"
     },
     "recipe": {
-      "machine": "machine_195",
+      "machine": "machine_198",
       "inputs": [
-        "solid_118",
-        "solid_155",
-        "solid_192",
-        "liquid_229",
-        "liquid_266"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249",
+        "liquid_286"
       ],
       "outputs": [
+        "liquid_302",
         "liquid_303",
         "liquid_304",
         "liquid_305",
-        "liquid_306",
-        "liquid_307"
+        "liquid_306"
       ]
     },
     "tier": 3
@@ -5883,23 +6139,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_195"
+      "machine": "machine_198"
     },
     "recipe": {
-      "machine": "machine_195",
+      "machine": "machine_198",
       "inputs": [
-        "solid_118",
-        "solid_155",
-        "solid_192",
-        "liquid_229",
-        "liquid_266"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249",
+        "liquid_286"
       ],
       "outputs": [
+        "liquid_302",
         "liquid_303",
         "liquid_304",
         "liquid_305",
-        "liquid_306",
-        "liquid_307"
+        "liquid_306"
       ]
     },
     "tier": 3
@@ -5912,23 +6168,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_195"
+      "machine": "machine_198"
     },
     "recipe": {
-      "machine": "machine_195",
+      "machine": "machine_198",
       "inputs": [
-        "solid_118",
-        "solid_155",
-        "solid_192",
-        "liquid_229",
-        "liquid_266"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249",
+        "liquid_286"
       ],
       "outputs": [
+        "liquid_302",
         "liquid_303",
         "liquid_304",
         "liquid_305",
-        "liquid_306",
-        "liquid_307"
+        "liquid_306"
       ]
     },
     "tier": 3
@@ -5941,23 +6197,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_195"
+      "machine": "machine_198"
     },
     "recipe": {
-      "machine": "machine_195",
+      "machine": "machine_198",
       "inputs": [
-        "solid_118",
-        "solid_155",
-        "solid_192",
-        "liquid_229",
-        "liquid_266"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249",
+        "liquid_286"
       ],
       "outputs": [
+        "liquid_302",
         "liquid_303",
         "liquid_304",
         "liquid_305",
-        "liquid_306",
-        "liquid_307"
+        "liquid_306"
       ]
     },
     "tier": 3
@@ -5970,465 +6226,30 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_195"
+      "machine": "machine_199"
     },
     "recipe": {
-      "machine": "machine_195",
+      "machine": "machine_199",
       "inputs": [
-        "solid_118",
-        "solid_155",
-        "solid_192",
-        "liquid_229",
-        "liquid_266"
+        "liquid_210",
+        "solid_171",
+        "liquid_224",
+        "liquid_261",
+        "liquid_298"
       ],
       "outputs": [
-        "liquid_303",
-        "liquid_304",
-        "liquid_305",
-        "liquid_306",
-        "liquid_307"
+        "liquid_307",
+        "liquid_308",
+        "liquid_309",
+        "liquid_310",
+        "liquid_311"
       ]
     },
-    "tier": 3
+    "tier": 4
   },
   {
     "id": "liquid_308",
     "name": "Liquid resin",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_196"
-    },
-    "recipe": {
-      "machine": "machine_196",
-      "inputs": [
-        "solid_130",
-        "solid_167",
-        "liquid_204",
-        "liquid_241",
-        "liquid_278"
-      ],
-      "outputs": [
-        "liquid_308",
-        "liquid_309",
-        "liquid_310",
-        "liquid_311",
-        "liquid_312"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_309",
-    "name": "Epoxy hardener",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_196"
-    },
-    "recipe": {
-      "machine": "machine_196",
-      "inputs": [
-        "solid_130",
-        "solid_167",
-        "liquid_204",
-        "liquid_241",
-        "liquid_278"
-      ],
-      "outputs": [
-        "liquid_308",
-        "liquid_309",
-        "liquid_310",
-        "liquid_311",
-        "liquid_312"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_310",
-    "name": "Polyurethane prepolymer",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_196"
-    },
-    "recipe": {
-      "machine": "machine_196",
-      "inputs": [
-        "solid_130",
-        "solid_167",
-        "liquid_204",
-        "liquid_241",
-        "liquid_278"
-      ],
-      "outputs": [
-        "liquid_308",
-        "liquid_309",
-        "liquid_310",
-        "liquid_311",
-        "liquid_312"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_311",
-    "name": "Latex emulsion",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_196"
-    },
-    "recipe": {
-      "machine": "machine_196",
-      "inputs": [
-        "solid_130",
-        "solid_167",
-        "liquid_204",
-        "liquid_241",
-        "liquid_278"
-      ],
-      "outputs": [
-        "liquid_308",
-        "liquid_309",
-        "liquid_310",
-        "liquid_311",
-        "liquid_312"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_312",
-    "name": "Liquid rubber",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_196"
-    },
-    "recipe": {
-      "machine": "machine_196",
-      "inputs": [
-        "solid_130",
-        "solid_167",
-        "liquid_204",
-        "liquid_241",
-        "liquid_278"
-      ],
-      "outputs": [
-        "liquid_308",
-        "liquid_309",
-        "liquid_310",
-        "liquid_311",
-        "liquid_312"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_313",
-    "name": "Liquid polymer",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_197"
-    },
-    "recipe": {
-      "machine": "machine_197",
-      "inputs": [
-        "solid_142",
-        "solid_179",
-        "liquid_216",
-        "liquid_253",
-        "liquid_290"
-      ],
-      "outputs": [
-        "liquid_313",
-        "liquid_314",
-        "liquid_315",
-        "liquid_316",
-        "liquid_317"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_314",
-    "name": "Molten paraffin",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_197"
-    },
-    "recipe": {
-      "machine": "machine_197",
-      "inputs": [
-        "solid_142",
-        "solid_179",
-        "liquid_216",
-        "liquid_253",
-        "liquid_290"
-      ],
-      "outputs": [
-        "liquid_313",
-        "liquid_314",
-        "liquid_315",
-        "liquid_316",
-        "liquid_317"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_315",
-    "name": "Wax emulsion",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_197"
-    },
-    "recipe": {
-      "machine": "machine_197",
-      "inputs": [
-        "solid_142",
-        "solid_179",
-        "liquid_216",
-        "liquid_253",
-        "liquid_290"
-      ],
-      "outputs": [
-        "liquid_313",
-        "liquid_314",
-        "liquid_315",
-        "liquid_316",
-        "liquid_317"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_316",
-    "name": "Liquid detergent",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_197"
-    },
-    "recipe": {
-      "machine": "machine_197",
-      "inputs": [
-        "solid_142",
-        "solid_179",
-        "liquid_216",
-        "liquid_253",
-        "liquid_290"
-      ],
-      "outputs": [
-        "liquid_313",
-        "liquid_314",
-        "liquid_315",
-        "liquid_316",
-        "liquid_317"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_317",
-    "name": "Surfactant solution",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_197"
-    },
-    "recipe": {
-      "machine": "machine_197",
-      "inputs": [
-        "solid_142",
-        "solid_179",
-        "liquid_216",
-        "liquid_253",
-        "liquid_290"
-      ],
-      "outputs": [
-        "liquid_313",
-        "liquid_314",
-        "liquid_315",
-        "liquid_316",
-        "liquid_317"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_318",
-    "name": "Soap solution",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_198"
-    },
-    "recipe": {
-      "machine": "machine_198",
-      "inputs": [
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265",
-        "liquid_302"
-      ],
-      "outputs": [
-        "liquid_318",
-        "liquid_319",
-        "liquid_320",
-        "liquid_321",
-        "liquid_322"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_319",
-    "name": "Sugar syrup",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_198"
-    },
-    "recipe": {
-      "machine": "machine_198",
-      "inputs": [
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265",
-        "liquid_302"
-      ],
-      "outputs": [
-        "liquid_318",
-        "liquid_319",
-        "liquid_320",
-        "liquid_321",
-        "liquid_322"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_320",
-    "name": "Glucose solution",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_198"
-    },
-    "recipe": {
-      "machine": "machine_198",
-      "inputs": [
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265",
-        "liquid_302"
-      ],
-      "outputs": [
-        "liquid_318",
-        "liquid_319",
-        "liquid_320",
-        "liquid_321",
-        "liquid_322"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_321",
-    "name": "Fructose syrup",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_198"
-    },
-    "recipe": {
-      "machine": "machine_198",
-      "inputs": [
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265",
-        "liquid_302"
-      ],
-      "outputs": [
-        "liquid_318",
-        "liquid_319",
-        "liquid_320",
-        "liquid_321",
-        "liquid_322"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_322",
-    "name": "Molasses",
-    "state": "liquid",
-    "category": "Fluid / Chemical",
-    "implemented": true,
-    "source": {
-      "type": "manufactured",
-      "machine": "machine_198"
-    },
-    "recipe": {
-      "machine": "machine_198",
-      "inputs": [
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265",
-        "liquid_302"
-      ],
-      "outputs": [
-        "liquid_318",
-        "liquid_319",
-        "liquid_320",
-        "liquid_321",
-        "liquid_322"
-      ]
-    },
-    "tier": 3
-  },
-  {
-    "id": "liquid_323",
-    "name": "Liquid starch",
     "state": "liquid",
     "category": "Fluid / Chemical",
     "implemented": true,
@@ -6439,18 +6260,453 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_199",
       "inputs": [
-        "solid_166",
-        "liquid_203",
-        "liquid_240",
-        "liquid_277",
-        "liquid_314"
+        "liquid_210",
+        "solid_171",
+        "liquid_224",
+        "liquid_261",
+        "liquid_298"
       ],
       "outputs": [
+        "liquid_307",
+        "liquid_308",
+        "liquid_309",
+        "liquid_310",
+        "liquid_311"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_309",
+    "name": "Epoxy hardener",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_199"
+    },
+    "recipe": {
+      "machine": "machine_199",
+      "inputs": [
+        "liquid_210",
+        "solid_171",
+        "liquid_224",
+        "liquid_261",
+        "liquid_298"
+      ],
+      "outputs": [
+        "liquid_307",
+        "liquid_308",
+        "liquid_309",
+        "liquid_310",
+        "liquid_311"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_310",
+    "name": "Polyurethane prepolymer",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_199"
+    },
+    "recipe": {
+      "machine": "machine_199",
+      "inputs": [
+        "liquid_210",
+        "solid_171",
+        "liquid_224",
+        "liquid_261",
+        "liquid_298"
+      ],
+      "outputs": [
+        "liquid_307",
+        "liquid_308",
+        "liquid_309",
+        "liquid_310",
+        "liquid_311"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_311",
+    "name": "Latex emulsion",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_199"
+    },
+    "recipe": {
+      "machine": "machine_199",
+      "inputs": [
+        "liquid_210",
+        "solid_171",
+        "liquid_224",
+        "liquid_261",
+        "liquid_298"
+      ],
+      "outputs": [
+        "liquid_307",
+        "liquid_308",
+        "liquid_309",
+        "liquid_310",
+        "liquid_311"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_312",
+    "name": "Liquid rubber",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_200"
+    },
+    "recipe": {
+      "machine": "machine_200",
+      "inputs": [
+        "gas_366",
+        "solid_183",
+        "liquid_236",
+        "liquid_273",
+        "liquid_310"
+      ],
+      "outputs": [
+        "liquid_312",
+        "liquid_313",
+        "liquid_314",
+        "liquid_315",
+        "liquid_316"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_313",
+    "name": "Liquid polymer",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_200"
+    },
+    "recipe": {
+      "machine": "machine_200",
+      "inputs": [
+        "gas_366",
+        "solid_183",
+        "liquid_236",
+        "liquid_273",
+        "liquid_310"
+      ],
+      "outputs": [
+        "liquid_312",
+        "liquid_313",
+        "liquid_314",
+        "liquid_315",
+        "liquid_316"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_314",
+    "name": "Molten paraffin",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_200"
+    },
+    "recipe": {
+      "machine": "machine_200",
+      "inputs": [
+        "gas_366",
+        "solid_183",
+        "liquid_236",
+        "liquid_273",
+        "liquid_310"
+      ],
+      "outputs": [
+        "liquid_312",
+        "liquid_313",
+        "liquid_314",
+        "liquid_315",
+        "liquid_316"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_315",
+    "name": "Wax emulsion",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_200"
+    },
+    "recipe": {
+      "machine": "machine_200",
+      "inputs": [
+        "gas_366",
+        "solid_183",
+        "liquid_236",
+        "liquid_273",
+        "liquid_310"
+      ],
+      "outputs": [
+        "liquid_312",
+        "liquid_313",
+        "liquid_314",
+        "liquid_315",
+        "liquid_316"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_316",
+    "name": "Liquid detergent",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_200"
+    },
+    "recipe": {
+      "machine": "machine_200",
+      "inputs": [
+        "gas_366",
+        "solid_183",
+        "liquid_236",
+        "liquid_273",
+        "liquid_310"
+      ],
+      "outputs": [
+        "liquid_312",
+        "liquid_313",
+        "liquid_314",
+        "liquid_315",
+        "liquid_316"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_317",
+    "name": "Surfactant solution",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_201"
+    },
+    "recipe": {
+      "machine": "machine_201",
+      "inputs": [
+        "solid_158",
+        "liquid_211",
+        "liquid_248",
+        "liquid_285",
+        "solid_006"
+      ],
+      "outputs": [
+        "liquid_317",
+        "liquid_318",
+        "liquid_319",
+        "liquid_320",
+        "liquid_321"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_318",
+    "name": "Soap solution",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_201"
+    },
+    "recipe": {
+      "machine": "machine_201",
+      "inputs": [
+        "solid_158",
+        "liquid_211",
+        "liquid_248",
+        "liquid_285",
+        "solid_006"
+      ],
+      "outputs": [
+        "liquid_317",
+        "liquid_318",
+        "liquid_319",
+        "liquid_320",
+        "liquid_321"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_319",
+    "name": "Sugar syrup",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_201"
+    },
+    "recipe": {
+      "machine": "machine_201",
+      "inputs": [
+        "solid_158",
+        "liquid_211",
+        "liquid_248",
+        "liquid_285",
+        "solid_006"
+      ],
+      "outputs": [
+        "liquid_317",
+        "liquid_318",
+        "liquid_319",
+        "liquid_320",
+        "liquid_321"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_320",
+    "name": "Glucose solution",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_201"
+    },
+    "recipe": {
+      "machine": "machine_201",
+      "inputs": [
+        "solid_158",
+        "liquid_211",
+        "liquid_248",
+        "liquid_285",
+        "solid_006"
+      ],
+      "outputs": [
+        "liquid_317",
+        "liquid_318",
+        "liquid_319",
+        "liquid_320",
+        "liquid_321"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_321",
+    "name": "Fructose syrup",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_201"
+    },
+    "recipe": {
+      "machine": "machine_201",
+      "inputs": [
+        "solid_158",
+        "liquid_211",
+        "liquid_248",
+        "liquid_285",
+        "solid_006"
+      ],
+      "outputs": [
+        "liquid_317",
+        "liquid_318",
+        "liquid_319",
+        "liquid_320",
+        "liquid_321"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_322",
+    "name": "Molasses",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_202"
+    },
+    "recipe": {
+      "machine": "machine_202",
+      "inputs": [
+        "solid_170",
+        "liquid_223",
+        "liquid_260",
+        "liquid_297",
+        "solid_013"
+      ],
+      "outputs": [
+        "liquid_322",
         "liquid_323",
         "liquid_324",
         "liquid_325",
-        "liquid_326",
-        "liquid_327"
+        "liquid_326"
+      ]
+    },
+    "tier": 4
+  },
+  {
+    "id": "liquid_323",
+    "name": "Liquid starch",
+    "state": "liquid",
+    "category": "Fluid / Chemical",
+    "implemented": true,
+    "source": {
+      "type": "manufactured",
+      "machine": "machine_202"
+    },
+    "recipe": {
+      "machine": "machine_202",
+      "inputs": [
+        "solid_170",
+        "liquid_223",
+        "liquid_260",
+        "liquid_297",
+        "solid_013"
+      ],
+      "outputs": [
+        "liquid_322",
+        "liquid_323",
+        "liquid_324",
+        "liquid_325",
+        "liquid_326"
       ]
     },
     "tier": 4
@@ -6463,23 +6719,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_199"
+      "machine": "machine_202"
     },
     "recipe": {
-      "machine": "machine_199",
+      "machine": "machine_202",
       "inputs": [
-        "solid_166",
-        "liquid_203",
-        "liquid_240",
-        "liquid_277",
-        "liquid_314"
+        "solid_170",
+        "liquid_223",
+        "liquid_260",
+        "liquid_297",
+        "solid_013"
       ],
       "outputs": [
+        "liquid_322",
         "liquid_323",
         "liquid_324",
         "liquid_325",
-        "liquid_326",
-        "liquid_327"
+        "liquid_326"
       ]
     },
     "tier": 4
@@ -6492,23 +6748,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_199"
+      "machine": "machine_202"
     },
     "recipe": {
-      "machine": "machine_199",
+      "machine": "machine_202",
       "inputs": [
-        "solid_166",
-        "liquid_203",
-        "liquid_240",
-        "liquid_277",
-        "liquid_314"
+        "solid_170",
+        "liquid_223",
+        "liquid_260",
+        "liquid_297",
+        "solid_013"
       ],
       "outputs": [
+        "liquid_322",
         "liquid_323",
         "liquid_324",
         "liquid_325",
-        "liquid_326",
-        "liquid_327"
+        "liquid_326"
       ]
     },
     "tier": 4
@@ -6521,23 +6777,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_199"
+      "machine": "machine_202"
     },
     "recipe": {
-      "machine": "machine_199",
+      "machine": "machine_202",
       "inputs": [
-        "solid_166",
-        "liquid_203",
-        "liquid_240",
-        "liquid_277",
-        "liquid_314"
+        "solid_170",
+        "liquid_223",
+        "liquid_260",
+        "liquid_297",
+        "solid_013"
       ],
       "outputs": [
+        "liquid_322",
         "liquid_323",
         "liquid_324",
         "liquid_325",
-        "liquid_326",
-        "liquid_327"
+        "liquid_326"
       ]
     },
     "tier": 4
@@ -6550,23 +6806,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_199"
+      "machine": "machine_203"
     },
     "recipe": {
-      "machine": "machine_199",
+      "machine": "machine_203",
       "inputs": [
-        "solid_166",
-        "liquid_203",
-        "liquid_240",
-        "liquid_277",
-        "liquid_314"
+        "solid_182",
+        "liquid_235",
+        "liquid_272",
+        "liquid_309",
+        "solid_020"
       ],
       "outputs": [
-        "liquid_323",
-        "liquid_324",
-        "liquid_325",
-        "liquid_326",
-        "liquid_327"
+        "liquid_327",
+        "liquid_328",
+        "liquid_329",
+        "liquid_330",
+        "liquid_331"
       ]
     },
     "tier": 4
@@ -6579,23 +6835,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_200"
+      "machine": "machine_203"
     },
     "recipe": {
-      "machine": "machine_200",
+      "machine": "machine_203",
       "inputs": [
-        "solid_178",
-        "liquid_215",
-        "liquid_252",
-        "liquid_289",
-        "liquid_326"
+        "solid_182",
+        "liquid_235",
+        "liquid_272",
+        "liquid_309",
+        "solid_020"
       ],
       "outputs": [
+        "liquid_327",
         "liquid_328",
         "liquid_329",
         "liquid_330",
-        "liquid_331",
-        "liquid_332"
+        "liquid_331"
       ]
     },
     "tier": 4
@@ -6608,23 +6864,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_200"
+      "machine": "machine_203"
     },
     "recipe": {
-      "machine": "machine_200",
+      "machine": "machine_203",
       "inputs": [
-        "solid_178",
-        "liquid_215",
-        "liquid_252",
-        "liquid_289",
-        "liquid_326"
+        "solid_182",
+        "liquid_235",
+        "liquid_272",
+        "liquid_309",
+        "solid_020"
       ],
       "outputs": [
+        "liquid_327",
         "liquid_328",
         "liquid_329",
         "liquid_330",
-        "liquid_331",
-        "liquid_332"
+        "liquid_331"
       ]
     },
     "tier": 4
@@ -6637,23 +6893,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_200"
+      "machine": "machine_203"
     },
     "recipe": {
-      "machine": "machine_200",
+      "machine": "machine_203",
       "inputs": [
-        "solid_178",
-        "liquid_215",
-        "liquid_252",
-        "liquid_289",
-        "liquid_326"
+        "solid_182",
+        "liquid_235",
+        "liquid_272",
+        "liquid_309",
+        "solid_020"
       ],
       "outputs": [
+        "liquid_327",
         "liquid_328",
         "liquid_329",
         "liquid_330",
-        "liquid_331",
-        "liquid_332"
+        "liquid_331"
       ]
     },
     "tier": 4
@@ -6666,23 +6922,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_200"
+      "machine": "machine_203"
     },
     "recipe": {
-      "machine": "machine_200",
+      "machine": "machine_203",
       "inputs": [
-        "solid_178",
-        "liquid_215",
-        "liquid_252",
-        "liquid_289",
-        "liquid_326"
+        "solid_182",
+        "liquid_235",
+        "liquid_272",
+        "liquid_309",
+        "solid_020"
       ],
       "outputs": [
+        "liquid_327",
         "liquid_328",
         "liquid_329",
         "liquid_330",
-        "liquid_331",
-        "liquid_332"
+        "liquid_331"
       ]
     },
     "tier": 4
@@ -6695,23 +6951,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_200"
+      "machine": "machine_204"
     },
     "recipe": {
-      "machine": "machine_200",
+      "machine": "machine_204",
       "inputs": [
-        "solid_178",
-        "liquid_215",
-        "liquid_252",
-        "liquid_289",
-        "liquid_326"
+        "solid_194",
+        "liquid_247",
+        "liquid_284",
+        "liquid_321",
+        "solid_027"
       ],
       "outputs": [
-        "liquid_328",
-        "liquid_329",
-        "liquid_330",
-        "liquid_331",
-        "liquid_332"
+        "liquid_332",
+        "liquid_333",
+        "liquid_334",
+        "liquid_335",
+        "liquid_336"
       ]
     },
     "tier": 4
@@ -6724,23 +6980,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_201"
+      "machine": "machine_204"
     },
     "recipe": {
-      "machine": "machine_201",
+      "machine": "machine_204",
       "inputs": [
-        "solid_190",
-        "liquid_227",
-        "liquid_264",
-        "liquid_301",
-        "solid_006"
+        "solid_194",
+        "liquid_247",
+        "liquid_284",
+        "liquid_321",
+        "solid_027"
       ],
       "outputs": [
+        "liquid_332",
         "liquid_333",
         "liquid_334",
         "liquid_335",
-        "liquid_336",
-        "liquid_337"
+        "liquid_336"
       ]
     },
     "tier": 4
@@ -6753,23 +7009,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_201"
+      "machine": "machine_204"
     },
     "recipe": {
-      "machine": "machine_201",
+      "machine": "machine_204",
       "inputs": [
-        "solid_190",
-        "liquid_227",
-        "liquid_264",
-        "liquid_301",
-        "solid_006"
+        "solid_194",
+        "liquid_247",
+        "liquid_284",
+        "liquid_321",
+        "solid_027"
       ],
       "outputs": [
+        "liquid_332",
         "liquid_333",
         "liquid_334",
         "liquid_335",
-        "liquid_336",
-        "liquid_337"
+        "liquid_336"
       ]
     },
     "tier": 4
@@ -6782,23 +7038,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_201"
+      "machine": "machine_204"
     },
     "recipe": {
-      "machine": "machine_201",
+      "machine": "machine_204",
       "inputs": [
-        "solid_190",
-        "liquid_227",
-        "liquid_264",
-        "liquid_301",
-        "solid_006"
+        "solid_194",
+        "liquid_247",
+        "liquid_284",
+        "liquid_321",
+        "solid_027"
       ],
       "outputs": [
+        "liquid_332",
         "liquid_333",
         "liquid_334",
         "liquid_335",
-        "liquid_336",
-        "liquid_337"
+        "liquid_336"
       ]
     },
     "tier": 4
@@ -6811,23 +7067,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_201"
+      "machine": "machine_204"
     },
     "recipe": {
-      "machine": "machine_201",
+      "machine": "machine_204",
       "inputs": [
-        "solid_190",
-        "liquid_227",
-        "liquid_264",
-        "liquid_301",
-        "solid_006"
+        "solid_194",
+        "liquid_247",
+        "liquid_284",
+        "liquid_321",
+        "solid_027"
       ],
       "outputs": [
+        "liquid_332",
         "liquid_333",
         "liquid_334",
         "liquid_335",
-        "liquid_336",
-        "liquid_337"
+        "liquid_336"
       ]
     },
     "tier": 4
@@ -6840,23 +7096,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_201"
+      "machine": "machine_205"
     },
     "recipe": {
-      "machine": "machine_201",
+      "machine": "machine_205",
       "inputs": [
-        "solid_190",
-        "liquid_227",
-        "liquid_264",
-        "liquid_301",
-        "solid_006"
+        "liquid_222",
+        "liquid_259",
+        "liquid_296",
+        "liquid_333",
+        "solid_034"
       ],
       "outputs": [
-        "liquid_333",
-        "liquid_334",
-        "liquid_335",
-        "liquid_336",
-        "liquid_337"
+        "liquid_337",
+        "liquid_338",
+        "liquid_339",
+        "liquid_340",
+        "liquid_341"
       ]
     },
     "tier": 4
@@ -6869,23 +7125,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_202"
+      "machine": "machine_205"
     },
     "recipe": {
-      "machine": "machine_202",
+      "machine": "machine_205",
       "inputs": [
-        "liquid_202",
-        "liquid_239",
-        "liquid_276",
-        "liquid_313",
-        "solid_013"
+        "liquid_222",
+        "liquid_259",
+        "liquid_296",
+        "liquid_333",
+        "solid_034"
       ],
       "outputs": [
+        "liquid_337",
         "liquid_338",
         "liquid_339",
         "liquid_340",
-        "liquid_341",
-        "liquid_342"
+        "liquid_341"
       ]
     },
     "tier": 4
@@ -6898,23 +7154,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_202"
+      "machine": "machine_205"
     },
     "recipe": {
-      "machine": "machine_202",
+      "machine": "machine_205",
       "inputs": [
-        "liquid_202",
-        "liquid_239",
-        "liquid_276",
-        "liquid_313",
-        "solid_013"
+        "liquid_222",
+        "liquid_259",
+        "liquid_296",
+        "liquid_333",
+        "solid_034"
       ],
       "outputs": [
+        "liquid_337",
         "liquid_338",
         "liquid_339",
         "liquid_340",
-        "liquid_341",
-        "liquid_342"
+        "liquid_341"
       ]
     },
     "tier": 4
@@ -6927,23 +7183,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_202"
+      "machine": "machine_205"
     },
     "recipe": {
-      "machine": "machine_202",
+      "machine": "machine_205",
       "inputs": [
-        "liquid_202",
-        "liquid_239",
-        "liquid_276",
-        "liquid_313",
-        "solid_013"
+        "liquid_222",
+        "liquid_259",
+        "liquid_296",
+        "liquid_333",
+        "solid_034"
       ],
       "outputs": [
+        "liquid_337",
         "liquid_338",
         "liquid_339",
         "liquid_340",
-        "liquid_341",
-        "liquid_342"
+        "liquid_341"
       ]
     },
     "tier": 4
@@ -6956,23 +7212,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_202"
+      "machine": "machine_205"
     },
     "recipe": {
-      "machine": "machine_202",
+      "machine": "machine_205",
       "inputs": [
-        "liquid_202",
-        "liquid_239",
-        "liquid_276",
-        "liquid_313",
-        "solid_013"
+        "liquid_222",
+        "liquid_259",
+        "liquid_296",
+        "liquid_333",
+        "solid_034"
       ],
       "outputs": [
+        "liquid_337",
         "liquid_338",
         "liquid_339",
         "liquid_340",
-        "liquid_341",
-        "liquid_342"
+        "liquid_341"
       ]
     },
     "tier": 4
@@ -6985,23 +7241,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_202"
+      "machine": "machine_206"
     },
     "recipe": {
-      "machine": "machine_202",
+      "machine": "machine_206",
       "inputs": [
-        "liquid_202",
-        "liquid_239",
-        "liquid_276",
-        "liquid_313",
-        "solid_013"
+        "liquid_234",
+        "liquid_271",
+        "liquid_308",
+        "solid_004",
+        "solid_041"
       ],
       "outputs": [
-        "liquid_338",
-        "liquid_339",
-        "liquid_340",
-        "liquid_341",
-        "liquid_342"
+        "liquid_342",
+        "liquid_343",
+        "liquid_344",
+        "liquid_345",
+        "liquid_346"
       ]
     },
     "tier": 4
@@ -7014,23 +7270,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_203"
+      "machine": "machine_206"
     },
     "recipe": {
-      "machine": "machine_203",
+      "machine": "machine_206",
       "inputs": [
-        "liquid_214",
-        "liquid_251",
-        "liquid_288",
-        "liquid_325",
-        "solid_020"
+        "liquid_234",
+        "liquid_271",
+        "liquid_308",
+        "solid_004",
+        "solid_041"
       ],
       "outputs": [
+        "liquid_342",
         "liquid_343",
         "liquid_344",
         "liquid_345",
-        "liquid_346",
-        "liquid_347"
+        "liquid_346"
       ]
     },
     "tier": 4
@@ -7043,23 +7299,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_203"
+      "machine": "machine_206"
     },
     "recipe": {
-      "machine": "machine_203",
+      "machine": "machine_206",
       "inputs": [
-        "liquid_214",
-        "liquid_251",
-        "liquid_288",
-        "liquid_325",
-        "solid_020"
+        "liquid_234",
+        "liquid_271",
+        "liquid_308",
+        "solid_004",
+        "solid_041"
       ],
       "outputs": [
+        "liquid_342",
         "liquid_343",
         "liquid_344",
         "liquid_345",
-        "liquid_346",
-        "liquid_347"
+        "liquid_346"
       ]
     },
     "tier": 4
@@ -7072,23 +7328,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_203"
+      "machine": "machine_206"
     },
     "recipe": {
-      "machine": "machine_203",
+      "machine": "machine_206",
       "inputs": [
-        "liquid_214",
-        "liquid_251",
-        "liquid_288",
-        "liquid_325",
-        "solid_020"
+        "liquid_234",
+        "liquid_271",
+        "liquid_308",
+        "solid_004",
+        "solid_041"
       ],
       "outputs": [
+        "liquid_342",
         "liquid_343",
         "liquid_344",
         "liquid_345",
-        "liquid_346",
-        "liquid_347"
+        "liquid_346"
       ]
     },
     "tier": 4
@@ -7101,23 +7357,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_203"
+      "machine": "machine_206"
     },
     "recipe": {
-      "machine": "machine_203",
+      "machine": "machine_206",
       "inputs": [
-        "liquid_214",
-        "liquid_251",
-        "liquid_288",
-        "liquid_325",
-        "solid_020"
+        "liquid_234",
+        "liquid_271",
+        "liquid_308",
+        "solid_004",
+        "solid_041"
       ],
       "outputs": [
+        "liquid_342",
         "liquid_343",
         "liquid_344",
         "liquid_345",
-        "liquid_346",
-        "liquid_347"
+        "liquid_346"
       ]
     },
     "tier": 4
@@ -7130,23 +7386,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_203"
+      "machine": "machine_207"
     },
     "recipe": {
-      "machine": "machine_203",
+      "machine": "machine_207",
       "inputs": [
-        "liquid_214",
-        "liquid_251",
-        "liquid_288",
-        "liquid_325",
-        "solid_020"
+        "liquid_246",
+        "liquid_283",
+        "liquid_320",
+        "solid_011",
+        "solid_048"
       ],
       "outputs": [
-        "liquid_343",
-        "liquid_344",
-        "liquid_345",
-        "liquid_346",
-        "liquid_347"
+        "liquid_347",
+        "liquid_348",
+        "liquid_349",
+        "liquid_350",
+        "liquid_351"
       ]
     },
     "tier": 4
@@ -7159,23 +7415,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_204"
+      "machine": "machine_207"
     },
     "recipe": {
-      "machine": "machine_204",
+      "machine": "machine_207",
       "inputs": [
-        "liquid_226",
-        "liquid_263",
-        "liquid_300",
-        "liquid_337",
-        "solid_027"
+        "liquid_246",
+        "liquid_283",
+        "liquid_320",
+        "solid_011",
+        "solid_048"
       ],
       "outputs": [
+        "liquid_347",
         "liquid_348",
         "liquid_349",
         "liquid_350",
-        "liquid_351",
-        "liquid_352"
+        "liquid_351"
       ]
     },
     "tier": 4
@@ -7188,23 +7444,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_204"
+      "machine": "machine_207"
     },
     "recipe": {
-      "machine": "machine_204",
+      "machine": "machine_207",
       "inputs": [
-        "liquid_226",
-        "liquid_263",
-        "liquid_300",
-        "liquid_337",
-        "solid_027"
+        "liquid_246",
+        "liquid_283",
+        "liquid_320",
+        "solid_011",
+        "solid_048"
       ],
       "outputs": [
+        "liquid_347",
         "liquid_348",
         "liquid_349",
         "liquid_350",
-        "liquid_351",
-        "liquid_352"
+        "liquid_351"
       ]
     },
     "tier": 4
@@ -7217,23 +7473,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_204"
+      "machine": "machine_207"
     },
     "recipe": {
-      "machine": "machine_204",
+      "machine": "machine_207",
       "inputs": [
-        "liquid_226",
-        "liquid_263",
-        "liquid_300",
-        "liquid_337",
-        "solid_027"
+        "liquid_246",
+        "liquid_283",
+        "liquid_320",
+        "solid_011",
+        "solid_048"
       ],
       "outputs": [
+        "liquid_347",
         "liquid_348",
         "liquid_349",
         "liquid_350",
-        "liquid_351",
-        "liquid_352"
+        "liquid_351"
       ]
     },
     "tier": 4
@@ -7246,23 +7502,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_204"
+      "machine": "machine_207"
     },
     "recipe": {
-      "machine": "machine_204",
+      "machine": "machine_207",
       "inputs": [
-        "liquid_226",
-        "liquid_263",
-        "liquid_300",
-        "liquid_337",
-        "solid_027"
+        "liquid_246",
+        "liquid_283",
+        "liquid_320",
+        "solid_011",
+        "solid_048"
       ],
       "outputs": [
+        "liquid_347",
         "liquid_348",
         "liquid_349",
         "liquid_350",
-        "liquid_351",
-        "liquid_352"
+        "liquid_351"
       ]
     },
     "tier": 4
@@ -7275,23 +7531,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_204"
+      "machine": "machine_208"
     },
     "recipe": {
-      "machine": "machine_204",
+      "machine": "machine_208",
       "inputs": [
-        "liquid_226",
-        "liquid_263",
-        "liquid_300",
-        "liquid_337",
-        "solid_027"
+        "liquid_258",
+        "liquid_295",
+        "liquid_332",
+        "solid_018",
+        "solid_055"
       ],
       "outputs": [
-        "liquid_348",
-        "liquid_349",
-        "liquid_350",
-        "liquid_351",
-        "liquid_352"
+        "liquid_352",
+        "liquid_353",
+        "liquid_354",
+        "gas_371",
+        "gas_372"
       ]
     },
     "tier": 4
@@ -7304,23 +7560,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_205"
+      "machine": "machine_208"
     },
     "recipe": {
-      "machine": "machine_205",
+      "machine": "machine_208",
       "inputs": [
-        "liquid_238",
-        "liquid_275",
-        "liquid_312",
-        "liquid_349",
-        "solid_034"
+        "liquid_258",
+        "liquid_295",
+        "liquid_332",
+        "solid_018",
+        "solid_055"
       ],
       "outputs": [
+        "liquid_352",
         "liquid_353",
         "liquid_354",
-        "gas_355",
-        "gas_356",
-        "gas_357"
+        "gas_371",
+        "gas_372"
       ]
     },
     "tier": 4
@@ -7333,23 +7589,23 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "implemented": true,
     "source": {
       "type": "manufactured",
-      "machine": "machine_205"
+      "machine": "machine_208"
     },
     "recipe": {
-      "machine": "machine_205",
+      "machine": "machine_208",
       "inputs": [
-        "liquid_238",
-        "liquid_275",
-        "liquid_312",
-        "liquid_349",
-        "solid_034"
+        "liquid_258",
+        "liquid_295",
+        "liquid_332",
+        "solid_018",
+        "solid_055"
       ],
       "outputs": [
+        "liquid_352",
         "liquid_353",
         "liquid_354",
-        "gas_355",
-        "gas_356",
-        "gas_357"
+        "gas_371",
+        "gas_372"
       ]
     },
     "tier": 4
@@ -7361,27 +7617,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_205"
+      "type": "deposit",
+      "region": "umbral"
     },
-    "recipe": {
-      "machine": "machine_205",
-      "inputs": [
-        "liquid_238",
-        "liquid_275",
-        "liquid_312",
-        "liquid_349",
-        "solid_034"
-      ],
-      "outputs": [
-        "liquid_353",
-        "liquid_354",
-        "gas_355",
-        "gas_356",
-        "gas_357"
-      ]
-    },
-    "tier": 4
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "gas_356",
@@ -7390,27 +7630,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_205"
+      "type": "deposit",
+      "region": "rift"
     },
-    "recipe": {
-      "machine": "machine_205",
-      "inputs": [
-        "liquid_238",
-        "liquid_275",
-        "liquid_312",
-        "liquid_349",
-        "solid_034"
-      ],
-      "outputs": [
-        "liquid_353",
-        "liquid_354",
-        "gas_355",
-        "gas_356",
-        "gas_357"
-      ]
-    },
-    "tier": 4
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "gas_357",
@@ -7419,27 +7643,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_205"
+      "type": "deposit",
+      "region": "temperate"
     },
-    "recipe": {
-      "machine": "machine_205",
-      "inputs": [
-        "liquid_238",
-        "liquid_275",
-        "liquid_312",
-        "liquid_349",
-        "solid_034"
-      ],
-      "outputs": [
-        "liquid_353",
-        "liquid_354",
-        "gas_355",
-        "gas_356",
-        "gas_357"
-      ]
-    },
-    "tier": 4
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "gas_358",
@@ -7448,27 +7656,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_206"
+      "type": "deposit",
+      "region": "highlands"
     },
-    "recipe": {
-      "machine": "machine_206",
-      "inputs": [
-        "liquid_250",
-        "liquid_287",
-        "liquid_324",
-        "solid_004",
-        "solid_041"
-      ],
-      "outputs": [
-        "gas_358",
-        "gas_359",
-        "gas_360",
-        "gas_361",
-        "gas_362"
-      ]
-    },
-    "tier": 4
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "gas_359",
@@ -7477,27 +7669,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_206"
+      "type": "deposit",
+      "region": "wetlands"
     },
-    "recipe": {
-      "machine": "machine_206",
-      "inputs": [
-        "liquid_250",
-        "liquid_287",
-        "liquid_324",
-        "solid_004",
-        "solid_041"
-      ],
-      "outputs": [
-        "gas_358",
-        "gas_359",
-        "gas_360",
-        "gas_361",
-        "gas_362"
-      ]
-    },
-    "tier": 4
+    "region": "wetlands",
+    "tier": 1
   },
   {
     "id": "gas_360",
@@ -7506,27 +7682,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_206"
+      "type": "deposit",
+      "region": "badlands"
     },
-    "recipe": {
-      "machine": "machine_206",
-      "inputs": [
-        "liquid_250",
-        "liquid_287",
-        "liquid_324",
-        "solid_004",
-        "solid_041"
-      ],
-      "outputs": [
-        "gas_358",
-        "gas_359",
-        "gas_360",
-        "gas_361",
-        "gas_362"
-      ]
-    },
-    "tier": 4
+    "region": "badlands",
+    "tier": 1
   },
   {
     "id": "gas_361",
@@ -7535,27 +7695,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_206"
+      "type": "deposit",
+      "region": "crystal"
     },
-    "recipe": {
-      "machine": "machine_206",
-      "inputs": [
-        "liquid_250",
-        "liquid_287",
-        "liquid_324",
-        "solid_004",
-        "solid_041"
-      ],
-      "outputs": [
-        "gas_358",
-        "gas_359",
-        "gas_360",
-        "gas_361",
-        "gas_362"
-      ]
-    },
-    "tier": 4
+    "region": "crystal",
+    "tier": 1
   },
   {
     "id": "gas_362",
@@ -7564,27 +7708,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_206"
+      "type": "deposit",
+      "region": "frostline"
     },
-    "recipe": {
-      "machine": "machine_206",
-      "inputs": [
-        "liquid_250",
-        "liquid_287",
-        "liquid_324",
-        "solid_004",
-        "solid_041"
-      ],
-      "outputs": [
-        "gas_358",
-        "gas_359",
-        "gas_360",
-        "gas_361",
-        "gas_362"
-      ]
-    },
-    "tier": 4
+    "region": "frostline",
+    "tier": 1
   },
   {
     "id": "gas_363",
@@ -7593,27 +7721,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_207"
+      "type": "deposit",
+      "region": "verdant"
     },
-    "recipe": {
-      "machine": "machine_207",
-      "inputs": [
-        "liquid_262",
-        "liquid_299",
-        "liquid_336",
-        "solid_011",
-        "solid_048"
-      ],
-      "outputs": [
-        "gas_363",
-        "gas_364",
-        "gas_365",
-        "gas_366",
-        "gas_367"
-      ]
-    },
-    "tier": 4
+    "region": "verdant",
+    "tier": 1
   },
   {
     "id": "gas_364",
@@ -7622,27 +7734,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_207"
+      "type": "deposit",
+      "region": "caldera"
     },
-    "recipe": {
-      "machine": "machine_207",
-      "inputs": [
-        "liquid_262",
-        "liquid_299",
-        "liquid_336",
-        "solid_011",
-        "solid_048"
-      ],
-      "outputs": [
-        "gas_363",
-        "gas_364",
-        "gas_365",
-        "gas_366",
-        "gas_367"
-      ]
-    },
-    "tier": 4
+    "region": "caldera",
+    "tier": 1
   },
   {
     "id": "gas_365",
@@ -7651,27 +7747,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_207"
+      "type": "deposit",
+      "region": "sunken"
     },
-    "recipe": {
-      "machine": "machine_207",
-      "inputs": [
-        "liquid_262",
-        "liquid_299",
-        "liquid_336",
-        "solid_011",
-        "solid_048"
-      ],
-      "outputs": [
-        "gas_363",
-        "gas_364",
-        "gas_365",
-        "gas_366",
-        "gas_367"
-      ]
-    },
-    "tier": 4
+    "region": "sunken",
+    "tier": 1
   },
   {
     "id": "gas_366",
@@ -7680,27 +7760,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_207"
+      "type": "deposit",
+      "region": "stormglass"
     },
-    "recipe": {
-      "machine": "machine_207",
-      "inputs": [
-        "liquid_262",
-        "liquid_299",
-        "liquid_336",
-        "solid_011",
-        "solid_048"
-      ],
-      "outputs": [
-        "gas_363",
-        "gas_364",
-        "gas_365",
-        "gas_366",
-        "gas_367"
-      ]
-    },
-    "tier": 4
+    "region": "stormglass",
+    "tier": 1
   },
   {
     "id": "gas_367",
@@ -7709,27 +7773,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_207"
+      "type": "deposit",
+      "region": "umbral"
     },
-    "recipe": {
-      "machine": "machine_207",
-      "inputs": [
-        "liquid_262",
-        "liquid_299",
-        "liquid_336",
-        "solid_011",
-        "solid_048"
-      ],
-      "outputs": [
-        "gas_363",
-        "gas_364",
-        "gas_365",
-        "gas_366",
-        "gas_367"
-      ]
-    },
-    "tier": 4
+    "region": "umbral",
+    "tier": 1
   },
   {
     "id": "gas_368",
@@ -7738,27 +7786,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_208"
+      "type": "deposit",
+      "region": "rift"
     },
-    "recipe": {
-      "machine": "machine_208",
-      "inputs": [
-        "liquid_274",
-        "liquid_311",
-        "liquid_348",
-        "solid_018",
-        "solid_055"
-      ],
-      "outputs": [
-        "gas_368",
-        "gas_369",
-        "gas_370",
-        "gas_371",
-        "gas_372"
-      ]
-    },
-    "tier": 4
+    "region": "rift",
+    "tier": 1
   },
   {
     "id": "gas_369",
@@ -7767,27 +7799,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_208"
+      "type": "deposit",
+      "region": "temperate"
     },
-    "recipe": {
-      "machine": "machine_208",
-      "inputs": [
-        "liquid_274",
-        "liquid_311",
-        "liquid_348",
-        "solid_018",
-        "solid_055"
-      ],
-      "outputs": [
-        "gas_368",
-        "gas_369",
-        "gas_370",
-        "gas_371",
-        "gas_372"
-      ]
-    },
-    "tier": 4
+    "region": "temperate",
+    "tier": 1
   },
   {
     "id": "gas_370",
@@ -7796,27 +7812,11 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "category": "Gas / Atmosphere",
     "implemented": true,
     "source": {
-      "type": "manufactured",
-      "machine": "machine_208"
+      "type": "deposit",
+      "region": "highlands"
     },
-    "recipe": {
-      "machine": "machine_208",
-      "inputs": [
-        "liquid_274",
-        "liquid_311",
-        "liquid_348",
-        "solid_018",
-        "solid_055"
-      ],
-      "outputs": [
-        "gas_368",
-        "gas_369",
-        "gas_370",
-        "gas_371",
-        "gas_372"
-      ]
-    },
-    "tier": 4
+    "region": "highlands",
+    "tier": 1
   },
   {
     "id": "gas_371",
@@ -7831,16 +7831,16 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_208",
       "inputs": [
-        "liquid_274",
-        "liquid_311",
-        "liquid_348",
+        "liquid_258",
+        "liquid_295",
+        "liquid_332",
         "solid_018",
         "solid_055"
       ],
       "outputs": [
-        "gas_368",
-        "gas_369",
-        "gas_370",
+        "liquid_352",
+        "liquid_353",
+        "liquid_354",
         "gas_371",
         "gas_372"
       ]
@@ -7860,16 +7860,16 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_208",
       "inputs": [
-        "liquid_274",
-        "liquid_311",
-        "liquid_348",
+        "liquid_258",
+        "liquid_295",
+        "liquid_332",
         "solid_018",
         "solid_055"
       ],
       "outputs": [
-        "gas_368",
-        "gas_369",
-        "gas_370",
+        "liquid_352",
+        "liquid_353",
+        "liquid_354",
         "gas_371",
         "gas_372"
       ]
@@ -7889,9 +7889,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_209",
       "inputs": [
-        "liquid_286",
-        "liquid_323",
-        "gas_360",
+        "liquid_270",
+        "liquid_307",
+        "liquid_344",
         "solid_025",
         "solid_062"
       ],
@@ -7918,9 +7918,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_209",
       "inputs": [
-        "liquid_286",
-        "liquid_323",
-        "gas_360",
+        "liquid_270",
+        "liquid_307",
+        "liquid_344",
         "solid_025",
         "solid_062"
       ],
@@ -7947,9 +7947,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_209",
       "inputs": [
-        "liquid_286",
-        "liquid_323",
-        "gas_360",
+        "liquid_270",
+        "liquid_307",
+        "liquid_344",
         "solid_025",
         "solid_062"
       ],
@@ -7976,9 +7976,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_209",
       "inputs": [
-        "liquid_286",
-        "liquid_323",
-        "gas_360",
+        "liquid_270",
+        "liquid_307",
+        "liquid_344",
         "solid_025",
         "solid_062"
       ],
@@ -8005,9 +8005,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_209",
       "inputs": [
-        "liquid_286",
-        "liquid_323",
-        "gas_360",
+        "liquid_270",
+        "liquid_307",
+        "liquid_344",
         "solid_025",
         "solid_062"
       ],
@@ -8034,8 +8034,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_210",
       "inputs": [
-        "liquid_298",
-        "liquid_335",
+        "liquid_282",
+        "liquid_319",
         "gas_372",
         "solid_032",
         "solid_069"
@@ -8063,8 +8063,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_210",
       "inputs": [
-        "liquid_298",
-        "liquid_335",
+        "liquid_282",
+        "liquid_319",
         "gas_372",
         "solid_032",
         "solid_069"
@@ -8092,8 +8092,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_210",
       "inputs": [
-        "liquid_298",
-        "liquid_335",
+        "liquid_282",
+        "liquid_319",
         "gas_372",
         "solid_032",
         "solid_069"
@@ -8121,8 +8121,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_210",
       "inputs": [
-        "liquid_298",
-        "liquid_335",
+        "liquid_282",
+        "liquid_319",
         "gas_372",
         "solid_032",
         "solid_069"
@@ -8150,8 +8150,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_210",
       "inputs": [
-        "liquid_298",
-        "liquid_335",
+        "liquid_282",
+        "liquid_319",
         "gas_372",
         "solid_032",
         "solid_069"
@@ -8179,8 +8179,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_211",
       "inputs": [
-        "liquid_310",
-        "liquid_347",
+        "liquid_294",
+        "liquid_331",
         "solid_002",
         "solid_039",
         "solid_076"
@@ -8208,8 +8208,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_211",
       "inputs": [
-        "liquid_310",
-        "liquid_347",
+        "liquid_294",
+        "liquid_331",
         "solid_002",
         "solid_039",
         "solid_076"
@@ -8237,8 +8237,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_211",
       "inputs": [
-        "liquid_310",
-        "liquid_347",
+        "liquid_294",
+        "liquid_331",
         "solid_002",
         "solid_039",
         "solid_076"
@@ -8266,8 +8266,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_211",
       "inputs": [
-        "liquid_310",
-        "liquid_347",
+        "liquid_294",
+        "liquid_331",
         "solid_002",
         "solid_039",
         "solid_076"
@@ -8295,8 +8295,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_211",
       "inputs": [
-        "liquid_310",
-        "liquid_347",
+        "liquid_294",
+        "liquid_331",
         "solid_002",
         "solid_039",
         "solid_076"
@@ -8324,8 +8324,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_212",
       "inputs": [
-        "liquid_322",
-        "gas_359",
+        "liquid_306",
+        "liquid_343",
         "solid_009",
         "solid_046",
         "solid_083"
@@ -8353,8 +8353,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_212",
       "inputs": [
-        "liquid_322",
-        "gas_359",
+        "liquid_306",
+        "liquid_343",
         "solid_009",
         "solid_046",
         "solid_083"
@@ -8382,8 +8382,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_212",
       "inputs": [
-        "liquid_322",
-        "gas_359",
+        "liquid_306",
+        "liquid_343",
         "solid_009",
         "solid_046",
         "solid_083"
@@ -8411,8 +8411,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_212",
       "inputs": [
-        "liquid_322",
-        "gas_359",
+        "liquid_306",
+        "liquid_343",
         "solid_009",
         "solid_046",
         "solid_083"
@@ -8440,8 +8440,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_212",
       "inputs": [
-        "liquid_322",
-        "gas_359",
+        "liquid_306",
+        "liquid_343",
         "solid_009",
         "solid_046",
         "solid_083"
@@ -8469,7 +8469,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_213",
       "inputs": [
-        "liquid_334",
+        "liquid_318",
         "gas_371",
         "solid_016",
         "solid_053",
@@ -8498,7 +8498,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_213",
       "inputs": [
-        "liquid_334",
+        "liquid_318",
         "gas_371",
         "solid_016",
         "solid_053",
@@ -8527,7 +8527,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_213",
       "inputs": [
-        "liquid_334",
+        "liquid_318",
         "gas_371",
         "solid_016",
         "solid_053",
@@ -8556,7 +8556,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_213",
       "inputs": [
-        "liquid_334",
+        "liquid_318",
         "gas_371",
         "solid_016",
         "solid_053",
@@ -8585,7 +8585,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_213",
       "inputs": [
-        "liquid_334",
+        "liquid_318",
         "gas_371",
         "solid_016",
         "solid_053",
@@ -8614,7 +8614,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_214",
       "inputs": [
-        "liquid_346",
+        "liquid_330",
         "gas_383",
         "solid_023",
         "solid_060",
@@ -8643,7 +8643,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_214",
       "inputs": [
-        "liquid_346",
+        "liquid_330",
         "gas_383",
         "solid_023",
         "solid_060",
@@ -8672,7 +8672,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_214",
       "inputs": [
-        "liquid_346",
+        "liquid_330",
         "gas_383",
         "solid_023",
         "solid_060",
@@ -8701,7 +8701,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_214",
       "inputs": [
-        "liquid_346",
+        "liquid_330",
         "gas_383",
         "solid_023",
         "solid_060",
@@ -8730,7 +8730,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_214",
       "inputs": [
-        "liquid_346",
+        "liquid_330",
         "gas_383",
         "solid_023",
         "solid_060",
@@ -8759,7 +8759,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_215",
       "inputs": [
-        "gas_358",
+        "liquid_342",
         "gas_395",
         "solid_030",
         "solid_067",
@@ -8788,7 +8788,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_215",
       "inputs": [
-        "gas_358",
+        "liquid_342",
         "gas_395",
         "solid_030",
         "solid_067",
@@ -8817,7 +8817,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_215",
       "inputs": [
-        "gas_358",
+        "liquid_342",
         "gas_395",
         "solid_030",
         "solid_067",
@@ -8846,7 +8846,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_215",
       "inputs": [
-        "gas_358",
+        "liquid_342",
         "gas_395",
         "solid_030",
         "solid_067",
@@ -8875,7 +8875,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_215",
       "inputs": [
-        "gas_358",
+        "liquid_342",
         "gas_395",
         "solid_030",
         "solid_067",
@@ -8904,7 +8904,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_216",
       "inputs": [
-        "gas_370",
+        "liquid_354",
         "gas_407",
         "solid_037",
         "solid_074",
@@ -8933,7 +8933,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_216",
       "inputs": [
-        "gas_370",
+        "liquid_354",
         "gas_407",
         "solid_037",
         "solid_074",
@@ -8962,7 +8962,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_216",
       "inputs": [
-        "gas_370",
+        "liquid_354",
         "gas_407",
         "solid_037",
         "solid_074",
@@ -8991,7 +8991,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_216",
       "inputs": [
-        "gas_370",
+        "liquid_354",
         "gas_407",
         "solid_037",
         "solid_074",
@@ -9020,7 +9020,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
     "recipe": {
       "machine": "machine_216",
       "inputs": [
-        "gas_370",
+        "liquid_354",
         "gas_407",
         "solid_037",
         "solid_074",
@@ -9778,7 +9778,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_042",
         "solid_079",
         "solid_116",
-        "solid_153"
+        "liquid_197"
       ],
       "outputs": [
         "gas_438",
@@ -9807,7 +9807,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_042",
         "solid_079",
         "solid_116",
-        "solid_153"
+        "liquid_197"
       ],
       "outputs": [
         "gas_438",
@@ -9836,7 +9836,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_042",
         "solid_079",
         "solid_116",
-        "solid_153"
+        "liquid_197"
       ],
       "outputs": [
         "gas_438",
@@ -9865,7 +9865,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_042",
         "solid_079",
         "solid_116",
-        "solid_153"
+        "liquid_197"
       ],
       "outputs": [
         "gas_438",
@@ -9894,7 +9894,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_042",
         "solid_079",
         "solid_116",
-        "solid_153"
+        "liquid_197"
       ],
       "outputs": [
         "gas_438",
@@ -9923,7 +9923,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_049",
         "solid_086",
         "solid_123",
-        "solid_160"
+        "liquid_204"
       ],
       "outputs": [
         "gas_443",
@@ -9952,7 +9952,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_049",
         "solid_086",
         "solid_123",
-        "solid_160"
+        "liquid_204"
       ],
       "outputs": [
         "gas_443",
@@ -9981,7 +9981,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_049",
         "solid_086",
         "solid_123",
-        "solid_160"
+        "liquid_204"
       ],
       "outputs": [
         "gas_443",
@@ -10010,7 +10010,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_049",
         "solid_086",
         "solid_123",
-        "solid_160"
+        "liquid_204"
       ],
       "outputs": [
         "gas_443",
@@ -10039,7 +10039,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_049",
         "solid_086",
         "solid_123",
-        "solid_160"
+        "liquid_204"
       ],
       "outputs": [
         "gas_443",
@@ -10068,7 +10068,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_056",
         "solid_093",
         "solid_130",
-        "solid_167"
+        "gas_355"
       ],
       "outputs": [
         "gas_448",
@@ -10097,7 +10097,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_056",
         "solid_093",
         "solid_130",
-        "solid_167"
+        "gas_355"
       ],
       "outputs": [
         "gas_448",
@@ -10126,7 +10126,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_056",
         "solid_093",
         "solid_130",
-        "solid_167"
+        "gas_355"
       ],
       "outputs": [
         "gas_448",
@@ -10155,7 +10155,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_056",
         "solid_093",
         "solid_130",
-        "solid_167"
+        "gas_355"
       ],
       "outputs": [
         "gas_448",
@@ -10184,7 +10184,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_056",
         "solid_093",
         "solid_130",
-        "solid_167"
+        "gas_355"
       ],
       "outputs": [
         "gas_448",
@@ -10213,7 +10213,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_063",
         "solid_100",
         "solid_137",
-        "solid_174"
+        "gas_362"
       ],
       "outputs": [
         "gas_453",
@@ -10242,7 +10242,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_063",
         "solid_100",
         "solid_137",
-        "solid_174"
+        "gas_362"
       ],
       "outputs": [
         "gas_453",
@@ -10271,7 +10271,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_063",
         "solid_100",
         "solid_137",
-        "solid_174"
+        "gas_362"
       ],
       "outputs": [
         "gas_453",
@@ -10300,7 +10300,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_063",
         "solid_100",
         "solid_137",
-        "solid_174"
+        "gas_362"
       ],
       "outputs": [
         "gas_453",
@@ -10329,7 +10329,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_063",
         "solid_100",
         "solid_137",
-        "solid_174"
+        "gas_362"
       ],
       "outputs": [
         "gas_453",
@@ -10358,7 +10358,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_070",
         "solid_107",
         "solid_144",
-        "solid_181"
+        "gas_369"
       ],
       "outputs": [
         "gas_458",
@@ -10387,7 +10387,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_070",
         "solid_107",
         "solid_144",
-        "solid_181"
+        "gas_369"
       ],
       "outputs": [
         "gas_458",
@@ -10416,7 +10416,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_070",
         "solid_107",
         "solid_144",
-        "solid_181"
+        "gas_369"
       ],
       "outputs": [
         "gas_458",
@@ -10445,7 +10445,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_070",
         "solid_107",
         "solid_144",
-        "solid_181"
+        "gas_369"
       ],
       "outputs": [
         "gas_458",
@@ -10474,7 +10474,7 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_070",
         "solid_107",
         "solid_144",
-        "solid_181"
+        "gas_369"
       ],
       "outputs": [
         "gas_458",
@@ -10502,8 +10502,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_040",
         "solid_077",
         "solid_114",
-        "solid_151",
-        "solid_188"
+        "liquid_195",
+        "solid_156"
       ],
       "outputs": [
         "gas_463",
@@ -10531,8 +10531,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_040",
         "solid_077",
         "solid_114",
-        "solid_151",
-        "solid_188"
+        "liquid_195",
+        "solid_156"
       ],
       "outputs": [
         "gas_463",
@@ -10560,8 +10560,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_040",
         "solid_077",
         "solid_114",
-        "solid_151",
-        "solid_188"
+        "liquid_195",
+        "solid_156"
       ],
       "outputs": [
         "gas_463",
@@ -10589,8 +10589,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_040",
         "solid_077",
         "solid_114",
-        "solid_151",
-        "solid_188"
+        "liquid_195",
+        "solid_156"
       ],
       "outputs": [
         "gas_463",
@@ -10618,8 +10618,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_040",
         "solid_077",
         "solid_114",
-        "solid_151",
-        "solid_188"
+        "liquid_195",
+        "solid_156"
       ],
       "outputs": [
         "gas_463",
@@ -10647,8 +10647,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_047",
         "solid_084",
         "solid_121",
-        "solid_158",
-        "liquid_195"
+        "liquid_202",
+        "solid_163"
       ],
       "outputs": [
         "gas_468",
@@ -10676,8 +10676,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_047",
         "solid_084",
         "solid_121",
-        "solid_158",
-        "liquid_195"
+        "liquid_202",
+        "solid_163"
       ],
       "outputs": [
         "gas_468",
@@ -10705,8 +10705,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_047",
         "solid_084",
         "solid_121",
-        "solid_158",
-        "liquid_195"
+        "liquid_202",
+        "solid_163"
       ],
       "outputs": [
         "gas_468",
@@ -10734,8 +10734,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_047",
         "solid_084",
         "solid_121",
-        "solid_158",
-        "liquid_195"
+        "liquid_202",
+        "solid_163"
       ],
       "outputs": [
         "gas_468",
@@ -10763,8 +10763,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_047",
         "solid_084",
         "solid_121",
-        "solid_158",
-        "liquid_195"
+        "liquid_202",
+        "solid_163"
       ],
       "outputs": [
         "gas_468",
@@ -10792,8 +10792,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_054",
         "solid_091",
         "solid_128",
-        "solid_165",
-        "liquid_202"
+        "liquid_209",
+        "solid_170"
       ],
       "outputs": [
         "gas_473",
@@ -10821,8 +10821,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_054",
         "solid_091",
         "solid_128",
-        "solid_165",
-        "liquid_202"
+        "liquid_209",
+        "solid_170"
       ],
       "outputs": [
         "gas_473",
@@ -10850,8 +10850,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_054",
         "solid_091",
         "solid_128",
-        "solid_165",
-        "liquid_202"
+        "liquid_209",
+        "solid_170"
       ],
       "outputs": [
         "gas_473",
@@ -10879,8 +10879,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_054",
         "solid_091",
         "solid_128",
-        "solid_165",
-        "liquid_202"
+        "liquid_209",
+        "solid_170"
       ],
       "outputs": [
         "gas_473",
@@ -10908,8 +10908,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_054",
         "solid_091",
         "solid_128",
-        "solid_165",
-        "liquid_202"
+        "liquid_209",
+        "solid_170"
       ],
       "outputs": [
         "gas_473",
@@ -10937,8 +10937,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_061",
         "solid_098",
         "solid_135",
-        "solid_172",
-        "liquid_209"
+        "gas_360",
+        "solid_177"
       ],
       "outputs": [
         "gas_478",
@@ -10966,8 +10966,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_061",
         "solid_098",
         "solid_135",
-        "solid_172",
-        "liquid_209"
+        "gas_360",
+        "solid_177"
       ],
       "outputs": [
         "gas_478",
@@ -10995,8 +10995,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_061",
         "solid_098",
         "solid_135",
-        "solid_172",
-        "liquid_209"
+        "gas_360",
+        "solid_177"
       ],
       "outputs": [
         "gas_478",
@@ -11024,8 +11024,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_061",
         "solid_098",
         "solid_135",
-        "solid_172",
-        "liquid_209"
+        "gas_360",
+        "solid_177"
       ],
       "outputs": [
         "gas_478",
@@ -11053,8 +11053,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_061",
         "solid_098",
         "solid_135",
-        "solid_172",
-        "liquid_209"
+        "gas_360",
+        "solid_177"
       ],
       "outputs": [
         "gas_478",
@@ -11082,8 +11082,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_068",
         "solid_105",
         "solid_142",
-        "solid_179",
-        "liquid_216"
+        "gas_367",
+        "solid_184"
       ],
       "outputs": [
         "gas_483",
@@ -11111,8 +11111,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_068",
         "solid_105",
         "solid_142",
-        "solid_179",
-        "liquid_216"
+        "gas_367",
+        "solid_184"
       ],
       "outputs": [
         "gas_483",
@@ -11140,8 +11140,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_068",
         "solid_105",
         "solid_142",
-        "solid_179",
-        "liquid_216"
+        "gas_367",
+        "solid_184"
       ],
       "outputs": [
         "gas_483",
@@ -11169,8 +11169,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_068",
         "solid_105",
         "solid_142",
-        "solid_179",
-        "liquid_216"
+        "gas_367",
+        "solid_184"
       ],
       "outputs": [
         "gas_483",
@@ -11198,8 +11198,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_068",
         "solid_105",
         "solid_142",
-        "solid_179",
-        "liquid_216"
+        "gas_367",
+        "solid_184"
       ],
       "outputs": [
         "gas_483",
@@ -11227,8 +11227,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_075",
         "solid_112",
         "solid_149",
-        "solid_186",
-        "liquid_223"
+        "solid_154",
+        "solid_191"
       ],
       "outputs": [
         "gas_488",
@@ -11256,8 +11256,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_075",
         "solid_112",
         "solid_149",
-        "solid_186",
-        "liquid_223"
+        "solid_154",
+        "solid_191"
       ],
       "outputs": [
         "gas_488",
@@ -11285,8 +11285,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_075",
         "solid_112",
         "solid_149",
-        "solid_186",
-        "liquid_223"
+        "solid_154",
+        "solid_191"
       ],
       "outputs": [
         "gas_488",
@@ -11314,8 +11314,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_075",
         "solid_112",
         "solid_149",
-        "solid_186",
-        "liquid_223"
+        "solid_154",
+        "solid_191"
       ],
       "outputs": [
         "gas_488",
@@ -11343,8 +11343,8 @@ window.ALEDEHO_RESOURCE_CATALOG = [
         "solid_075",
         "solid_112",
         "solid_149",
-        "solid_186",
-        "liquid_223"
+        "solid_154",
+        "solid_191"
       ],
       "outputs": [
         "gas_488",
@@ -11371,9 +11371,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
         "gas_493",
@@ -11400,9 +11400,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
         "gas_493",
@@ -11429,9 +11429,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
         "gas_493",
@@ -11458,9 +11458,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
         "gas_493",
@@ -11487,9 +11487,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_082",
         "solid_119",
-        "solid_156",
-        "solid_193",
-        "liquid_230"
+        "liquid_200",
+        "solid_161",
+        "liquid_214"
       ],
       "outputs": [
         "gas_493",
@@ -11516,9 +11516,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_089",
         "solid_126",
-        "solid_163",
-        "liquid_200",
-        "liquid_237"
+        "liquid_207",
+        "solid_168",
+        "liquid_221"
       ],
       "outputs": [
         "gas_498",
@@ -11545,9 +11545,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_089",
         "solid_126",
-        "solid_163",
-        "liquid_200",
-        "liquid_237"
+        "liquid_207",
+        "solid_168",
+        "liquid_221"
       ],
       "outputs": [
         "gas_498",
@@ -11574,9 +11574,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_089",
         "solid_126",
-        "solid_163",
-        "liquid_200",
-        "liquid_237"
+        "liquid_207",
+        "solid_168",
+        "liquid_221"
       ],
       "outputs": [
         "gas_498",
@@ -11603,9 +11603,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_089",
         "solid_126",
-        "solid_163",
-        "liquid_200",
-        "liquid_237"
+        "liquid_207",
+        "solid_168",
+        "liquid_221"
       ],
       "outputs": [
         "gas_498",
@@ -11632,9 +11632,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_089",
         "solid_126",
-        "solid_163",
-        "liquid_200",
-        "liquid_237"
+        "liquid_207",
+        "solid_168",
+        "liquid_221"
       ],
       "outputs": [
         "gas_498",
@@ -11661,9 +11661,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_096",
         "solid_133",
-        "solid_170",
-        "liquid_207",
-        "liquid_244"
+        "gas_358",
+        "solid_175",
+        "liquid_228"
       ],
       "outputs": [
         "gas_503",
@@ -11690,9 +11690,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_096",
         "solid_133",
-        "solid_170",
-        "liquid_207",
-        "liquid_244"
+        "gas_358",
+        "solid_175",
+        "liquid_228"
       ],
       "outputs": [
         "gas_503",
@@ -11719,9 +11719,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_096",
         "solid_133",
-        "solid_170",
-        "liquid_207",
-        "liquid_244"
+        "gas_358",
+        "solid_175",
+        "liquid_228"
       ],
       "outputs": [
         "gas_503",
@@ -11748,9 +11748,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_096",
         "solid_133",
-        "solid_170",
-        "liquid_207",
-        "liquid_244"
+        "gas_358",
+        "solid_175",
+        "liquid_228"
       ],
       "outputs": [
         "gas_503",
@@ -11777,9 +11777,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_096",
         "solid_133",
-        "solid_170",
-        "liquid_207",
-        "liquid_244"
+        "gas_358",
+        "solid_175",
+        "liquid_228"
       ],
       "outputs": [
         "gas_503",
@@ -11806,9 +11806,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_103",
         "solid_140",
-        "solid_177",
-        "liquid_214",
-        "liquid_251"
+        "gas_365",
+        "solid_182",
+        "liquid_235"
       ],
       "outputs": [
         "gas_508",
@@ -11835,9 +11835,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_103",
         "solid_140",
-        "solid_177",
-        "liquid_214",
-        "liquid_251"
+        "gas_365",
+        "solid_182",
+        "liquid_235"
       ],
       "outputs": [
         "gas_508",
@@ -11864,9 +11864,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_103",
         "solid_140",
-        "solid_177",
-        "liquid_214",
-        "liquid_251"
+        "gas_365",
+        "solid_182",
+        "liquid_235"
       ],
       "outputs": [
         "gas_508",
@@ -11893,9 +11893,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_103",
         "solid_140",
-        "solid_177",
-        "liquid_214",
-        "liquid_251"
+        "gas_365",
+        "solid_182",
+        "liquid_235"
       ],
       "outputs": [
         "gas_508",
@@ -11922,9 +11922,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_103",
         "solid_140",
-        "solid_177",
-        "liquid_214",
-        "liquid_251"
+        "gas_365",
+        "solid_182",
+        "liquid_235"
       ],
       "outputs": [
         "gas_508",
@@ -11951,9 +11951,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_110",
         "solid_147",
-        "solid_184",
-        "liquid_221",
-        "liquid_258"
+        "solid_152",
+        "solid_189",
+        "liquid_242"
       ],
       "outputs": [
         "gas_513",
@@ -11980,9 +11980,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_110",
         "solid_147",
-        "solid_184",
-        "liquid_221",
-        "liquid_258"
+        "solid_152",
+        "solid_189",
+        "liquid_242"
       ],
       "outputs": [
         "gas_513",
@@ -12009,9 +12009,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_110",
         "solid_147",
-        "solid_184",
-        "liquid_221",
-        "liquid_258"
+        "solid_152",
+        "solid_189",
+        "liquid_242"
       ],
       "outputs": [
         "gas_513",
@@ -12038,9 +12038,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_110",
         "solid_147",
-        "solid_184",
-        "liquid_221",
-        "liquid_258"
+        "solid_152",
+        "solid_189",
+        "liquid_242"
       ],
       "outputs": [
         "gas_513",
@@ -12067,9 +12067,9 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "inputs": [
         "solid_110",
         "solid_147",
-        "solid_184",
-        "liquid_221",
-        "liquid_258"
+        "solid_152",
+        "solid_189",
+        "liquid_242"
       ],
       "outputs": [
         "gas_513",
@@ -12095,10 +12095,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_238",
       "inputs": [
         "solid_117",
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249"
       ],
       "outputs": [
         "gas_518",
@@ -12124,10 +12124,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_238",
       "inputs": [
         "solid_117",
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249"
       ],
       "outputs": [
         "gas_518",
@@ -12153,10 +12153,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_238",
       "inputs": [
         "solid_117",
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249"
       ],
       "outputs": [
         "gas_518",
@@ -12182,10 +12182,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_238",
       "inputs": [
         "solid_117",
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249"
       ],
       "outputs": [
         "gas_518",
@@ -12211,10 +12211,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_238",
       "inputs": [
         "solid_117",
-        "solid_154",
-        "solid_191",
-        "liquid_228",
-        "liquid_265"
+        "liquid_198",
+        "solid_159",
+        "liquid_212",
+        "liquid_249"
       ],
       "outputs": [
         "gas_518",
@@ -12240,10 +12240,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_239",
       "inputs": [
         "solid_124",
-        "solid_161",
-        "liquid_198",
-        "liquid_235",
-        "liquid_272"
+        "liquid_205",
+        "solid_166",
+        "liquid_219",
+        "liquid_256"
       ],
       "outputs": [
         "gas_523",
@@ -12269,10 +12269,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_239",
       "inputs": [
         "solid_124",
-        "solid_161",
-        "liquid_198",
-        "liquid_235",
-        "liquid_272"
+        "liquid_205",
+        "solid_166",
+        "liquid_219",
+        "liquid_256"
       ],
       "outputs": [
         "gas_523",
@@ -12298,10 +12298,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_239",
       "inputs": [
         "solid_124",
-        "solid_161",
-        "liquid_198",
-        "liquid_235",
-        "liquid_272"
+        "liquid_205",
+        "solid_166",
+        "liquid_219",
+        "liquid_256"
       ],
       "outputs": [
         "gas_523",
@@ -12327,10 +12327,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_239",
       "inputs": [
         "solid_124",
-        "solid_161",
-        "liquid_198",
-        "liquid_235",
-        "liquid_272"
+        "liquid_205",
+        "solid_166",
+        "liquid_219",
+        "liquid_256"
       ],
       "outputs": [
         "gas_523",
@@ -12356,10 +12356,10 @@ window.ALEDEHO_RESOURCE_CATALOG = [
       "machine": "machine_239",
       "inputs": [
         "solid_124",
-        "solid_161",
-        "liquid_198",
-        "liquid_235",
-        "liquid_272"
+        "liquid_205",
+        "solid_166",
+        "liquid_219",
+        "liquid_256"
       ],
       "outputs": [
         "gas_523",
